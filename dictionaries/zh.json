@@ -1,0 +1,53 @@
+{
+	"nav": {
+		"home": "首页",
+		"product": "产品",
+		"about": "关于",
+		"pricing": "定价",
+		"contact": "联系"
+	},
+	"trusted": {
+		"title": "信任"
+	},
+	"footer": {
+		"copyright": "版权所有 © 2024 Soloman IBC。保留所有权利。",
+		"quickLinks": "快速链接",
+		"services": "服务",
+		"followUs": "关注我们",
+		"description": "Soloman IBC 是一家提供服务给客户的公"
+	},
+	"services": {
+		"title": "我们的服务",
+		"webDesign": {
+			"title": "网页设计",
+			"description": "我们为商业设计网站。"
+		},
+		"digitalMarketing": {
+			"title": "数字营销",
+			"description": "我们在线营销商业。"
+		},
+		"graphicDesign": {
+			"title": "平面设计",
+			"description": "我们为商业设计图形。"
+		}
+	},
+	"feature": {
+		"imageAlt": "功能图片",
+		"title": "功能",
+		"description": "功能描述",
+		"cta": "开始"
+	},
+	"contact": {
+		"title": "联系我们",
+		"namePlaceholder": "姓名",
+		"emailPlaceholder": "电子邮件",
+		"messagePlaceholder": "消息",
+		"submit": "提交"
+	},
+	"hero": {
+		"title": "欢迎来到 Soloman IBC",
+		"description": "我们是一家为客户提供服务的公司。",
+		"cta": "开始",
+		"imageAlt": "英雄图片"
+	}
+}

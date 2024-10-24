@@ -1,0 +1,30 @@
+{
+	"nav": {
+		"home": "首页",
+		"product": "产品",
+		"about": "关于",
+		"pricing": "定价",
+		"contact": "联系"
+	},
+	"trusted": {
+		"title": "信任"
+	},
+	"footer": {
+		"copyright": "版权所有 © 2024 Soloman IBC。保留所有权利。",
+		"quickLinks": "快速链接",
+		"services": "服务",
+		"followUs": "关注我们",
+		"description": "Soloman IBC 是一家提供服务给客户的公"
+	},
+	"services": {
+		"webDesign": {
+			"title": "网页设计"
+		}
+	},
+	"feature": {
+		"imageAlt": "功能图片",
+		"title": "功能",
+		"description": "功能描述",
+		"cta": "开始"
+	}
+}

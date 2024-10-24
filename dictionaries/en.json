@@ -1,0 +1,53 @@
+{
+	"nav": {
+		"home": "Home",
+		"product": "Product",
+		"about": "About",
+		"pricing": "Pricing",
+		"contact": "Contact"
+	},
+	"trusted": {
+		"title": "Trusted by"
+	},
+	"footer": {
+		"copyright": "Copyright © 2024 Soloman IBC. All rights reserved.",
+		"quickLinks": "Quick Links",
+		"services": "Services",
+		"followUs": "Follow Us",
+		"description": "Soloman IBC is a company that provides services to clients."
+	},
+	"services": {
+		"title": "Our Services",
+		"webDesign": {
+			"title": "Web Design",
+			"description": "We design websites for businesses."
+		},
+		"digitalMarketing": {
+			"title": "Digital Marketing",
+			"description": "We market businesses online."
+		},
+		"graphicDesign": {
+			"title": "Graphic Design",
+			"description": "We design graphics for businesses."
+		}
+	},
+	"feature": {
+		"imageAlt": "Feature image",
+		"title": "Feature",
+		"description": "Feature description",
+		"cta": "Get Started"
+	},
+	"contact": {
+		"title": "Contact Us",
+		"namePlaceholder": "Name",
+		"emailPlaceholder": "Email",
+		"messagePlaceholder": "Message",
+		"submit": "Submit"
+	},
+	"hero": {
+		"title": "Welcome to Soloman IBC",
+		"description": "We are a company that provides services to clients.",
+		"cta": "Get Started",
+		"imageAlt": "Hero image"
+	}
+}

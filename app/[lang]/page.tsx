@@ -10,9 +10,9 @@ import type { Locale } from "./dictionaries";
 export default async function Home({
 	params,
 }: {
-	params: Promise<{ lang: "en" | "zh" }>;
+	params: Promise<{ lang: Locale }>;
 }) {
-	const { lang }: { lang: Locale } = await params;
+	const { lang } = await params;
 
 	return (
 		<div className="min-h-screen bg-gradient-to-b from-[#e6f0ee] to-white">

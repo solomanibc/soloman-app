@@ -39,15 +39,25 @@
 	},
 	"contact": {
 		"title": "Contact Us",
+		"description": "Get in touch with us. We're ready to help you find the best solutions.",
 		"namePlaceholder": "Name",
 		"emailPlaceholder": "Email",
 		"messagePlaceholder": "Message",
-		"submit": "Submit"
+		"submit": "Submit",
+		"callUs": "Call Us",
+		"emailUs": "Email Us",
+		"visitUs": "Visit Us",
+		"address": "717 Market Street, San Francisco, CA 94103",
+		"phone": "+ 123 456 789 101",
+		"email": "contact@solomanibc.com"
 	},
 	"hero": {
 		"title": "Welcome to Soloman IBC",
 		"description": "We are a company that provides services to clients.",
 		"cta": "Get Started",
 		"imageAlt": "Hero image"
+	},
+	"about": {
+		"title": "About Us"
 	}
 }

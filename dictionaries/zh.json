@@ -39,15 +39,25 @@
 	},
 	"contact": {
 		"title": "联系我们",
+		"description": "与我们联系。我们准备帮助您找到最佳解决方案。",
 		"namePlaceholder": "姓名",
 		"emailPlaceholder": "电子邮件",
 		"messagePlaceholder": "消息",
-		"submit": "提交"
+		"submit": "提交",
+		"callUs": "打电话给我们",
+		"emailUs": "发邮件给我们",
+		"visitUs": "访问我们",
+		"address": "717 Market Street, San Francisco, CA 94103",
+		"phone": "+ 123 456 789 101",
+		"email": "contact@solomanibc.com"
 	},
 	"hero": {
 		"title": "欢迎来到 Soloman IBC",
 		"description": "我们是一家为客户提供服务的公司。",
 		"cta": "开始",
 		"imageAlt": "英雄图片"
+	},
+	"about": {
+		"title": "关于我们"
 	}
 }

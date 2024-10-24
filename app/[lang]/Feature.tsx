@@ -1,3 +1,4 @@
+import { Section } from "@/components/Section";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { type LocaleParams, getDictionary } from "./dictionaries";
@@ -6,7 +7,7 @@ export default async function Feature({ lang }: LocaleParams) {
 	const dict = await getDictionary(lang);
 
 	return (
-		<section className="container mx-auto px-4 py-20">
+		<Section>
 			<div className="flex flex-col md:flex-row items-center">
 				<div className="md:w-1/2 mb-10 md:mb-0">
 					<Image
@@ -23,6 +24,6 @@ export default async function Feature({ lang }: LocaleParams) {
 					<Button>{dict.feature.cta}</Button>
 				</div>
 			</div>
-		</section>
+		</Section>
 	);
 }

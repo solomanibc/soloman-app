@@ -23,9 +23,7 @@ export default async function RootLayout({
 		<html lang={lang}>
 			<body className="min-h-screen bg-gradient-to-b from-[#e6f0ee] to-white">
 				<Header lang={lang} />
-				<main className="container mx-auto px-4 py-6 flex justify-between items-center mb-12">
-					{children}
-				</main>
+				<main>{children}</main>
 				<Footer lang={lang} />
 			</body>
 		</html>

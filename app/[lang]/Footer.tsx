@@ -1,3 +1,4 @@
+import { Section } from "@/components/Section";
 import Link from "next/link";
 import { type LocaleParams, getDictionary } from "./dictionaries";
 
@@ -6,7 +7,7 @@ export default async function Footer({ lang }: LocaleParams) {
 
 	return (
 		<footer className="bg-gray-900 text-white py-12">
-			<div className="container mx-auto px-4">
+			<Section>
 				<div className="grid grid-cols-1 md:grid-cols-4 gap-8">
 					<div>
 						<h3 className="text-xl font-bold mb-4">Soloman IBC</h3>
@@ -81,7 +82,7 @@ export default async function Footer({ lang }: LocaleParams) {
 				<div className="mt-12 text-center">
 					<p>{dict.footer.copyright}</p>
 				</div>
-			</div>
+			</Section>
 		</footer>
 	);
 }

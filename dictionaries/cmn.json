@@ -3,8 +3,8 @@
 		"home": "首页",
 		"product": "产品",
 		"about": "关于",
-		"pricing": "定价",
-		"contact": "联系"
+		"contact": "联系",
+		"blog": "博客"
 	},
 	"trusted": {
 		"title": "信任"
@@ -59,5 +59,8 @@
 	},
 	"about": {
 		"title": "关于我们"
+	},
+	"blog": {
+		"title": "博客"
 	}
 }

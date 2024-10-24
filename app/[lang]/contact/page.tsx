@@ -2,7 +2,8 @@ import type { Locale } from "../dictionaries";
 import { getDictionary } from "../dictionaries";
 import { ConcatInfo } from "./ConcatInfo";
 import ContactForm from "./ContactForm";
-export default async function About({
+
+export default async function Contact({
 	params,
 }: {
 	params: Promise<{ lang: Locale }>;
@@ -11,7 +12,7 @@ export default async function About({
 	const dict = await getDictionary(lang);
 
 	return (
-		<div>
+		<>
 			<h2 className="text-3xl font-bold text-center mb-12">
 				{dict.contact.title}
 			</h2>
@@ -30,6 +31,6 @@ export default async function About({
 			</div>
 
 			<ConcatInfo lang={lang} />
-		</div>
+		</>
 	);
 }

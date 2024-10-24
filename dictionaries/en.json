@@ -3,8 +3,8 @@
 		"home": "Home",
 		"product": "Product",
 		"about": "About",
-		"pricing": "Pricing",
-		"contact": "Contact"
+		"contact": "Contact",
+		"blog": "Blog"
 	},
 	"trusted": {
 		"title": "Trusted by"
@@ -59,5 +59,8 @@
 	},
 	"about": {
 		"title": "About Us"
+	},
+	"blog": {
+		"title": "Blog"
 	}
 }

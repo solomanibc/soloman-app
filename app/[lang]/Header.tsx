@@ -9,7 +9,7 @@ export default async function Header({ lang }: LocaleParams) {
 			<div className="text-2xl font-bold">
 				<Link href={`/${lang}`}>{dict.nav.home}</Link>
 			</div>
-			<nav className="hidden md:flex space-x-6">
+			<nav className="flex space-x-6">
 				<Link href={`/${lang}`} className="text-gray-600 hover:text-gray-900">
 					{dict.nav.home}
 				</Link>
@@ -19,6 +19,12 @@ export default async function Header({ lang }: LocaleParams) {
 					className="text-gray-600 hover:text-gray-900"
 				>
 					{dict.nav.about}
+				</Link>
+				<Link
+					href={`/${lang}/blog`}
+					className="text-gray-600 hover:text-gray-900"
+				>
+					{dict.nav.blog}
 				</Link>
 				<Link
 					href={`/${lang}/contact`}

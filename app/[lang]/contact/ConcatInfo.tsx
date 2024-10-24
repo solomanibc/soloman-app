@@ -1,3 +1,4 @@
+import { Section } from "@/components/Section";
 import { Card, CardContent } from "@/components/ui/card";
 import { type Locale, getDictionary } from "../dictionaries";
 
@@ -5,7 +6,7 @@ export const ConcatInfo = async ({ lang }: { lang: Locale }) => {
 	const dict = await getDictionary(lang);
 
 	return (
-		<div className="mt-12 grid md:grid-cols-3 gap-8 text-center">
+		<Section className="mt-12 grid md:grid-cols-3 gap-8 text-center">
 			<Card>
 				<CardContent className="pt-6">
 					<h2 className="text-xl font-semibold mb-2">{dict.contact.callUs}</h2>
@@ -31,6 +32,6 @@ export const ConcatInfo = async ({ lang }: { lang: Locale }) => {
 					<p>{dict.contact.address}</p>
 				</CardContent>
 			</Card>
-		</div>
+		</Section>
 	);
 };

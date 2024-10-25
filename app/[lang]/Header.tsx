@@ -7,7 +7,9 @@ export default async function Header({ lang }: LocaleParams) {
 	return (
 		<header className="container mx-auto px-4 py-6 flex justify-between items-center">
 			<div className="text-2xl font-bold">
-				<Link href={`/${lang}`}>{dict.nav.home}</Link>
+				<Link href={`/${lang}`}>
+					Solo<span className="text-blue-500">man</span> IBC
+				</Link>
 			</div>
 			<nav className="flex space-x-6">
 				<Link href={`/${lang}`} className="text-gray-600 hover:text-gray-900">

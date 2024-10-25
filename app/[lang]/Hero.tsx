@@ -2,6 +2,7 @@ import { type LocaleParams, getDictionary } from "@/app/[lang]/dictionaries";
 import { Section } from "@/components/Section";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 export default async function Hero({ lang }: LocaleParams) {
 	const dict = await getDictionary(lang);
@@ -11,7 +12,9 @@ export default async function Hero({ lang }: LocaleParams) {
 			<div className="md:w-1/2 mb-10 md:mb-0">
 				<h1 className="text-5xl font-bold mb-6">{dict.hero.title}</h1>
 				<p className="text-xl mb-8">{dict.hero.description}</p>
-				<Button size="lg">{dict.hero.cta}</Button>
+				<Link href={`/${lang}/contact`}>
+					<Button size="lg">{dict.hero.cta}</Button>
+				</Link>
 			</div>
 			<div className="md:w-1/2">
 				<Image

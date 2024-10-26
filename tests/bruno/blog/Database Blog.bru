@@ -1,0 +1,25 @@
+meta {
+  name: Database Blog
+  type: http
+  seq: 1
+}
+
+post {
+  url: https://api.notion.com/v1/databases/{{database}}/query
+  body: json
+  auth: bearer
+}
+
+headers {
+  Notion-Version: {{notion-version}}
+}
+
+auth:bearer {
+  token: {{key}}
+}
+
+body:json {
+  {
+      
+    }
+}

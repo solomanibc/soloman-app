@@ -1,3 +1,5 @@
+import { Section } from "@/components/Section";
+import Image from "next/image";
 import type { Locale } from "../dictionaries";
 import { getDictionary } from "../dictionaries";
 import { ConcatInfo } from "./ConcatInfo";
@@ -13,22 +15,31 @@ export default async function Contact({
 
 	return (
 		<>
-			<h2 className="text-3xl font-bold text-center mb-12">
-				{dict.contact.title}
-			</h2>
-			<p className="text-center text-gray-600 mb-8">
-				{dict.contact.description}
-			</p>
-			<div className="grid md:grid-cols-2 gap-8">
+			<Section className="py-5">
+				<h2 className="text-3xl font-bold text-center mb-12 mt-5">
+					{dict.contact.title}
+				</h2>
+				<p className="text-center text-gray-600 mb-8">
+					{dict.contact.description}
+				</p>
+			</Section>
+
+			<Section className="grid md:grid-cols-2 gap-8">
 				<ContactForm lang={lang} />
 
 				<div className="bg-gray-200 rounded-lg overflow-hidden">
 					{/* Placeholder for the map */}
 					<div className="h-full w-full bg-gray-300 flex items-center justify-center">
-						<span className="text-gray-600">Map of San Francisco</span>
+						<Image
+							src="/images/united-kingdom.svg"
+							alt="Carte de Halifax, Royaume-Uni"
+							width={400}
+							height={300}
+							className="object-cover w-full h-full"
+						/>
 					</div>
 				</div>
-			</div>
+			</Section>
 
 			<ConcatInfo lang={lang} />
 		</>

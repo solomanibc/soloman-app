@@ -25,11 +25,6 @@ export default async function Footer({ lang }: LocaleParams) {
 							</li>
 							<li>
 								<Link href="#" className="hover:underline">
-									{dict.nav.product}
-								</Link>
-							</li>
-							<li>
-								<Link href="#" className="hover:underline">
 									{dict.nav.about}
 								</Link>
 							</li>
@@ -46,13 +41,19 @@ export default async function Footer({ lang }: LocaleParams) {
 						</h4>
 						<ul className="space-y-2">
 							<li>
-								<Link href="#" className="hover:underline">
-									{dict.services.webDesign.title}
+								<Link
+									href={`/${lang}/services/corporate`}
+									className="hover:underline"
+								>
+									{dict.services.corporate.title}
 								</Link>
 							</li>
 							<li>
-								<Link href="#" className="hover:underline">
-									{dict.services.digitalMarketing.title}
+								<Link
+									href={`/${lang}/services/individual`}
+									className="hover:underline"
+								>
+									{dict.services.individual.title}
 								</Link>
 							</li>
 							<li>

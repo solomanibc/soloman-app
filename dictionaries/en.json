@@ -4,7 +4,10 @@
 		"product": "Product",
 		"about": "About",
 		"contact": "Contact",
-		"blog": "Blog"
+		"blog": "Blog",
+		"services": "Services",
+		"corporate": "Corporate",
+		"individual": "Individual"
 	},
 	"trusted": {
 		"title": "Trusted by"
@@ -18,13 +21,13 @@
 	},
 	"services": {
 		"title": "Our Services",
-		"webDesign": {
-			"title": "Web Design",
-			"description": "We design websites for businesses."
+		"corporate": {
+			"title": "Corporate Services",
+			"description": "Comprehensive corporate solutions to establish and maintain your business presence in Hong Kong"
 		},
-		"digitalMarketing": {
-			"title": "Digital Marketing",
-			"description": "We market businesses online."
+		"individual": {
+			"title": "Individual Services",
+			"description": "Comprehensive personal solutions for your financial and legal needs in Hong Kong"
 		},
 		"graphicDesign": {
 			"title": "Graphic Design",
@@ -63,6 +66,128 @@
 		"block2": "The business consulting service is considered one of the main service areas of the Soloman IBC group. We provide a wide range of business consulting services, including workers' compensation claims, employee performance investigations, background analysis and verification of business partners or competitors, etc. Some members of our investigation team are qualified in law enforcement training. Soloman IBC is frequently invited for interviews by various universities, newspapers, and media. Soloman IBC is highly recommended by the media and also recognized by our legal partners.\nrecommended by the media and also recognized by our legal partners."
 	},
 	"blog": {
-		"title": "Blog"
+		"title": "Latest Insights & News",
+		"description": "Expert analysis and updates on business, finance, and corporate services in Hong Kong"
+	},
+	"corporate": {
+		"hero": {
+			"title": "Corporate Services",
+			"description": "Comprehensive corporate solutions to establish and maintain your business presence in Hong Kong"
+		},
+		"overview": {
+			"title": "Our Corporate Services",
+			"description": "We provide a full range of corporate services to help businesses establish and maintain their presence in Hong Kong, ensuring compliance and smooth operations."
+		},
+		"services": {
+			"companyFormation": {
+				"title": "Company Formation",
+				"description": "Complete company incorporation services in Hong Kong, including business registration and documentation"
+			},
+			"companySecretary": {
+				"title": "Company Secretary",
+				"description": "Professional company secretary services to maintain statutory compliance"
+			},
+			"compliance": {
+				"title": "Compliance Services",
+				"description": "Ensuring adherence to local regulations and maintaining good standing"
+			},
+			"registeredOffice": {
+				"title": "Registered Office",
+				"description": "Prestigious business address and mail handling services"
+			},
+			"legalSupport": {
+				"title": "Legal Support",
+				"description": "Comprehensive legal documentation and advisory services"
+			},
+			"directorServices": {
+				"title": "Director Services",
+				"description": "Professional director services for your Hong Kong company"
+			}
+		},
+		"features": {
+			"title": "Why Choose Our Corporate Services?",
+			"points": [
+				"Professional team with extensive experience",
+				"Competitive and transparent pricing",
+				"Fast and efficient service delivery",
+				"Comprehensive compliance support",
+				"Dedicated account manager",
+				"Multi-language support"
+			]
+		},
+		"cta": {
+			"title": "Ready to Get Started?",
+			"description": "Contact us today to discuss your corporate service needs",
+			"button": "Contact Our Experts"
+		}
+	},
+	"individual": {
+		"hero": {
+			"title": "Individual Services",
+			"description": "Comprehensive personal solutions for your financial and legal needs in Hong Kong"
+		},
+		"overview": {
+			"title": "Our Individual Services",
+			"description": "We offer a wide range of professional services tailored to meet the needs of individuals, from banking to immigration support."
+		},
+		"services": {
+			"bankAccount": {
+				"title": "Bank Account Opening",
+				"description": "Assistance with opening personal and investment accounts in Hong Kong banks"
+			},
+			"investment": {
+				"title": "Investment Services",
+				"description": "Professional guidance for personal investments and wealth management"
+			},
+			"taxPlanning": {
+				"title": "Tax Planning",
+				"description": "Personal tax planning and optimization strategies"
+			},
+			"immigration": {
+				"title": "Immigration Services",
+				"description": "Support for visa applications and immigration procedures"
+			},
+			"legalServices": {
+				"title": "Legal Services",
+				"description": "Personal legal consultation and documentation services"
+			},
+			"insurance": {
+				"title": "Insurance Solutions",
+				"description": "Comprehensive personal insurance planning and coverage"
+			}
+		},
+		"benefits": {
+			"title": "Benefits of Our Individual Services",
+			"points": [
+				"Personalized service approach",
+				"Experienced professional advisors",
+				"Comprehensive solution packages",
+				"Competitive service fees",
+				"Multilingual support",
+				"Strict confidentiality"
+			]
+		},
+		"process": {
+			"title": "How It Works",
+			"steps": {
+				"1": {
+					"title": "Initial Consultation",
+					"description": "Discuss your needs and objectives with our expert advisors"
+				},
+				"2": {
+					"title": "Custom Solution",
+					"description": "Receive a tailored service package based on your requirements"
+				},
+				"3": {
+					"title": "Implementation",
+					"description": "Swift and professional execution of your service package"
+				}
+			}
+		},
+		"cta": {
+			"title": "Start Your Journey",
+			"description": "Contact us today to discuss your personal service needs",
+			"button": "Schedule Consultation"
+		}
 	}
 }

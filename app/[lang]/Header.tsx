@@ -24,6 +24,10 @@ export default function Header({ lang, nav }: LocaleParams & { nav: Nav }) {
 	const menu = {
 		home: `/${lang}`,
 		about: `/${lang}/about`,
+		services: {
+			corporate: `/${lang}/services/corporate`,
+			individual: `/${lang}/services/individual`,
+		},
 		blog: `/${lang}/blog`,
 		contact: `/${lang}/contact`,
 	};
@@ -39,11 +43,36 @@ export default function Header({ lang, nav }: LocaleParams & { nav: Nav }) {
 					</Link>
 				</div>
 				<nav className="hidden md:flex space-x-6">
-					{Object.entries(menu).map(([key, value]) => (
-						<NavLink key={key} href={value}>
-							{nav[key as keyof Nav]}
-						</NavLink>
-					))}
+					{Object.entries(menu).map(([key, value]) => {
+						if (typeof value === "object") {
+							return (
+								<div key={key} className="relative group">
+									<button
+										type="button"
+										className="text-gray-600 hover:text-gray-900"
+									>
+										{nav[key as keyof Nav]}
+									</button>
+									<div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 hidden group-hover:block">
+										{Object.entries(value).map(([subKey, subValue]) => (
+											<NavLink
+												key={subKey}
+												href={subValue}
+												className="block px-4 py-2 hover:bg-gray-100"
+											>
+												{subKey}
+											</NavLink>
+										))}
+									</div>
+								</div>
+							);
+						}
+						return (
+							<NavLink key={key} href={value}>
+								{nav[key as keyof Nav]}
+							</NavLink>
+						);
+					})}
 					<SwitchLocale lang={lang} />
 				</nav>
 				<button type="button" onClick={toggleMobileMenu} className="md:hidden">
@@ -53,16 +82,30 @@ export default function Header({ lang, nav }: LocaleParams & { nav: Nav }) {
 
 			<nav className={cn(`md:hidden ${isMobileMenuOpen ? "block" : "hidden"}`)}>
 				<div className="px-4 py-2 space-y-2 bg-white shadow-md text-right">
-					{Object.entries(menu).map(([key, value]) => (
-						<NavLink
-							key={key}
-							href={value}
-							className="block"
-							onClick={toggleMobileMenu}
-						>
-							{nav[key as keyof Nav]}
-						</NavLink>
-					))}
+					{Object.entries(menu).map(([key, value]) => {
+						if (typeof value === "object") {
+							return Object.entries(value).map(([subKey, subValue]) => (
+								<NavLink
+									key={`${key}-${subKey}`}
+									href={subValue}
+									className="block pl-4"
+									onClick={toggleMobileMenu}
+								>
+									{subKey}
+								</NavLink>
+							));
+						}
+						return (
+							<NavLink
+								key={key}
+								href={value}
+								className="block"
+								onClick={toggleMobileMenu}
+							>
+								{nav[key as keyof Nav]}
+							</NavLink>
+						);
+					})}
 					<SwitchLocale lang={lang} />
 				</div>
 			</nav>

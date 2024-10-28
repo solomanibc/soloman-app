@@ -14,9 +14,9 @@ export default async function Home({
 	return (
 		<>
 			<Hero lang={lang} />
+			<Services lang={lang} />
 			<TrustedCompanies lang={lang} />
 			<Feature lang={lang} />
-			<Services lang={lang} />
 		</>
 	);
 }

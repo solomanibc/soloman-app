@@ -5,7 +5,7 @@ meta {
 }
 
 post {
-  url: https://api.notion.com/v1/databases/{{database}}/query
+  url: https://api.notion.com/v1/databases/{{database_blog}}/query
   body: json
   auth: bearer
 }
@@ -20,6 +20,17 @@ auth:bearer {
 
 body:json {
   {
-      
-    }
+    "filter": {
+      "property": "Status",
+      "status": {
+        "equals": "Done"
+      }
+    },
+    "sorts" : [
+      {
+        "timestamp": "created_time",
+          "direction": "descending"
+      }
+    ]
+  }
 }

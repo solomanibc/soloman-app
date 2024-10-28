@@ -2,7 +2,7 @@ import { type LocaleParams, getDictionary } from "@/app/[lang]/dictionaries";
 import { Section } from "@/components/Section";
 import { Card, CardContent } from "@/components/ui/card";
 import { Briefcase, Users, Zap } from "lucide-react";
-
+import Link from "next/link";
 export default async function Services({ lang }: LocaleParams) {
 	const dict = await getDictionary(lang);
 
@@ -14,29 +14,35 @@ export default async function Services({ lang }: LocaleParams) {
 			<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 				<Card>
 					<CardContent className="p-6">
-						<Briefcase className="w-12 h-12 mb-4 text-primary" />
-						<h3 className="text-xl font-bold mb-2">
-							{dict.services.webDesign.title}
-						</h3>
-						<p>{dict.services.webDesign.description}</p>
+						<Link href={`/${lang}/services/corporate`}>
+							<Briefcase className="w-12 h-12 mb-4 text-primary" />
+							<h3 className="text-xl font-bold mb-2">
+								{dict.services.corporate.title}
+							</h3>
+							<p>{dict.services.corporate.description}</p>
+						</Link>
 					</CardContent>
 				</Card>
 				<Card>
 					<CardContent className="p-6">
-						<Zap className="w-12 h-12 mb-4 text-primary" />
-						<h3 className="text-xl font-bold mb-2">
-							{dict.services.digitalMarketing.title}
-						</h3>
-						<p>{dict.services.digitalMarketing.description}</p>
+						<Link href={`/${lang}/services/individual`}>
+							<Zap className="w-12 h-12 mb-4 text-primary" />
+							<h3 className="text-xl font-bold mb-2">
+								{dict.services.individual.title}
+							</h3>
+							<p>{dict.services.individual.description}</p>
+						</Link>
 					</CardContent>
 				</Card>
 				<Card>
 					<CardContent className="p-6">
-						<Users className="w-12 h-12 mb-4 text-primary" />
-						<h3 className="text-xl font-bold mb-2">
-							{dict.services.graphicDesign.title}
-						</h3>
-						<p>{dict.services.graphicDesign.description}</p>
+						<Link href={`/${lang}/services/graphic-design`}>
+							<Users className="w-12 h-12 mb-4 text-primary" />
+							<h3 className="text-xl font-bold mb-2">
+								{dict.services.graphicDesign.title}
+							</h3>
+							<p>{dict.services.graphicDesign.description}</p>
+						</Link>
 					</CardContent>
 				</Card>
 			</div>

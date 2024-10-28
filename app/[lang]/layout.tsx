@@ -22,11 +22,7 @@ export const metadata: Metadata = {
 	publisher: "Soloman IBC",
 	authors: [{ name: "Soloman IBC", url: "https://solomanibc.com" }],
 	robots: "index, follow",
-	viewport: {
-		width: "device-width",
-		initialScale: 1,
-		maximumScale: 1,
-	},
+	creator: "Soloman IBC",
 };
 
 // Modifiez la définition des props ici

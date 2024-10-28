@@ -13,7 +13,9 @@ export default async function Hero({ lang }: LocaleParams) {
 				<h1 className="text-5xl font-bold mb-6">{dict.hero.title}</h1>
 				<p className="text-xl mb-8">{dict.hero.description}</p>
 				<Link href={`/${lang}/contact`}>
-					<Button size="lg">{dict.hero.cta}</Button>
+					<Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+						{dict.hero.cta}
+					</Button>
 				</Link>
 			</div>
 			<div className="md:w-1/2">

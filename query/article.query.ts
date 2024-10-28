@@ -1,6 +1,7 @@
 import { notion } from "@/lib/notion";
 import type {
 	DatabaseObjectResponse,
+	ParagraphBlockObjectResponse,
 	SelectPropertyItemObjectResponse,
 	TextRichTextItemResponse,
 } from "@notionhq/client/build/src/api-endpoints";
@@ -9,9 +10,19 @@ import type { Locale } from "../app/[lang]/dictionaries";
 export type Article = {
 	id: string;
 	title: string;
-	created_time: string;
+	created_time: Date;
 	imageCover: string;
 	lang: Locale;
+	author?: {
+		name: string;
+		avatar: string;
+	};
+	readTime?: number;
+	excerpt?: string;
+};
+
+export type ArticleContent = Article & {
+	contents: { id: string; text: string }[];
 };
 
 type NotionArticle = DatabaseObjectResponse & {
@@ -62,17 +73,38 @@ const makeArticle = (notionArticle: NotionArticle): Article => {
 		id: notionArticle.id,
 		lang: notionArticle.properties.lang.select?.name as Locale,
 		title: notionArticle.properties.Name.title?.[0]?.plain_text as string,
-		created_time: notionArticle.created_time as string,
+		created_time: new Date(notionArticle.created_time) as Date,
 		imageCover: cover as string,
 	};
 };
 
-export const getArticle = async (id: string): Promise<Article> => {
+export const getArticle = async (id: string): Promise<ArticleContent> => {
 	const response = await notion.pages.retrieve({
 		page_id: id,
 	});
 
+	const blocks = await notion.blocks.children.list({
+		block_id: id,
+	});
+
+	const contents = blocks.results.map((block) => {
+		const content: { id: string; text: string } = {
+			id: block.id,
+			text: "",
+		};
+
+		const paragraphBlock = block as ParagraphBlockObjectResponse;
+
+		if (paragraphBlock.paragraph?.rich_text) {
+			content.text = paragraphBlock.paragraph?.rich_text?.[0]?.plain_text ?? "";
+		}
+
+		return content;
+	});
+
 	const notionArticle = response as unknown as NotionArticle;
 
-	return makeArticle(notionArticle);
+	console.log(contents);
+
+	return { ...makeArticle(notionArticle), contents: contents };
 };

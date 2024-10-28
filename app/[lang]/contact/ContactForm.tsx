@@ -13,7 +13,10 @@ export default async function ContactForm({ lang }: LocaleParams) {
 					<Input placeholder={dict.contact.namePlaceholder} />
 					<Input type="email" placeholder={dict.contact.emailPlaceholder} />
 					<Textarea placeholder={dict.contact.messagePlaceholder} />
-					<Button type="submit" className="w-full">
+					<Button
+						type="submit"
+						className="w-full bg-blue-600 hover:bg-blue-700"
+					>
 						{dict.contact.submit}
 					</Button>
 				</form>

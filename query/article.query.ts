@@ -104,7 +104,5 @@ export const getArticle = async (id: string): Promise<ArticleContent> => {
 
 	const notionArticle = response as unknown as NotionArticle;
 
-	console.log(contents);
-
 	return { ...makeArticle(notionArticle), contents: contents };
 };

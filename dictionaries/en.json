@@ -7,7 +7,8 @@
 		"blog": "Blog",
 		"services": "Services",
 		"corporate": "Corporate",
-		"individual": "Individual"
+		"individual": "Individual",
+		"ourProfessionalism": "Our Professionalism"
 	},
 	"trusted": {
 		"title": "Trusted by"
@@ -33,6 +34,18 @@
 			"title": "Graphic Design",
 			"description": "We design graphics for businesses."
 		}
+	},
+	"expertise": {
+		"title": "Professional Expertise",
+		"description": "With decades of experience and a global network, we provide comprehensive solutions that help businesses thrive in international markets.",
+		"imageAlt": "Professional expertise",
+		"points": [
+			"20+ years of international business experience",
+			"Global network across major jurisdictions",
+			"Tailored solutions for your business needs",
+			"Comprehensive range of corporate services",
+			"Professional team with diverse expertise"
+		]
 	},
 	"feature": {
 		"imageAlt": "Feature image",

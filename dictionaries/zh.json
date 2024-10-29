@@ -6,7 +6,8 @@
 		"blog": "博客",
 		"services": "服务",
 		"corporate": "企业",
-		"individual": "个人"
+		"individual": "个人",
+		"ourProfessionalism": "我们的专业"
 	},
 	"trusted": {
 		"title": "信任"
@@ -32,6 +33,18 @@
 			"title": "平面设计",
 			"description": "我们为商业设计图形。"
 		}
+	},
+	"expertise": {
+		"title": "专业知识",
+		"description": "凭借数十年的经验和全球网络，我们提供全面的解决方案，帮助企业在国际市场上蓬勃发展。",
+		"imageAlt": "专业知识",
+		"points": [
+			"20+ 年的国际商业经验",
+			"全球网络覆盖主要司法管辖区",
+			"量身定制的解决方案满足您的业务需求",
+			"全面的商业服务范围",
+			"专业团队，拥有多元化的专业知识"
+		]
 	},
 	"feature": {
 		"imageAlt": "功能图片",

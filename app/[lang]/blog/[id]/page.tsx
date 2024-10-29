@@ -13,8 +13,6 @@ export default async function page({
 
 	const article = await getArticle(id);
 
-	console.log(article);
-
 	return (
 		<>
 			<Section className="pb-4 flex flex-col items-center">

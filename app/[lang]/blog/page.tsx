@@ -13,7 +13,7 @@ export default async function About({
 	const articles = await getArticles();
 
 	return (
-		<div className="min-h-screen bg-gray-50">
+		<div className="min-h-screen">
 			{/* Hero Section */}
 			<Section className="py-20">
 				<div className="container mx-auto px-4">

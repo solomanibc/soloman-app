@@ -24,12 +24,26 @@ export default async function Footer({ lang }: LocaleParams) {
 								</Link>
 							</li>
 							<li>
-								<Link href="#" className="hover:underline">
+								<Link href={`/${lang}/about`} className="hover:underline">
 									{dict.nav.about}
 								</Link>
 							</li>
 							<li>
-								<Link href="#" className="hover:underline">
+								<Link href={`/${lang}/blog`} className="hover:underline">
+									{dict.nav.blog}
+								</Link>
+							</li>
+							<li>
+								<Link
+									href={`/${lang}/our-professionalism`}
+									className="hover:underline"
+								>
+									{dict.nav.ourProfessionalism}
+								</Link>
+							</li>
+
+							<li>
+								<Link href={`/${lang}/contact`} className="hover:underline">
 									{dict.nav.contact}
 								</Link>
 							</li>
@@ -54,11 +68,6 @@ export default async function Footer({ lang }: LocaleParams) {
 									className="hover:underline"
 								>
 									{dict.services.individual.title}
-								</Link>
-							</li>
-							<li>
-								<Link href="#" className="hover:underline">
-									{dict.services.graphicDesign.title}
 								</Link>
 							</li>
 						</ul>

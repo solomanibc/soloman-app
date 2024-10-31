@@ -1,3 +1,4 @@
+import { Block } from "@/components/Notion/Block";
 import { Section } from "@/components/Section";
 import { getArticle } from "@/query/article.query";
 import { formatDistance } from "date-fns";
@@ -38,10 +39,8 @@ export default async function page({
 			</Section>
 
 			<Section className="py-4">
-				{article.contents.map((content) => (
-					<p key={content.id} className="mt-4">
-						{content.text}
-					</p>
+				{article.blocks.map((block) => (
+					<Block key={block.id} block={block} />
 				))}
 			</Section>
 

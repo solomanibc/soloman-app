@@ -1,7 +1,7 @@
 import { notion } from "@/lib/notion";
 import type {
+	BlockObjectResponse,
 	DatabaseObjectResponse,
-	ParagraphBlockObjectResponse,
 	SelectPropertyItemObjectResponse,
 	TextRichTextItemResponse,
 } from "@notionhq/client/build/src/api-endpoints";
@@ -22,7 +22,7 @@ export type Article = {
 };
 
 export type ArticleContent = Article & {
-	contents: { id: string; text: string }[];
+	blocks: BlockObjectResponse[];
 };
 
 type NotionArticle = DatabaseObjectResponse & {
@@ -87,22 +87,10 @@ export const getArticle = async (id: string): Promise<ArticleContent> => {
 		block_id: id,
 	});
 
-	const contents = blocks.results.map((block) => {
-		const content: { id: string; text: string } = {
-			id: block.id,
-			text: "",
-		};
-
-		const paragraphBlock = block as ParagraphBlockObjectResponse;
-
-		if (paragraphBlock.paragraph?.rich_text) {
-			content.text = paragraphBlock.paragraph?.rich_text?.[0]?.plain_text ?? "";
-		}
-
-		return content;
-	});
-
 	const notionArticle = response as unknown as NotionArticle;
 
-	return { ...makeArticle(notionArticle), contents: contents };
+	return {
+		...makeArticle(notionArticle),
+		blocks: blocks.results as BlockObjectResponse[],
+	};
 };

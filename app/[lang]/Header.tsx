@@ -33,8 +33,6 @@ export default function Header({ lang, nav }: LocaleParams & { nav: Nav }) {
 		contact: `/${lang}/contact`,
 	};
 
-	console.log(isMobileMenuOpen);
-
 	return (
 		<header className="container fixed top-0 left-1/2 transform -translate-x-1/2">
 			<div className="flex items-center justify-between px-4 py-6 mx-auto bg-white shadow-md h-20 w-full">

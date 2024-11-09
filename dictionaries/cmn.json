@@ -7,7 +7,9 @@
 		"services": "服务",
 		"corporate": "企业",
 		"individual": "个人",
-		"ourProfessionalism": "我们的专业"
+		"ourProfessionalism": "我们的专业",
+		"businessConsultation": "商业咨询",
+		"media": "媒体"
 	},
 	"trusted": {
 		"title": "信任"
@@ -40,6 +42,20 @@
 		"graphicDesign": {
 			"title": "平面设计",
 			"description": "我们为商业设计图形。"
+		}
+	},
+	"businessConsultation": {
+		"ukMarket": {
+			"title": "英国市场",
+			"description": "全面的商业咨询服务，帮助您在国际市场上取得成功。"
+		},
+		"hkMarket": {
+			"title": "香港市场",
+			"description": "全面的商业咨询服务，帮助您在国际市场上取得成功。"
+		},
+		"globalMarket": {
+			"title": "全球市场",
+			"description": "全面的商业咨询服务，帮助您在国际市场上取得成功。"
 		}
 	},
 	"expertise": {

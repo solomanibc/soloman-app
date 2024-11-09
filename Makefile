@@ -69,6 +69,6 @@ msg ?= $(shell git branch --show-current | sed -E 's/^([0-9]+)-([^-]+)-(.+)/\2: 
 auto-commit: ## Auto commit
 	@if [ "$(shell git status --porcelain | wc -l)" -gt 0 ]; then git add .; git commit -m "$(msg)" || true; fi
 
-push: format auto-commit ## Ajoute, commit et pousse les modifications vers le dépôt git
+push: analyze auto-commit ## Ajoute, commit et pousse les modifications vers le dépôt git
 	git pull origin $(shell git branch --show-current) --rebase
 	git push origin "$(shell git branch --show-current)"

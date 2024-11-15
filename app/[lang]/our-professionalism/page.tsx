@@ -1,11 +1,11 @@
-import { Button } from "@/components/ui/button";
+import { CTA } from "@/components/cta";
 import { Card, CardContent } from "@/components/ui/card";
 import { Award, BookOpen, Globe2, Scale, Shield, Users } from "lucide-react";
 import Image from "next/image";
 
 export default function OurProfessionalism() {
 	return (
-		<div className="min-h-screen">
+		<div className="min-h-screen pb-10">
 			{/* Hero Section */}
 			<section className="relative h-[60vh] bg-[url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80')] bg-cover bg-center">
 				<div className="absolute inset-0 bg-black/60" />
@@ -130,25 +130,7 @@ export default function OurProfessionalism() {
 				</div>
 			</section>
 
-			{/* CTA Section */}
-			<section className="bg-blue-600 text-white py-20">
-				<div className="container mx-auto px-4 text-center">
-					<h2 className="text-3xl font-bold mb-6">
-						Experience Our Professional Services
-					</h2>
-					<p className="text-xl mb-8 max-w-2xl mx-auto">
-						Contact us today to learn how our professional team can help your
-						business succeed
-					</p>
-					<Button
-						size="lg"
-						variant="outline"
-						className="text-white border-white hover:bg-white hover:text-blue-600"
-					>
-						Schedule a Consultation
-					</Button>
-				</div>
-			</section>
+			<CTA />
 		</div>
 	);
 }

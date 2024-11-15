@@ -13,8 +13,8 @@ import { usePathname, useRouter } from "next/navigation";
 
 const languages = [
 	{ code: "en", name: "English" },
-	{ code: "zh", name: "中文 (简体)" },
-	{ code: "cmn", name: "普通话" },
+	{ code: "zh", name: "正體中文" },
+	{ code: "cmn", name: "简体字" },
 ];
 
 export const SwitchLocale = ({ lang }: { lang: Locale }) => {

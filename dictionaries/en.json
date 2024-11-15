@@ -1,11 +1,10 @@
 {
 	"nav": {
 		"home": "Home",
-		"product": "Product",
 		"about": "About Us",
 		"contact": "Contact",
 		"blog": "Blog",
-		"services": "Investigation Services",
+		"servicesInvestigation": "Investigation Services",
 		"corporate": "Corporate",
 		"individual": "Individual",
 		"ourProfessionalism": "Our Professionalism",

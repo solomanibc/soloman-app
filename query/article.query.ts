@@ -1,5 +1,6 @@
 import { env } from "@/lib/env";
 import { notion } from "@/lib/notion";
+import type { APIResponseError } from "@notionhq/client";
 import type {
 	BlockObjectResponse,
 	DatabaseObjectResponse,
@@ -55,36 +56,46 @@ const PAGE_SIZE = 9;
 export const getArticles = async (
 	startCursor: string | null,
 ): Promise<GetArticlesResponse> => {
-	const response = await notion.databases.query({
-		database_id: env.NOTION_DATABASE_BLOG_ID,
-		page_size: PAGE_SIZE,
-		start_cursor:
-			startCursor === null
-				? undefined
-				: startCursor === ""
+	return notion.databases
+		.query({
+			database_id: env.NOTION_DATABASE_BLOG_ID,
+			page_size: PAGE_SIZE,
+			start_cursor:
+				startCursor === null
 					? undefined
-					: startCursor,
-		sorts: [
-			{
-				timestamp: "created_time",
-				direction: "descending",
+					: startCursor === ""
+						? undefined
+						: startCursor,
+			sorts: [
+				{
+					timestamp: "created_time",
+					direction: "descending",
+				},
+			],
+			filter: {
+				property: "Status",
+				status: {
+					equals: "Done",
+				},
 			},
-		],
-		filter: {
-			property: "Status",
-			status: {
-				equals: "Done",
-			},
-		},
-	});
-
-	return {
-		articles: response.results.map((result) =>
-			makeArticle(result as NotionArticle),
-		),
-		nextCursor: response.next_cursor,
-		hasMore: response.has_more,
-	};
+		})
+		.then((response) => {
+			return {
+				articles: response.results.map((result) =>
+					makeArticle(result as NotionArticle),
+				),
+				nextCursor: response.next_cursor,
+				hasMore: response.has_more,
+			};
+		})
+		.catch((error: APIResponseError) => {
+			console.error(error);
+			return {
+				articles: [],
+				nextCursor: null,
+				hasMore: false,
+			};
+		});
 };
 
 const makeArticle = (notionArticle: NotionArticle): Article => {

@@ -19,7 +19,7 @@ export default async function page({
 			<Section className="pb-4 flex flex-col items-center">
 				<h1 className="text-4xl font-bold text-center">{article.title}</h1>
 				<Image
-					src={article.imageCover}
+					src={article.imageCover ?? "/images/blog-placeholder.jpg"}
 					alt={article.title}
 					width={600}
 					height={400}

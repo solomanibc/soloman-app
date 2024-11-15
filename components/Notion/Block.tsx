@@ -1,5 +1,7 @@
 import type {
 	BlockObjectResponse,
+	BulletedListItemBlockObjectResponse,
+	CalloutBlockObjectResponse,
 	Heading1BlockObjectResponse,
 	Heading2BlockObjectResponse,
 	Heading3BlockObjectResponse,
@@ -13,6 +15,8 @@ import { Heading3 } from "./Heading3";
 import { ImageBlock } from "./ImageBlock";
 import { NumberedListItem } from "./NumberedListItem";
 import { Paragraph } from "./Paragraph";
+import { BulletedListItem } from "./bulleted-list-item";
+import { Callout } from "./callout";
 
 export const Block = ({ block }: { block: BlockObjectResponse }) => {
 	switch (block.type) {
@@ -28,12 +32,21 @@ export const Block = ({ block }: { block: BlockObjectResponse }) => {
 		case "heading_3":
 			return <Heading3 heading={block as Heading3BlockObjectResponse} />;
 
+		case "bulleted_list_item":
+			return (
+				<BulletedListItem
+					bulletedListItem={block as BulletedListItemBlockObjectResponse}
+				/>
+			);
 		case "numbered_list_item":
 			return (
 				<NumberedListItem
 					numberedListItem={block as NumberedListItemBlockObjectResponse}
 				/>
 			);
+
+		case "callout":
+			return <Callout callout={block as CalloutBlockObjectResponse} />;
 
 		case "image":
 			return <ImageBlock image={block as ImageBlockObjectResponse} />;

@@ -18,7 +18,7 @@ export const ArticleCard = ({
 			<Card className="overflow-hidden hover:shadow-lg transition-shadow duration-300">
 				<div className="relative h-48">
 					<Image
-						src={article.imageCover}
+						src={article.imageCover ?? "/images/blog-placeholder.jpg"}
 						alt={article.title}
 						fill
 						className="object-cover"

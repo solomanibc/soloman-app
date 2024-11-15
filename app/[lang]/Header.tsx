@@ -24,15 +24,8 @@ export default function Header({ lang, nav }: LocaleParams & { nav: Nav }) {
 	const menu: Record<string, string | Record<string, string>> = {
 		home: `/${lang}`,
 		about: `/${lang}/about`,
-		services: {
-			corporate: `/${lang}/services/corporate`,
-			individual: `/${lang}/services/individual`,
-		},
-		businessConsultation: {
-			ukMarket: `/${lang}/business-consultation/uk-market`,
-			hkMarket: `/${lang}/business-consultation/hk-market`,
-			globalMarket: `/${lang}/business-consultation/global-market`,
-		},
+		servicesInvestigation: `/${lang}/services-investigation`,
+		businessConsultation: `/${lang}/business-consultation`,
 		blog: `/${lang}/blog`,
 		media: `/${lang}/media`,
 		contact: `/${lang}/contact`,
@@ -41,7 +34,7 @@ export default function Header({ lang, nav }: LocaleParams & { nav: Nav }) {
 	return (
 		<header className="z-50 container fixed top-0 left-1/2 transform -translate-x-1/2">
 			<div className="flex items-center justify-between px-4 py-6 mx-auto bg-white shadow-md h-20 w-full">
-				<div className="text-2xl font-bold">
+				<div className="text-2xl font-bold mr-3">
 					<Link href={`/${lang}`}>
 						Solo<span className="text-blue-500">man</span> IBC
 					</Link>

@@ -50,7 +50,6 @@ export default function MediaPage() {
 						<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
 							{videos.map((video) => (
 								<span key={video.id}>
-									{video.id}
 									<VideoCard video={video} />
 								</span>
 							))}

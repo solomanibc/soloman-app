@@ -13,22 +13,44 @@ const lexend = Lexend({
 });
 
 export const metadata: Metadata = {
-	title: "Soloman IBC",
-	description: "Soloman",
+	title: "Soloman IBC - International Business Consulting",
+	description:
+		"Soloman IBC provides expert international business consulting services, specializing in market entry strategies, cross-border operations, and global business development.",
 	openGraph: {
-		title: "Soloman IBC",
-		description: "Soloman",
+		title: "Soloman IBC - International Business Consulting",
+		description:
+			"Expert international business consulting services for market entry, cross-border operations, and global business development. Partner with Soloman IBC for your international expansion.",
 		images: [`${env.BASE_URL}/images/og.png`],
+		type: "website",
+		locale: "en_EN",
+		siteName: "Soloman IBC",
 	},
-	publisher: "Soloman IBC",
-	authors: [{ name: "Soloman IBC", url: env.BASE_URL }],
+	publisher: "Soloman International Business Consulting",
+	authors: [
+		{
+			name: "Soloman International Business Consulting",
+			url: env.BASE_URL,
+		},
+	],
 	robots: {
 		index: true,
 		follow: true,
+		googleBot: {
+			index: true,
+			follow: true,
+			"max-image-preview": "large",
+		},
 	},
 	alternates: {
 		canonical: env.BASE_URL,
+		languages: {
+			"en-EN": `${env.BASE_URL}/en`,
+			"zh-CN": `${env.BASE_URL}/zh`,
+			"cmn-Hans": `${env.BASE_URL}/cmn`,
+		},
 	},
+	keywords:
+		"international business consulting, market entry strategy, cross-border operations, global business development, business expansion",
 };
 
 // Modifiez la définition des props ici

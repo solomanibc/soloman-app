@@ -27,7 +27,7 @@ export default async function About({
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
 					<Card className="border-none shadow-lg">
 						<CardContent className="p-6 text-center">
-							<Globe2 className="w-12 h-12 mx-auto mb-4 text-blue-600" />
+							<Globe2 className="w-12 h-12 mx-auto mb-4 text-primary" />
 							<h3 className="text-xl font-semibold mb-2">Global Reach</h3>
 							<p className="text-gray-600">
 								Operating across multiple jurisdictions worldwide
@@ -37,7 +37,7 @@ export default async function About({
 
 					<Card className="border-none shadow-lg">
 						<CardContent className="p-6 text-center">
-							<Users className="w-12 h-12 mx-auto mb-4 text-blue-600" />
+							<Users className="w-12 h-12 mx-auto mb-4 text-primary" />
 							<h3 className="text-xl font-semibold mb-2">Expert Team</h3>
 							<p className="text-gray-600">
 								Professional staff with extensive experience
@@ -47,7 +47,7 @@ export default async function About({
 
 					<Card className="border-none shadow-lg">
 						<CardContent className="p-6 text-center">
-							<BarChart3 className="w-12 h-12 mx-auto mb-4 text-blue-600" />
+							<BarChart3 className="w-12 h-12 mx-auto mb-4 text-primary" />
 							<h3 className="text-xl font-semibold mb-2">Growth Focus</h3>
 							<p className="text-gray-600">
 								Strategic solutions for business expansion
@@ -57,7 +57,7 @@ export default async function About({
 
 					<Card className="border-none shadow-lg">
 						<CardContent className="p-6 text-center">
-							<Shield className="w-12 h-12 mx-auto mb-4 text-blue-600" />
+							<Shield className="w-12 h-12 mx-auto mb-4 text-primary" />
 							<h3 className="text-xl font-semibold mb-2">Compliance</h3>
 							<p className="text-gray-600">
 								Ensuring regulatory compliance across borders

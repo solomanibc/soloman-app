@@ -118,7 +118,7 @@ function MarketSection({ title, icon, services }: MarketSectionProps) {
 	return (
 		<div className="mb-16">
 			<div className="flex items-center gap-4 mb-8">
-				<div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600">
+				<div className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center text-primary">
 					{icon}
 				</div>
 				<h2 className="text-3xl font-bold">{title}</h2>
@@ -132,7 +132,7 @@ function MarketSection({ title, icon, services }: MarketSectionProps) {
 						<CardContent className="p-6">
 							<div className="flex items-start gap-4">
 								<div className="mt-1">
-									<CheckCircle className="h-5 w-5 text-blue-600" />
+									<CheckCircle className="h-5 w-5 text-primary" />
 								</div>
 								<div>
 									<h3 className="text-xl font-semibold mb-2">

@@ -10,7 +10,7 @@ export const CTA = () => {
 				Contact us for a detailed consultation tailored to your business Contact
 				us for a detailed consultation tailored to your business needs
 			</p>
-			<Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+			<Button size="lg" className="bg-primary hover:bg-primary/80">
 				Schedule Consultation
 			</Button>
 		</div>

@@ -15,7 +15,7 @@ export default async function ContactForm({ lang }: LocaleParams) {
 					<Textarea placeholder={dict.contact.messagePlaceholder} />
 					<Button
 						type="submit"
-						className="w-full bg-blue-600 hover:bg-blue-700"
+						className="w-full bg-primary hover:bg-primary/80"
 					>
 						{dict.contact.submit}
 					</Button>

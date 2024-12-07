@@ -1,4 +1,5 @@
 import { Section } from "@/components/Section";
+import Image from "next/image";
 import Link from "next/link";
 import { type LocaleParams, getDictionary } from "./dictionaries";
 
@@ -10,7 +11,10 @@ export default async function Footer({ lang }: LocaleParams) {
 			<Section>
 				<div className="grid grid-cols-1 md:grid-cols-4 gap-8">
 					<div>
-						<h3 className="text-xl font-bold mb-4">Soloman IBC</h3>
+						<h3 className="text-xl font-bold mb-4 flex items-center gap-2">
+							<Image src="/icons/logo.svg" alt="Logo" width={50} height={50} />
+							Soloman <span className="text-primary">IBC</span>
+						</h3>
 						<p>{dict.footer.description}</p>
 					</div>
 					<div>
@@ -78,13 +82,40 @@ export default async function Footer({ lang }: LocaleParams) {
 						</h4>
 						<div className="flex space-x-4">
 							<Link href="#" className="hover:text-gray-300">
-								Facebook
+								<Image
+									src="/icons/facebook.svg"
+									className="invert"
+									alt="Facebook"
+									width={24}
+									height={24}
+								/>
 							</Link>
 							<Link href="#" className="hover:text-gray-300">
-								Twitter
+								<Image
+									src="/icons/x.svg"
+									className="invert"
+									alt="Twitter"
+									width={24}
+									height={24}
+								/>
 							</Link>
 							<Link href="#" className="hover:text-gray-300">
-								LinkedIn
+								<Image
+									src="/icons/linkedin.svg"
+									className="invert"
+									alt="LinkedIn"
+									width={24}
+									height={24}
+								/>
+							</Link>
+							<Link href="#" className="hover:text-gray-300">
+								<Image
+									src="/icons/instagram.svg"
+									className="invert"
+									alt="Instagram"
+									width={24}
+									height={24}
+								/>
 							</Link>
 						</div>
 					</div>

@@ -26,7 +26,7 @@ export const SwitchLocale = ({ lang }: { lang: Locale }) => {
 			<DropdownMenu>
 				<DropdownMenuTrigger asChild>
 					<Button variant="ghost" size="sm" className="w-9 px-0">
-						<Globe className="h-4 w-4" />
+						<Globe className="h-4 w-4 text-primary" />
 						<span className="sr-only">Switch language</span>
 					</Button>
 				</DropdownMenuTrigger>

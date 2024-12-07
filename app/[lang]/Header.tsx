@@ -4,9 +4,9 @@ import type { LocaleParams } from "@/app/[lang]/dictionaries";
 import { SwitchLocale } from "@/components/SwitchLocale";
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-
 interface Nav {
 	home: string;
 	about: string;
@@ -21,7 +21,7 @@ export default function Header({ lang, nav }: LocaleParams & { nav: Nav }) {
 		setIsMobileMenuOpen(!isMobileMenuOpen);
 	};
 
-	const menu: Record<string, string | Record<string, string>> = {
+	const menu: Record<string, string> = {
 		home: `/${lang}`,
 		about: `/${lang}/about`,
 		servicesInvestigation: `/${lang}/services-investigation`,
@@ -35,37 +35,17 @@ export default function Header({ lang, nav }: LocaleParams & { nav: Nav }) {
 		<header className="z-50 container fixed top-0 left-1/2 transform -translate-x-1/2">
 			<div className="flex items-center justify-between px-4 py-6 mx-auto bg-white shadow-md h-20 w-full">
 				<div className="text-2xl font-bold mr-3">
-					<Link href={`/${lang}`}>
-						Solo<span className="text-blue-500">man</span> IBC
+					<Link href={`/${lang}`} className="flex items-center gap-2">
+						<Image src="/icons/logo.svg" alt="Logo" width={50} height={50} />
+						<span>
+							Solo<span className="text-primary">man</span> IBC
+						</span>
 					</Link>
 				</div>
 				<nav className="hidden md:flex space-x-6">
 					{Object.entries(menu).map(([key, value]) => {
-						if (typeof value === "object") {
-							return (
-								<div key={key} className="relative group">
-									<button
-										type="button"
-										className="text-gray-600 hover:text-gray-900"
-									>
-										{nav[key as keyof Nav]}
-									</button>
-									<div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 hidden group-hover:block">
-										{Object.entries(value).map(([subKey, subValue]) => (
-											<NavLink
-												key={subKey}
-												href={subValue}
-												className="block px-4 py-2 hover:bg-gray-100"
-											>
-												{nav[subKey as keyof Nav]}
-											</NavLink>
-										))}
-									</div>
-								</div>
-							);
-						}
 						return (
-							<NavLink key={key} href={value}>
+							<NavLink key={key} href={value} className="hover:text-primary/80">
 								{nav[key as keyof Nav]}
 							</NavLink>
 						);
@@ -78,25 +58,13 @@ export default function Header({ lang, nav }: LocaleParams & { nav: Nav }) {
 			</div>
 
 			<nav className={cn(`md:hidden ${isMobileMenuOpen ? "block" : "hidden"}`)}>
-				<div className="px-4 py-2 space-y-2 bg-white shadow-md text-right">
+				<div className="px-4 py-2 space-y-2 bg-white shadow-md text-center">
 					{Object.entries(menu).map(([key, value]) => {
-						if (typeof value === "object") {
-							return Object.entries(value).map(([subKey, subValue]) => (
-								<NavLink
-									key={`${key}-${subKey}`}
-									href={subValue}
-									className="block pl-4"
-									onClick={toggleMobileMenu}
-								>
-									{subKey}
-								</NavLink>
-							));
-						}
 						return (
 							<NavLink
 								key={key}
 								href={value}
-								className="block"
+								className="block hover:text-primary/80"
 								onClick={toggleMobileMenu}
 							>
 								{nav[key as keyof Nav]}

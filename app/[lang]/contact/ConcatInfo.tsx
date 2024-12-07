@@ -19,7 +19,7 @@ export const ConcatInfo = async ({ lang }: { lang: Locale }) => {
 					<p>
 						<a
 							href={`mailto:${dict.contact.email}`}
-							className="text-blue-600 hover:underline"
+							className="text-primary hover:underline"
 						>
 							{dict.contact.email}
 						</a>

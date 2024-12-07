@@ -105,7 +105,7 @@ export default async function IndividualServices({
 						<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 							{["1", "2", "3"].map((step: string) => (
 								<div key={step} className="text-center">
-									<div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+									<div className="w-12 h-12 bg-priamry text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
 										{step}
 									</div>
 									<h4 className="text-xl font-semibold mb-2">
@@ -135,7 +135,7 @@ export default async function IndividualServices({
 						<p className="text-lg text-gray-600 mb-8">
 							{dict.individual.cta.description}
 						</p>
-						<Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+						<Button size="lg" className="bg-primary hover:bg-primary/80">
 							{dict.individual.cta.button}
 						</Button>
 					</div>
@@ -157,7 +157,7 @@ function ServiceCard({
 	return (
 		<Card className="border-none shadow-lg hover:shadow-xl transition-shadow duration-300">
 			<CardContent className="p-6">
-				<div className="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center mb-4 text-blue-600">
+				<div className="w-12 h-12 bg-gray-50 rounded-lg flex items-center justify-center mb-4 text-primary">
 					{icon}
 				</div>
 				<h3 className="text-xl font-semibold mb-2">{title}</h3>
@@ -170,7 +170,7 @@ function ServiceCard({
 function BenefitPoint({ text }: { text: string }) {
 	return (
 		<div className="flex items-center gap-3">
-			<CheckCircle className="text-blue-600 h-6 w-6 flex-shrink-0" />
+			<CheckCircle className="text-primary h-6 w-6 flex-shrink-0" />
 			<span className="text-gray-700">{text}</span>
 		</div>
 	);

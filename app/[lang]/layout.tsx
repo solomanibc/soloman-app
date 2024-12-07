@@ -40,6 +40,7 @@ export default async function RootLayout({
 	params: Promise<{ lang: Locale }>;
 }) {
 	const { lang } = await params;
+	if (!lang) return null;
 	const dict = await getDictionary(lang);
 
 	return (
@@ -52,6 +53,7 @@ export default async function RootLayout({
 			>
 				<Header lang={lang} nav={dict.nav} />
 				<main>{children}</main>
+				{/* @ts-expect-error Async Server Component */}
 				<Footer lang={lang} />
 			</body>
 		</html>

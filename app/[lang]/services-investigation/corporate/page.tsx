@@ -109,7 +109,7 @@ export default async function Corporate({
 						<p className="text-lg text-gray-600 mb-8">
 							{dict.corporate.cta.description}
 						</p>
-						<Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+						<Button size="lg" className="bg-primary hover:bg-primary/80">
 							{dict.corporate.cta.button}
 						</Button>
 					</div>
@@ -131,7 +131,7 @@ function ServiceCard({
 	return (
 		<Card className="border-none shadow-lg hover:shadow-xl transition-shadow duration-300">
 			<CardContent className="p-6">
-				<div className="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center mb-4 text-blue-600">
+				<div className="w-12 h-12 bg-gray-50 rounded-lg flex items-center justify-center mb-4 text-primary">
 					{icon}
 				</div>
 				<h3 className="text-xl font-semibold mb-2">{title}</h3>
@@ -144,7 +144,7 @@ function ServiceCard({
 function FeaturePoint({ text }: { text: string }) {
 	return (
 		<div className="flex items-center gap-3">
-			<CheckCircle className="text-blue-600 h-6 w-6 flex-shrink-0" />
+			<CheckCircle className="text-primary h-6 w-6 flex-shrink-0" />
 			<span className="text-gray-700">{text}</span>
 		</div>
 	);

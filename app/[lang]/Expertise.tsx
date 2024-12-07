@@ -36,9 +36,9 @@ export default async function Expertise({ lang }: { lang: Locale }) {
 						<div className="mt-8">
 							<Link
 								href={`/${lang}/our-professionalism`}
-								className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+								className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-primary hover:bg-primary/80 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary"
 							>
-								Learn More
+								{dict.expertise.cta}
 							</Link>
 						</div>
 					</div>
@@ -51,7 +51,7 @@ export default async function Expertise({ lang }: { lang: Locale }) {
 function ExpertisePoint({ text }: { text: string }) {
 	return (
 		<div className="flex items-center gap-3">
-			<CheckCircle className="text-blue-600 h-6 w-6 flex-shrink-0" />
+			<CheckCircle className="text-primary h-6 w-6 flex-shrink-0" />
 			<span className="text-gray-700">{text}</span>
 		</div>
 	);

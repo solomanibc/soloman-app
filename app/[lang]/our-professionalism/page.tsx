@@ -147,7 +147,7 @@ function ValueCard({
 	return (
 		<Card className="border-none shadow-lg hover:shadow-xl transition-shadow duration-300">
 			<CardContent className="p-6">
-				<div className="w-16 h-16 bg-blue-50 rounded-lg flex items-center justify-center mb-4 text-blue-600">
+				<div className="w-16 h-16 bg-gray-50 rounded-lg flex items-center justify-center mb-4 text-primary">
 					{icon}
 				</div>
 				<h3 className="text-xl font-semibold mb-2">{title}</h3>
@@ -175,7 +175,7 @@ function TeamMemberCard({
 			</div>
 			<CardContent className="p-6">
 				<h3 className="text-xl font-semibold mb-1">{name}</h3>
-				<p className="text-blue-600 font-medium mb-3">{position}</p>
+				<p className="text-primary font-medium mb-3">{position}</p>
 				<p className="text-gray-600">{description}</p>
 			</CardContent>
 		</Card>

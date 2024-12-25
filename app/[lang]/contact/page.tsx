@@ -1,9 +1,9 @@
 import { Section } from "@/components/Section";
-import Image from "next/image";
 import type { Locale } from "../dictionaries";
 import { getDictionary } from "../dictionaries";
 import { ConcatInfo } from "./ConcatInfo";
 import ContactForm from "./ContactForm";
+import { MapContact } from "./map-contact";
 
 export default async function Contact({
 	params,
@@ -24,21 +24,10 @@ export default async function Contact({
 				</p>
 			</Section>
 
-			<Section className="grid md:grid-cols-2 gap-8">
+			<Section className="grid md:grid-cols-2 gap-8 mx-auto">
 				<ContactForm lang={lang} />
 
-				<div className="bg-gray-200 rounded-lg overflow-hidden">
-					{/* Placeholder for the map */}
-					<div className="h-full w-full bg-gray-300 flex items-center justify-center">
-						<Image
-							src="/images/united-kingdom.svg"
-							alt="Carte de Halifax, Royaume-Uni"
-							width={400}
-							height={300}
-							className="object-cover w-full h-full"
-						/>
-					</div>
-				</div>
+				<MapContact />
 			</Section>
 
 			<ConcatInfo lang={lang} />

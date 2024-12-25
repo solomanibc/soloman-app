@@ -93,9 +93,14 @@
 		"imageAlt": "Hero image"
 	},
 	"about": {
-		"title": "About Soloman IBC",
-		"block1": "Soloman IBC has served the industry for a long time and is the largest private investigation agency in Hong Kong. We have branches on the island, the Kowloon peninsula, and the New Territories. Thanks to the experience and goodwill accumulated over the years, Soloman IBC has successfully solved numerous cases both locally and abroad.",
-		"block2": "The business consulting service is considered one of the main service areas of the Soloman IBC group. We provide a wide range of business consulting services, including workers' compensation claims, employee performance investigations, background analysis and verification of business partners or competitors, etc. Some members of our investigation team are qualified in law enforcement training. Soloman IBC is frequently invited for interviews by various universities, newspapers, and media. Soloman IBC is highly recommended by the media and also recognized by our legal partners.\nrecommended by the media and also recognized by our legal partners."
+		"title": "About US",
+		"founder": {
+			"title": "Founder’s Profile",
+			"name": "I am Mr. Sulayman,",
+			"graduation": "the founder of Soloman Investigation and Business Consultant Ltd., with over 12 years of international experience and a solid professional background. I completed my secondary education in Hong Kong before pursuing accounting studies in the UK. I hold certifications in Private Detective Training from the UK, Senior Financial Advisor, and U.S. Certified Financial Consultant.",
+			"experience": "After graduation, I returned to Hong Kong, where I gained extensive practical experience through roles in financial consulting and international trade. Working on business cases across Greater China, the Middle East, Europe, and Africa, I demonstrated exceptional problem-solving abilities and insights. Driven by a passion for uncovering the truth, I transitioned into the investigative industry, progressing from a field investigator at a renowned agency to a senior investigative consultant at Hong Kong’s largest investigation firm, where I deepened my expertise in this field.",
+			"relocating": "After relocating to the UK, I founded Solomon Investigation and Business Consultant Ltd. as a platform to serve clients with my professional expertise and cross-cultural experience. As a passionate professional in the investigative field, I firmly believe that beneath every surface lies hidden truths waiting to be uncovered. My mission is to deliver tailored solutions through professionalism, integrity, and innovation—resolving challenges while achieving mutual success and continually pursuing excellence."
+		}
 	},
 	"blog": {
 		"title": "Latest Insights & News",

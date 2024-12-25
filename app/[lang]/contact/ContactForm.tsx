@@ -7,20 +7,15 @@ export default async function ContactForm({ lang }: LocaleParams) {
 	const dict = await getDictionary(lang);
 
 	return (
-		<section id="contact-form" className="px-4 py-20">
-			<div className="max-w-md mx-auto">
-				<form className="space-y-6">
-					<Input placeholder={dict.contact.namePlaceholder} />
-					<Input type="email" placeholder={dict.contact.emailPlaceholder} />
-					<Textarea placeholder={dict.contact.messagePlaceholder} />
-					<Button
-						type="submit"
-						className="w-full bg-primary hover:bg-primary/80"
-					>
-						{dict.contact.submit}
-					</Button>
-				</form>
-			</div>
-		</section>
+		<div id="contact-form" className="py-10">
+			<form className="space-y-6">
+				<Input placeholder={dict.contact.namePlaceholder} />
+				<Input type="email" placeholder={dict.contact.emailPlaceholder} />
+				<Textarea placeholder={dict.contact.messagePlaceholder} />
+				<Button type="submit" className="w-full bg-primary hover:bg-primary/80">
+					{dict.contact.submit}
+				</Button>
+			</form>
+		</div>
 	);
 }

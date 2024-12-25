@@ -26,7 +26,7 @@ export default async function Services({ lang }: LocaleParams) {
 					</Card>
 					<Card>
 						<CardContent className="p-6">
-							<Link href={`/${lang}/services/individual`}>
+							<Link href={`/${lang}/services-investigation/individual`}>
 								<Zap className="w-12 h-12 mb-4 text-primary" />
 								<h3 className="text-xl font-bold mb-2">
 									{dict.services.individual.title}

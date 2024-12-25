@@ -25,7 +25,7 @@ export default function InvestigationServices() {
 				description="Professional due diligence and investigation services to protect your business interests"
 				image="https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80"
 			>
-				<div className="flex gap-4">
+				<div className="flex gap-2">
 					<Link href="/services/corporate">
 						<Button
 							variant="outline"
@@ -35,7 +35,7 @@ export default function InvestigationServices() {
 							Corporate Services
 						</Button>
 					</Link>
-					<Link href="/services/individual">
+					<Link href="/services-investigation/individual">
 						<Button
 							variant="outline"
 							className="text-black border-white hover:bg-white/70"

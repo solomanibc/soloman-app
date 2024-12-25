@@ -68,7 +68,7 @@ export default async function Footer({ lang }: LocaleParams) {
 							</li>
 							<li>
 								<Link
-									href={`/${lang}/services/individual`}
+									href={`/${lang}/services-investigation/individual`}
 									className="hover:underline"
 								>
 									{dict.services.individual.title}

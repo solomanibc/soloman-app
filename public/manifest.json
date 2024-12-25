@@ -1,0 +1,19 @@
+{
+	"name": "Soloman IBC",
+	"short_name": "Soloman IBC",
+	"theme_color": "hsl(201 76% 50%)",
+	"background_color": "hsl(201 76% 50%)",
+	"display": "standalone",
+	"orientation": "portrait",
+	"scope": "/",
+	"start_url": "/",
+	"icons": [
+		{
+			"src": "icons/logo.svg",
+			"sizes": "any",
+			"type": "image/svg+xml",
+			"purpose": "maskable any"
+		}
+	],
+	"splash_pages": null
+}

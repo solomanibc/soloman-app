@@ -7,15 +7,21 @@ import Footer from "./Footer";
 import Header from "./Header";
 import type { Locale } from "./dictionaries";
 import { getDictionary } from "./dictionaries";
+
 const lexend = Lexend({
 	subsets: ["latin"],
 	weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
-	title: "Soloman IBC - International Business Consulting",
+	title: {
+		default: "Soloman IBC - International Business Consulting",
+		template: "%s | Soloman IBC",
+	},
 	description:
 		"Soloman IBC provides expert international business consulting services, specializing in market entry strategies, cross-border operations, and global business development.",
+	keywords:
+		"international business consulting, market entry strategy, cross-border operations, global business development, business expansion",
 	openGraph: {
 		title: "Soloman IBC - International Business Consulting",
 		description:
@@ -31,7 +37,21 @@ export const metadata: Metadata = {
 			name: "Soloman International Business Consulting",
 			url: env.BASE_URL,
 		},
+		{
+			name: "Fahari.pro",
+			url: "https://fahari.pro",
+		},
 	],
+	appleWebApp: {
+		capable: true,
+		title: "Soloman IBC",
+		startupImage: "/logo.svg",
+	},
+	icons: {
+		icon: "/logo.svg",
+		shortcut: "/logo.svg",
+		apple: "/logo.svg",
+	},
 	robots: {
 		index: true,
 		follow: true,
@@ -49,8 +69,7 @@ export const metadata: Metadata = {
 			"cmn-Hans": `${env.BASE_URL}/cmn`,
 		},
 	},
-	keywords:
-		"international business consulting, market entry strategy, cross-border operations, global business development, business expansion",
+	manifest: "/manifest.json",
 };
 
 // Modifiez la définition des props ici
@@ -75,7 +94,6 @@ export default async function RootLayout({
 			>
 				<Header lang={lang} nav={dict.nav} />
 				<main>{children}</main>
-				{/* @ts-expect-error Async Server Component */}
 				<Footer lang={lang} />
 			</body>
 		</html>

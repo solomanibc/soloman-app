@@ -1,5 +1,6 @@
-import { Button } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { cn } from "@/lib/utils";
 import {
 	CheckCircle,
 	FileText,
@@ -9,6 +10,7 @@ import {
 	UserPlus,
 	Wallet,
 } from "lucide-react";
+import Link from "next/link";
 import { type Locale, getDictionary } from "../../dictionaries";
 
 export default async function IndividualServices({
@@ -135,9 +137,16 @@ export default async function IndividualServices({
 						<p className="text-lg text-gray-600 mb-8">
 							{dict.individual.cta.description}
 						</p>
-						<Button size="lg" className="bg-primary hover:bg-primary/80">
+						<Link
+							href="https://cal.com/soloman-ibc-appointement/30min"
+							target="_blank"
+							className={cn(
+								"bg-primary hover:bg-primary/80",
+								buttonVariants({ variant: "default" }),
+							)}
+						>
 							{dict.individual.cta.button}
-						</Button>
+						</Link>
 					</div>
 				</div>
 			</section>

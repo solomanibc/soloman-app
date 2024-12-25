@@ -1,4 +1,6 @@
-import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
+import Link from "next/link";
+import { buttonVariants } from "./ui/button";
 
 export const CTA = () => {
 	return (
@@ -10,9 +12,16 @@ export const CTA = () => {
 				Contact us for a detailed consultation tailored to your business Contact
 				us for a detailed consultation tailored to your business needs
 			</p>
-			<Button size="lg" className="bg-primary hover:bg-primary/80">
+			<Link
+				href="https://cal.com/soloman-ibc-appointement/30min"
+				target="_blank"
+				className={cn(
+					"bg-primary hover:bg-primary/80",
+					buttonVariants({ variant: "default" }),
+				)}
+			>
 				Schedule Consultation
-			</Button>
+			</Link>
 		</div>
 	);
 };

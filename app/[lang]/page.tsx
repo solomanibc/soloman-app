@@ -14,11 +14,8 @@ export default async function Home({
 	return (
 		<>
 			<Suspense>
-				{/* @ts-expect-error Async Server Component */}
 				<Hero lang={lang} />
-				{/* @ts-expect-error Async Server Component */}
 				<Services lang={lang} />
-				{/* @ts-expect-error Async Server Component */}
 				<Expertise lang={lang} />
 			</Suspense>
 		</>

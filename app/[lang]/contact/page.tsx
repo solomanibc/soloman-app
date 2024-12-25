@@ -25,7 +25,6 @@ export default async function Contact({
 			</Section>
 
 			<Section className="grid md:grid-cols-2 gap-8">
-				{/* @ts-expect-error Async Server Component */}
 				<ContactForm lang={lang} />
 
 				<div className="bg-gray-200 rounded-lg overflow-hidden">
@@ -42,7 +41,6 @@ export default async function Contact({
 				</div>
 			</Section>
 
-			{/* @ts-expect-error Async Server Component */}
 			<ConcatInfo lang={lang} />
 		</>
 	);

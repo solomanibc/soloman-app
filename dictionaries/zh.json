@@ -107,18 +107,22 @@
 			"list": [
 				{
 					"title": "稅務專家",
+					"icon": "DollarSign",
 					"description": "提供全面的財務與稅務合規建議，確保每筆交易與調查在稅務上都穩妥無虞。"
 				},
 				{
 					"title": "貿易專家",
+					"icon": "Scale",
 					"description": "精通國際貿易法規及市場分析，為客戶提供高效的跨境商業解決方案。"
 				},
 				{
 					"title": "法律專家",
+					"icon": "ChartCandlestick",
 					"description": "確保每個調查與顧問項目合法合規，並提供全面的法律支持。"
 				},
 				{
 					"title": "專業偵探團隊",
+					"icon": "TextSearch",
 					"description": "熟練掌握調查技術，專注於保密性和高效執行，為客戶揭示事實真相。"
 				}
 			],

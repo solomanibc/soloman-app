@@ -107,18 +107,22 @@
 			"list": [
 				{
 					"title": "Tax Experts",
+					"icon": "DollarSign",
 					"description": "Provide comprehensive financial and tax compliance advice to ensure all transactions and investigations are legally sound."
 				},
 				{
 					"title": "Legal Experts",
+					"icon": "Scale",
 					"description": "Ensure every investigative and consulting project complies with the law, offering robust legal support."
 				},
 				{
 					"title": "Trade Experts",
+					"icon": "ChartCandlestick",
 					"description": "Specialize in international trade regulations and market analysis, offering efficient cross-border business solutions."
 				},
 				{
 					"title": "Professional Investigators",
+					"icon": "TextSearch",
 					"description": "Skilled in advanced investigative techniques, focusing on confidentiality and efficient execution to uncover the facts."
 				}
 			],

@@ -3,7 +3,6 @@ import { getDictionary } from "../dictionaries";
 import { FounderCard } from "./founder-card";
 import { OurApproachCard } from "./our-approach-card";
 import { OurProfessionalTeamCard } from "./our-professional-team-card";
-import { SkillCards } from "./skill-cards";
 
 export default async function About({
 	params,
@@ -20,8 +19,6 @@ export default async function About({
 			<FounderCard dict={dict} />
 
 			<OurProfessionalTeamCard dict={dict} />
-
-			<SkillCards />
 
 			<OurApproachCard dict={dict} />
 		</div>

@@ -1,4 +1,6 @@
 import type { Dictionary } from "@/app/[lang]/dictionaries";
+import type * as LucideIcons from "lucide-react";
+import { SkillCard } from "./skill-card";
 
 export const OurProfessionalTeamCard = ({ dict }: { dict: Dictionary }) => {
 	return (
@@ -9,13 +11,17 @@ export const OurProfessionalTeamCard = ({ dict }: { dict: Dictionary }) => {
 			<p className="text-lg text-gray-600">
 				{dict.about.professionalTeam.description}
 			</p>
-			<ul className="list-disc list-inside my-4 ml-4 text-lg text-gray-600">
+
+			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16 mt-8">
 				{dict.about.professionalTeam.list.map((item) => (
-					<li key={item.title}>
-						<strong>{item.title}:</strong> {item.description}
-					</li>
+					<SkillCard
+						key={item.title}
+						title={item.title}
+						description={item.description}
+						icon={item.icon as keyof typeof LucideIcons}
+					/>
 				))}
-			</ul>
+			</div>
 			<p className="text-lg text-gray-600">
 				{dict.about.professionalTeam.excellence}
 			</p>

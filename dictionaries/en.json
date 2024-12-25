@@ -100,6 +100,50 @@
 			"graduation": "the founder of Soloman Investigation and Business Consultant Ltd., with over 12 years of international experience and a solid professional background. I completed my secondary education in Hong Kong before pursuing accounting studies in the UK. I hold certifications in Private Detective Training from the UK, Senior Financial Advisor, and U.S. Certified Financial Consultant.",
 			"experience": "After graduation, I returned to Hong Kong, where I gained extensive practical experience through roles in financial consulting and international trade. Working on business cases across Greater China, the Middle East, Europe, and Africa, I demonstrated exceptional problem-solving abilities and insights. Driven by a passion for uncovering the truth, I transitioned into the investigative industry, progressing from a field investigator at a renowned agency to a senior investigative consultant at Hong Kong’s largest investigation firm, where I deepened my expertise in this field.",
 			"relocating": "After relocating to the UK, I founded Solomon Investigation and Business Consultant Ltd. as a platform to serve clients with my professional expertise and cross-cultural experience. As a passionate professional in the investigative field, I firmly believe that beneath every surface lies hidden truths waiting to be uncovered. My mission is to deliver tailored solutions through professionalism, integrity, and innovation—resolving challenges while achieving mutual success and continually pursuing excellence."
+		},
+		"professionalTeam": {
+			"title": "Our Professional Team",
+			"description": "Our team is composed of multi-disciplinary experts based in both Hong Kong and the UK, bringing extensive industry knowledge and hands-on experience:",
+			"list": [
+				{
+					"title": "Tax Experts",
+					"description": "Provide comprehensive financial and tax compliance advice to ensure all transactions and investigations are legally sound."
+				},
+				{
+					"title": "Legal Experts",
+					"description": "Ensure every investigative and consulting project complies with the law, offering robust legal support."
+				},
+				{
+					"title": "Trade Experts",
+					"description": "Specialize in international trade regulations and market analysis, offering efficient cross-border business solutions."
+				},
+				{
+					"title": "Professional Investigators",
+					"description": "Skilled in advanced investigative techniques, focusing on confidentiality and efficient execution to uncover the facts."
+				}
+			],
+			"excellence": "We excel in handling cross-border investigations and business projects, leveraging local expertise and global perspectives to deliver customized solutions."
+		},
+		"ourApproach": {
+			"title": "Our Approach",
+			"list": [
+				{
+					"title": "Confidentiality and Trust",
+					"description": "Protecting client privacy and data security is our top priority. We guarantee the highest standards to safeguard your information and maintain strict confidentiality throughout the investigation process."
+				},
+				{
+					"title": "Tailored Solutions",
+					"description": "We understand that every client’s needs are unique. Therefore, we design bespoke investigation plans and consulting services to ensure precise and practical outcomes."
+				},
+				{
+					"title": "Professionalism and Efficiency",
+					"description": "With over 12 years of industry experience and international expertise, we diagnose issues quickly and deliver efficient solutions to help clients gain a competitive edge and achieve success."
+				},
+				{
+					"title": "Legal and Compliant Full-Service Support",
+					"description": "Operating within the bounds of legality and compliance, we assist clients in navigating diverse matters, becoming your trusted partner in both personal and business endeavors."
+				}
+			]
 		}
 	},
 	"blog": {

@@ -19,11 +19,11 @@ export default async function About({
 
 			<FounderCard dict={dict} />
 
+			<OurProfessionalTeamCard dict={dict} />
+
 			<SkillCards />
 
-			<OurProfessionalTeamCard />
-
-			<OurApproachCard />
+			<OurApproachCard dict={dict} />
 		</div>
 	);
 }

@@ -154,127 +154,134 @@
 		"title": "最新见解和新闻",
 		"description": "香港商业、金融和企业服务的专家分析和更新"
 	},
-	"corporate": {
-		"title": "企业服务",
-		"description": "全面的商业解决方案，以在香港建立和维持您的业务存在",
-		"hero": {
-			"title": "企业服务",
-			"description": "全面的商业解决方案，以在香港建立和维持您的业务存在"
-		},
-		"cta": {
-			"title": "准备开始了吗？",
-			"description": "今天与我们联系，讨论您的商业服务需求",
-			"button": "联系我们的专家"
-		},
-		"overview": {
-			"title": "企业服务概览",
-			"description": "Soloman IBC 提供一系列企业服务，旨在帮助您在香港建立和维持业务。"
-		},
-		"services": {
-			"legalSupport": {
-				"title": "法律支持",
-				"description": "全面的法律文件和咨询服务"
-			},
-			"directorServices": {
-				"title": "董事服务",
-				"description": "专业的董事服务，为您的香港公司服务"
-			},
-			"compliance": {
-				"title": "合规服务",
-				"description": "确保遵守当地法规并保持良好声誉"
-			},
-			"registeredOffice": {
-				"title": "注册办事处",
-				"description": "显赫的商业地址和邮件处理服务"
-			},
-			"companySecretary": {
-				"title": "公司秘书",
-				"description": "专业的公司秘书服务，以保持法定合规"
-			},
-			"companyFormation": {
-				"title": "公司注册",
-				"description": "专业的公司注册服务，以确保遵守当地法规并保持良好声誉"
-			}
-		},
-		"features": {
-			"title": "为什么选择我们的企业服务？",
-			"points": [
-				"专业团队，经验丰富",
-				"竞争性和透明定价",
-				"快速高效的服务交付",
-				"全面的合规支持",
-				"专职客户经理",
-				"多语言支持"
-			]
-		}
-	},
-	"individual": {
-		"hero": {
-			"title": "个人服务",
-			"description": "全面的个人解决方案，以满足您在香港的财务和法律需求"
-		},
-		"overview": {
-			"title": "我们的个人服务",
-			"description": "我们提供一系列专业服务，以满足个人的需求，从银行业务到移民支持。"
-		},
-		"services": {
-			"bankAccount": {
-				"title": "银行账户开立",
-				"description": "协助在香港开设个人和投资账户"
-			},
-			"investment": {
-				"title": "投资服务",
-				"description": "专业的个人投资和财富管理指导"
-			},
-			"taxPlanning": {
-				"title": "税务规划",
-				"description": "个人税务规划和优化策略"
-			},
-			"immigration": {
-				"title": "移民服务",
-				"description": "支持签证申请和移民程序"
-			},
-			"legalServices": {
-				"title": "法律服务",
-				"description": "个人法律咨询和文件服务"
-			},
-			"insurance": {
-				"title": "保险解决方案",
-				"description": "全面的个人保险规划和保障"
-			}
-		},
-		"benefits": {
-			"title": "我们的个人服务的优势",
-			"points": [
-				"个性化服务方法",
-				"经验丰富的专业顾问",
-				"全面的解决方案",
-				"竞争性的服务费用",
-				"多语言支持",
-				"严格的保密性"
-			]
-		},
-		"process": {
-			"title": "如何运作",
-			"steps": {
-				"1": {
-					"title": "初始咨询",
-					"description": "与我们的专家顾问讨论您的需求和目标"
+	"services_investigation": {
+		"title": "Investigation Services",
+		"description": "We provide comprehensive investigations and business consulting services to help clients succeed in international markets.",
+		"button_corporate": "Corporate Investigations",
+		"button_personal": "Personal Investigations",
+		"conclusion": "Each service can be tailored to meet the specific needs of our clients, ensuring precise and detailed investigation results. We prioritize privacy and compliance, guaranteeing a secure and reliable process. For further inquiries or consultations, feel free to contact us!",
+		"corporate": {
+			"title": "Corporate Investigations",
+			"description": "We provide comprehensive investigations and business consulting services to help clients succeed in international markets.",
+			"conclusion": "Each service can be tailored to meet the specific needs of our clients, ensuring precise and detailed investigation results. We prioritize privacy and compliance, guaranteeing a secure and reliable process. For further inquiries or consultations, feel free to contact us!",
+			"list": [
+				{
+					"title": "Company Background",
+					"icon": "Building2",
+					"description": "Thorough investigation of company history and operations",
+					"features": [
+						"Investigate the company's history, registration details, and scope of operations.",
+						"Verify if the company has a history of illegal operations, contract breaches, or other negative records.",
+						"Analyze the company’s financial condition and market reputation."
+					]
 				},
-				"2": {
-					"title": "定制解决方案",
-					"description": "根据您的需求接收定制的服务包"
+				{
+					"title": "Property Investigation",
+					"icon": "Home",
+					"description": "Detailed verification of property-related matters",
+					"features": [
+						"Verify property ownership, leasing arrangements, and any legal disputes",
+						"Ensure the authenticity and compliance of property transactions",
+						"Investigate property history to identify potential risks"
+					]
 				},
-				"3": {
-					"title": "实施",
-					"description": "快速和专业的服务包执行"
+				{
+					"title": "Background Investigation",
+					"icon": "Users",
+					"description": "Comprehensive background checks on key personnel",
+					"features": [
+						"Conduct thorough identity checks on management, shareholders, or business partners",
+						"Identify hidden conflicts of interest or unethical business practices"
+					]
+				},
+				{
+					"title": "Asset Investigation",
+					"icon": "Briefcase",
+					"description": "Detailed assessment of company assets",
+					"features": [
+						"Assess the company’s assets, including fixed and liquid assets",
+						"Locate hidden or transferred assets, especially in litigation cases"
+					]
+				},
+				{
+					"title": "Mystery Shopping",
+					"icon": "ShoppingBag",
+					"description": "Professional service quality evaluation",
+					"features": [
+						"Deploy professional mystery shoppers to evaluate service quality",
+						"Analyze customer experiences and provide recommendations for improvement to enhance brand image"
+					]
+				},
+				{
+					"title": "Marriage Records",
+					"icon": "HeartHandshake",
+					"description": "Verification of marital status for risk management",
+					"features": [
+						"Assess legal compliance of the company, including tax, regulatory, and other legal matters",
+						"Identify potential legal issues and develop strategies to address them"
+					]
 				}
-			}
+			]
 		},
-		"cta": {
-			"title": "开始您的旅程",
-			"description": "今天与我们联系，讨论您的个人服务需求",
-			"button": "安排咨询"
+		"personal": {
+			"title": "Personal Investigations",
+			"description": "Discreet and professional investigation services for personal matters and peace of mind",
+			"list": [
+				{
+					"title": "People Search & Address Investigation",
+					"icon": "MapPin",
+					"description": "Verification of marital status for risk management",
+					"features": [
+						"Assist in locating estranged family members, friends, or business partners",
+						"Confirm the target's address or latest contact information"
+					]
+				},
+				{
+					"title": "Partner Monitoring",
+					"icon": "Eye",
+					"description": "Professional monitoring services for safety concerns",
+					"features": [
+						"Monitor partner activities for abnormal behavior to address trust or safety concerns",
+						"Provide detailed reports to assist in handling relationship issues"
+					]
+				},
+				{
+					"title": "Child Activity Monitoring",
+					"icon": "Baby",
+					"description": "Ensure the safety and well-being of minors",
+					"features": [
+						"Help parents understand the activities and social circles of minors",
+						"Address suspected risky behaviors or threats in advance"
+					]
+				},
+				{
+					"title": "Online Dating Background Checks",
+					"icon": "Heart",
+					"description": "Verify the authenticity of online relationships",
+					"features": [
+						"Verify the authenticity and background of online dating partners",
+						"Confirm if the individual has undisclosed marital or criminal records"
+					]
+				},
+				{
+					"title": "Life and Death Records",
+					"icon": "FileCheck",
+					"description": "Official record verification services",
+					"features": [
+						"Confirm the living or deceased status of an individual, particularly in inheritance cases",
+						"Verify the authenticity of life or death records for legal purposes"
+					]
+				},
+				{
+					"title": "Bankruptcy Records",
+					"icon": "UserCheck",
+					"description": "Financial background investigation",
+					"features": [
+						"Investigate an individual's financial background and bankruptcy history",
+						"Assess risks associated with financial transactions or partnerships"
+					]
+				}
+			]
 		}
 	}
 }

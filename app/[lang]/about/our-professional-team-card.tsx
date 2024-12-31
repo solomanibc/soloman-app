@@ -1,4 +1,5 @@
 import type { Dictionary } from "@/app/[lang]/dictionaries";
+import { DynamicIcon } from "@/components/dynamic-icon";
 import type * as LucideIcons from "lucide-react";
 import { SkillCard } from "./skill-card";
 
@@ -18,7 +19,12 @@ export const OurProfessionalTeamCard = ({ dict }: { dict: Dictionary }) => {
 						key={item.title}
 						title={item.title}
 						description={item.description}
-						icon={item.icon as keyof typeof LucideIcons}
+						icon={
+							<DynamicIcon
+								name={item.icon as keyof typeof LucideIcons}
+								className="w-12 h-12 mx-auto mb-4"
+							/>
+						}
 					/>
 				))}
 			</div>

@@ -13,9 +13,10 @@ import { Globe } from "lucide-react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 
-const languages = [
+export const languages: { code: Locale; name: string }[] = [
 	{ code: "en", name: "English" },
 	{ code: "zh", name: "正體中文" },
+	{ code: "cmn", name: "简体字" },
 ];
 
 export const SwitchLocale = ({ lang }: { lang: Locale }) => {

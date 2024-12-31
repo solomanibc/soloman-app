@@ -1,7 +1,7 @@
 {
 	"nav": {
 		"home": "Home",
-		"about": "About Us",
+		"about": "关于我们",
 		"contact": "Contact",
 		"blog": "Blog",
 		"servicesInvestigation": "Investigation Services",
@@ -93,59 +93,59 @@
 		"imageAlt": "Hero image"
 	},
 	"about": {
-		"title": "About US",
+		"title": "关于我们",
 		"founder": {
-			"title": "Founder’s Profile",
-			"name": "I am Mr. Sulayman,",
-			"graduation": "the founder of Soloman Investigation and Business Consultant Ltd., with over 12 years of international experience and a solid professional background. I completed my secondary education in Hong Kong before pursuing accounting studies in the UK. I hold certifications in Private Detective Training from the UK, Senior Financial Advisor, and U.S. Certified Financial Consultant.",
-			"experience": "After graduation, I returned to Hong Kong, where I gained extensive practical experience through roles in financial consulting and international trade. Working on business cases across Greater China, the Middle East, Europe, and Africa, I demonstrated exceptional problem-solving abilities and insights. Driven by a passion for uncovering the truth, I transitioned into the investigative industry, progressing from a field investigator at a renowned agency to a senior investigative consultant at Hong Kong’s largest investigation firm, where I deepened my expertise in this field.",
-			"relocating": "After relocating to the UK, I founded Solomon Investigation and Business Consultant Ltd. as a platform to serve clients with my professional expertise and cross-cultural experience. As a passionate professional in the investigative field, I firmly believe that beneath every surface lies hidden truths waiting to be uncovered. My mission is to deliver tailored solutions through professionalism, integrity, and innovation—resolving challenges while achieving mutual success and continually pursuing excellence."
+			"title": "创始人简介",
+			"name": "我是苏莱曼，",
+			"graduation": "索乐万调查及商业顾问有限公司的创始人，拥有超过12年的跨国经验与深厚的专业背景。我在香港完成中学教育，后赴英国修读会计专业，并取得英国私家侦探训练证书、高级理财顾问证书及美国认证财务顾问证书。",
+			"experience": "毕业后，我回到香港，先后从事理财顾问及外贸行业，积累了丰富的实战经验。在处理中港台及中东、欧洲、非洲等地的商业案例中，我展现了卓越的洞察力与解决问题的能力。因对真相探索的热忱，我投身侦探行业，从老牌侦探社的前线调查员一路晋升为全港最大规模侦探社的高级调查顾问，在该领域深耕多年。",
+			"relocating": "移居英国后，我希望以索乐万调查及商业顾问有限公司为平台，将我的专业知识与跨文化经验服务于更多客户。作为一名热爱侦探工作的专业人士，我坚信，每一件事情的表面之下都可能隐藏着鲜为人知的真相。我的使命是以专业、诚信和创新的方式，为客户提供量身定制的解决方案，解决问题的同时实现双赢，并不断追求卓越。 "
 		},
 		"professionalTeam": {
-			"title": "Our Professional Team",
-			"description": "Our team is composed of multi-disciplinary experts based in both Hong Kong and the UK, bringing extensive industry knowledge and hands-on experience:",
+			"title": "专业团队",
+			"description": "我们的团队由来自香港及英国的多领域专家组成，拥有深厚的行业背景与丰富的实践经验：",
 			"list": [
 				{
-					"title": "Tax Experts",
+					"title": "税务专家",
 					"icon": "DollarSign",
-					"description": "Provide comprehensive financial and tax compliance advice to ensure all transactions and investigations are legally sound."
+					"description": "提供全面的财务与税务合规建议，确保每笔交易与调查在税务上都稳妥无虞。"
 				},
 				{
-					"title": "Legal Experts",
+					"title": "贸易专家",
 					"icon": "Scale",
-					"description": "Ensure every investigative and consulting project complies with the law, offering robust legal support."
+					"description": "精通国际贸易法规及市场分析，为客户提供高效的跨境商业解决方案。"
 				},
 				{
-					"title": "Trade Experts",
+					"title": "法律专家",
 					"icon": "ChartCandlestick",
-					"description": "Specialize in international trade regulations and market analysis, offering efficient cross-border business solutions."
+					"description": "确保每个调查与顾问项目合法合规，并提供全面的法律支持。"
 				},
 				{
-					"title": "Professional Investigators",
+					"title": "专业侦探团队",
 					"icon": "TextSearch",
-					"description": "Skilled in advanced investigative techniques, focusing on confidentiality and efficient execution to uncover the facts."
+					"description": "熟练掌握调查技术，专注于保密性和高效执行，为客户揭示事实真相。"
 				}
 			],
-			"excellence": "We excel in handling cross-border investigations and business projects, leveraging local expertise and global perspectives to deliver customized solutions."
+			"excellence": "我们擅长处理跨境调查与商业项目，结合本地专业知识与国际视野，提供量身定制的解决方案，帮助客户在全球化背景下应对挑战。"
 		},
 		"ourApproach": {
-			"title": "Our Approach",
+			"title": "我们的工作方式",
 			"list": [
 				{
-					"title": "Confidentiality and Trust",
-					"description": "Protecting client privacy and data security is our top priority. We guarantee the highest standards to safeguard your information and maintain strict confidentiality throughout the investigation process."
+					"title": "保密与信任",
+					"description": "每位客户的隐私和数据安全始终是我们的首要考量。我们承诺以最高标准保护您的信息，确保调查过程绝对保密。"
 				},
 				{
-					"title": "Tailored Solutions",
-					"description": "We understand that every client’s needs are unique. Therefore, we design bespoke investigation plans and consulting services to ensure precise and practical outcomes."
+					"title": "量身定制的解决方案",
+					"description": "我们深知每位客户的需求各不相同。因此，我们根据具体情况为您设计专属的调查计划与顾问服务，确保结果精准且切合实际。"
 				},
 				{
-					"title": "Professionalism and Efficiency",
-					"description": "With over 12 years of industry experience and international expertise, we diagnose issues quickly and deliver efficient solutions to help clients gain a competitive edge and achieve success."
+					"title": "专业与效率",
+					"description": "凭借超过12年的行业经验和跨国专业技能，我们能够快速诊断问题并提供高效的解决方案，助您掌握先机，赢得成功。"
 				},
 				{
-					"title": "Legal and Compliant Full-Service Support",
-					"description": "Operating within the bounds of legality and compliance, we assist clients in navigating diverse matters, becoming your trusted partner in both personal and business endeavors."
+					"title": "合法与合规的全方位支持",
+					"description": "我们在合法合规的框架下，协助客户处理多样化的事务，成为您值得信赖的生活与商业伙伴。"
 				}
 			]
 		}

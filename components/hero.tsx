@@ -19,9 +19,9 @@ export function Hero({
 	className,
 }: HeroProps) {
 	const heightClasses = {
-		small: "h-[40vh]",
-		medium: "h-[60vh]",
-		large: "h-[80vh]",
+		small: "h-[30vh]",
+		medium: "h-[50vh]",
+		large: "h-[70vh]",
 	};
 
 	return (

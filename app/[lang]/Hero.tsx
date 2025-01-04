@@ -22,10 +22,10 @@ export default async function Hero({ lang }: LocaleParams) {
 			</div>
 			<div className="md:w-1/2">
 				<Image
-					src="https://images.unsplash.com/photo-1578574577315-3fbeb0cecdc2?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+					src="/images/hero.jpg"
 					alt={dict.hero.imageAlt}
 					width={800}
-					height={600}
+					height={800}
 					className="rounded-lg shadow-lg"
 				/>
 			</div>

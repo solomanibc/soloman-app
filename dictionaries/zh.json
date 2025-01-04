@@ -155,130 +155,129 @@
 		"description": "香港商业、金融和企业服务的专家分析和更新"
 	},
 	"services_investigation": {
-		"title": "Investigation Services",
+		"title": "調查服務",
 		"description": "We provide comprehensive investigations and business consulting services to help clients succeed in international markets.",
-		"button_corporate": "Corporate Investigations",
-		"button_personal": "Personal Investigations",
-		"conclusion": "Each service can be tailored to meet the specific needs of our clients, ensuring precise and detailed investigation results. We prioritize privacy and compliance, guaranteeing a secure and reliable process. For further inquiries or consultations, feel free to contact us!",
+		"button_corporate": "企業調查",
+		"button_personal": "個人調查",
+		"conclusion": "每項服務均可根據客戶需求進行定制，確保調查結果精準且具體。同時，我們高度重視隱私與合規性，保證調查過程安全可靠。如需進一步說明或諮詢，隨時聯繫我們！",
 		"corporate": {
-			"title": "Corporate Investigations",
+			"title": "企業調查",
 			"description": "We provide comprehensive investigations and business consulting services to help clients succeed in international markets.",
-			"conclusion": "Each service can be tailored to meet the specific needs of our clients, ensuring precise and detailed investigation results. We prioritize privacy and compliance, guaranteeing a secure and reliable process. For further inquiries or consultations, feel free to contact us!",
 			"list": [
 				{
-					"title": "Company Background",
+					"title": "公司背景",
 					"icon": "Building2",
-					"description": "Thorough investigation of company history and operations",
+					"description": "調查公司歷史、註冊信息、經營範圍等。",
 					"features": [
-						"Investigate the company's history, registration details, and scope of operations.",
-						"Verify if the company has a history of illegal operations, contract breaches, or other negative records.",
-						"Analyze the company’s financial condition and market reputation."
+						"調查公司歷史、註冊信息、經營範圍等。",
+						"確認企業是否有不良記錄，如違法經營、合同違約等。",
+						"分析公司的財務狀況和市場聲譽。"
 					]
 				},
 				{
-					"title": "Property Investigation",
+					"title": "物業調查",
 					"icon": "Home",
-					"description": "Detailed verification of property-related matters",
+					"description": "詳細核實與物業有關的事務",
 					"features": [
-						"Verify property ownership, leasing arrangements, and any legal disputes",
-						"Ensure the authenticity and compliance of property transactions",
-						"Investigate property history to identify potential risks"
+						"查核物業的所有權、租賃情況及相關法律糾紛。",
+						"確保物業交易的真實性及合規性。",
+						"調查物業的歷史記錄，避免潛在風險。"
 					]
 				},
 				{
-					"title": "Background Investigation",
+					"title": "背景調查",
 					"icon": "Users",
-					"description": "Comprehensive background checks on key personnel",
+					"description": "詳細核實與背景有關的事務",
 					"features": [
-						"Conduct thorough identity checks on management, shareholders, or business partners",
-						"Identify hidden conflicts of interest or unethical business practices"
+						"對企業管理層、股東或合作夥伴進行詳細的身份核查。",
+						"調查是否存在隱藏利益衝突或不良商業行為。"
 					]
 				},
 				{
-					"title": "Asset Investigation",
+					"title": "資產調查",
 					"icon": "Briefcase",
-					"description": "Detailed assessment of company assets",
+					"description": "詳細評估公司資產",
 					"features": [
-						"Assess the company’s assets, including fixed and liquid assets",
-						"Locate hidden or transferred assets, especially in litigation cases"
+						"確定企業的資產規模，包括固定資產和流動資產。",
+						"查找隱藏或轉移的資產，特別在訴訟案件中。"
 					]
 				},
 				{
-					"title": "Mystery Shopping",
+					"title": "神秘顧客",
 					"icon": "ShoppingBag",
-					"description": "Professional service quality evaluation",
+					"description": "專業服務品質評估",
 					"features": [
-						"Deploy professional mystery shoppers to evaluate service quality",
-						"Analyze customer experiences and provide recommendations for improvement to enhance brand image"
+						"派遣專業的神秘顧客進行現場調查，評估企業的服務質量。",
+						"分析顧客體驗，提供改進建議，提升品牌形象。"
 					]
 				},
 				{
-					"title": "Marriage Records",
+					"title": "婚姻記錄",
 					"icon": "HeartHandshake",
-					"description": "Verification of marital status for risk management",
+					"description": "婚姻記錄調查",
 					"features": [
-						"Assess legal compliance of the company, including tax, regulatory, and other legal matters",
-						"Identify potential legal issues and develop strategies to address them"
+						"驗證個人或商業交易中的相關人士婚姻狀態，避免欺詐或風險。",
+						"調查婚姻關係是否涉及潛在的法律糾紛。"
 					]
 				}
 			]
 		},
 		"personal": {
-			"title": "Personal Investigations",
+			"title": "個人調查",
 			"description": "Discreet and professional investigation services for personal matters and peace of mind",
 			"list": [
 				{
-					"title": "People Search & Address Investigation",
+					"title": "尋人及地址調查",
 					"icon": "MapPin",
 					"description": "Verification of marital status for risk management",
 					"features": [
-						"Assist in locating estranged family members, friends, or business partners",
-						"Confirm the target's address or latest contact information"
+						"協助查找失聯的親人、朋友或商業夥伴。",
+						"確定目標的住址或最新聯繫方式。"
 					]
 				},
 				{
-					"title": "Partner Monitoring",
+					"title": "伴侶動向",
 					"icon": "Eye",
-					"description": "Professional monitoring services for safety concerns",
+					"description": "專業監視服務，為安全關係",
 					"features": [
-						"Monitor partner activities for abnormal behavior to address trust or safety concerns",
-						"Provide detailed reports to assist in handling relationship issues"
+						"監察伴侶的行動是否異常，以確認忠誠或安全問題。",
+						"提供詳細報告，幫助處理情感問題。"
 					]
 				},
 				{
-					"title": "Child Activity Monitoring",
+					"title": "子女動向",
 					"icon": "Baby",
-					"description": "Ensure the safety and well-being of minors",
+					"description": "確保兒童的安全和健康",
 					"features": [
-						"Help parents understand the activities and social circles of minors",
-						"Address suspected risky behaviors or threats in advance"
+						"協助家長了解未成年子女的活動情況及交友圈。",
+						"對疑似不良行為或風險進行提前干預。"
 					]
 				},
 				{
-					"title": "Online Dating Background Checks",
+					"title": "網戀對象背景調查",
 					"icon": "Heart",
-					"description": "Verify the authenticity of online relationships",
+					"description": "確認線上關係的真實性",
 					"features": [
-						"Verify the authenticity and background of online dating partners",
-						"Confirm if the individual has undisclosed marital or criminal records"
+						"核查網絡約會對象的真實身份及背景。",
+						"確認對方是否有隱瞞的婚姻或犯罪記錄。"
 					]
 				},
 				{
-					"title": "Life and Death Records",
+					"title": "生死記錄",
 					"icon": "FileCheck",
-					"description": "Official record verification services",
+					"description": "官方記錄驗證服務",
 					"features": [
-						"Confirm the living or deceased status of an individual, particularly in inheritance cases",
-						"Verify the authenticity of life or death records for legal purposes"
+						"確定個人的生存狀況或死亡信息，特別是在遺產相關案件中。",
+						"核實生死記錄的真實性以應對法律需求。"
 					]
 				},
 				{
-					"title": "Bankruptcy Records",
+					"title": "破產記錄",
 					"icon": "UserCheck",
-					"description": "Financial background investigation",
+					"description": "金融背景調查",
 					"features": [
-						"Investigate an individual's financial background and bankruptcy history",
-						"Assess risks associated with financial transactions or partnerships"
+						"調查目標個人的財務背景及破產記錄。",
+						"確認其在商業交易或合作中的信譽風險。"
 					]
 				}
 			]

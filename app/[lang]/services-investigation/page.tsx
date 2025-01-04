@@ -4,10 +4,13 @@ import { InvestigationContent } from "./investigation-content";
 
 export default async function InvestigationServicesPage({
 	params,
+	searchParams,
 }: {
 	params: Promise<{ lang: Locale }>;
+	searchParams: Promise<{ type?: "corporate" | "personal" | undefined }>;
 }) {
 	const { lang } = await params;
+	const { type } = await searchParams;
 	const dict = await getDictionary(lang);
 
 	return (
@@ -21,7 +24,7 @@ export default async function InvestigationServicesPage({
 			{/* Main Content */}
 			<section className="py-20">
 				<div className="container mx-auto px-4">
-					<InvestigationContent dict={dict} />
+					<InvestigationContent dict={dict} type={type} />
 				</div>
 				<div className="container mx-auto px-4">
 					{dict.services_investigation.conclusion}

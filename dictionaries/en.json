@@ -25,13 +25,13 @@
 		"description": "Soloman IBC is a company that provides services to clients."
 	},
 	"services": {
-		"title": "Our Services",
+		"title": "Our Investigation Services",
 		"corporate": {
-			"title": "Corporate Services",
+			"title": "Corporate Investigations",
 			"description": "Comprehensive corporate solutions to establish and maintain your business presence in Hong Kong"
 		},
 		"individual": {
-			"title": "Individual Services",
+			"title": "Personal Investigations",
 			"description": "Comprehensive personal solutions for your financial and legal needs in Hong Kong"
 		},
 		"graphicDesign": {

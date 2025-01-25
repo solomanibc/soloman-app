@@ -8,10 +8,7 @@
 		"corporate": "Corporate",
 		"individual": "Individual",
 		"ourProfessionalism": "Our Professionalism",
-		"businessConsultation": "Business Consultation",
-		"ukMarket": "UK Market",
-		"hkMarket": "HK Market",
-		"globalMarket": "Global Market",
+		"businessConsultancy": "商业顾问服务",
 		"media": "Media"
 	},
 	"trusted": {
@@ -39,19 +36,129 @@
 			"description": "We design graphics for businesses."
 		}
 	},
-	"businessConsultation": {
+	"cta": {
+		"title": "Ready to Expand Your Business?",
+		"description": "For more information or to schedule a consultation, please don't hesitate to contact us",
+		"button": "Schedule Consultation"
+	},
+	"businessConsultancy": {
+		"title": "商业顾问服务",
+		"description": "全面的商业咨询服务，帮助您在国际市场上取得成功。",
 		"ukMarket": {
-			"title": "UK Market",
-			"description": "Comprehensive business consultation services to help you succeed in international markets."
+			"title": "商业顾问服务",
+			"description": "全面的商业咨询服务，帮助您在国际市场上取得成功。",
+			"services": [
+				{
+					"id": "franchise",
+					"title": "电子烟零售店加盟计划",
+					"items": [
+						"提供电子烟市场的趋势分析与法规解读。",
+						"协助选择品牌、制定加盟策略、店面选址、产品供应链管理及运营支持。"
+					]
+				},
+				{
+					"id": "websiteDesignMarketing",
+					"title": "网站、设计及市场推广",
+					"items": [
+						"提供网站设计、品牌形象创建、以及SEO优化服务。",
+						"制定针对英国市场的数字营销策略，包括社交媒体推广与电子邮件营销。"
+					]
+				},
+				{
+					"id": "cbdProducts",
+					"title": "CBD相关的产品",
+					"items": [
+						"介绍CBD市场法规及产品合规性要求。",
+						"提供生产、分销及品牌推广的咨询服务。"
+					]
+				},
+				{
+					"id": "healthFoodManufacturing",
+					"title": "健康食品代工",
+					"items": [
+						"推荐英国本地可靠的健康食品制造商，协助进行配方开发与生产管理。",
+						"提供产品包装设计及市场营销支持。"
+					]
+				},
+				{
+					"id": "importAndProcurementForUK",
+					"title": "进口到英国及采购",
+					"items": [
+						"协助处理英国的海关清关、物流安排及产品分销渠道建设。",
+						"提供采购供应商匹配及国际贸易政策建议。"
+					]
+				},
+				{
+					"id": "otherUKRelatedBusinessConsultancyServices",
+					"title": "其他英国产品相关的商业咨询及服务",
+					"items": ["包括税务建议、法律合规性审查及英国市场进入战略规划。"]
+				}
+			]
 		},
 		"hkMarket": {
-			"title": "HK Market",
-			"description": "Comprehensive business consultation services to help you succeed in international markets."
+			"title": "香港市场",
+			"description": "全面的商业咨询服务，帮助您在国际市场上取得成功。",
+			"services": [
+				{
+					"id": "acquiringExistingCompaniesAndLicenses",
+					"title": "购买现有公司及其牌照",
+					"items": [
+						"协助寻找适合的公司转让机会，包括牌照的验证及尽职调查。",
+						"提供法律支持，确保交易合法合规。"
+					]
+				},
+				{
+					"id": "importAndProcurementForHongKong",
+					"title": "进口到香港及采购",
+					"items": [
+						"指导处理进出口程序，包括文件准备、物流协调及本地市场营销支持。"
+					]
+				},
+				{
+					"id": "otherHongKongRelatedBusinessConsultancyServices",
+					"title": "其他香港相关的商业咨询及服务",
+					"items": ["包括税务优化、商业注册及银行开户服务。"]
+				}
+			]
 		},
 		"globalMarket": {
-			"title": "Global Market",
-			"description": "Comprehensive business consultation services to help you succeed in international markets."
-		}
+			"title": "全球市场",
+			"description": "全面的商业咨询服务，帮助您在国际市场上取得成功。",
+			"services": [
+				{
+					"id": "oreAndRawMaterialProcurement",
+					"title": "矿石及原材料采购",
+					"items": [
+						"提供矿石市场分析及资源分布信息，协助找到可靠的供应商。",
+						"支持交易谈判及物流管理。"
+					]
+				},
+				{
+					"id": "preciousMetalsAndGemstonesProcurement",
+					"title": "贵金属及宝石采购",
+					"items": [
+						"协助完成贵金属及宝石采购，提供真实性鉴定服务。",
+						"包括价格谈判、合同起草及运输安排支持。"
+					]
+				},
+				{
+					"id": "petroleumAndNaturalGasProcurement",
+					"title": "石油和天然气采购",
+					"items": [
+						"提供能源市场的深度分析及供应链搭建。",
+						"协调交易合同及物流安排，确保供应稳定。"
+					]
+				},
+				{
+					"id": "otherRelatedBusinessConsultancyServices",
+					"title": "其他相关的商业咨询及服务",
+					"items": [
+						"提供全球贸易项目支持，包括文化沟通、合同审查及风险控制策略。"
+					]
+				}
+			]
+		},
+		"conclusion": "如需了解更多详细信息或个性化建议，请随时联系我们。"
 	},
 	"expertise": {
 		"title": "Professional Expertise",

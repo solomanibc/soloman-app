@@ -1,17 +1,13 @@
+import type { Dictionary } from "@/app/[lang]/dictionaries";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
 
-export const CTA = () => {
+export const CTA = ({ dict }: { dict: Dictionary }) => {
 	return (
-		<div className="mt-20 text-center">
-			<h3 className="text-2xl font-bold mb-6">
-				Ready to Expand Your Business?
-			</h3>
-			<p className="text-lg text-gray-600 mb-8">
-				Contact us for a detailed consultation tailored to your business Contact
-				us for a detailed consultation tailored to your business needs
-			</p>
+		<div className="my-20 text-center">
+			<h3 className="text-2xl font-bold mb-6">{dict.cta.title}</h3>
+			<p className="text-lg text-gray-600 mb-8">{dict.cta.description}</p>
 			<Link
 				href="https://cal.com/soloman-ibc-appointement/30min"
 				target="_blank"
@@ -20,7 +16,7 @@ export const CTA = () => {
 					buttonVariants({ variant: "default" }),
 				)}
 			>
-				Schedule Consultation
+				{dict.cta.button}
 			</Link>
 		</div>
 	);

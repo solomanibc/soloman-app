@@ -5,20 +5,15 @@
 		"contact": "Contact",
 		"blog": "Blog",
 		"servicesInvestigation": "Investigation Services",
-		"corporate": "Corporate",
-		"individual": "Individual",
 		"ourProfessionalism": "Our Professionalism",
-		"businessConsultation": "Business Consultation",
-		"ukMarket": "UK Market",
-		"hkMarket": "HK Market",
-		"globalMarket": "Global Market",
+		"businessConsultancy": "Business Consultancy",
 		"media": "Media"
 	},
 	"trusted": {
 		"title": "Trusted by"
 	},
 	"footer": {
-		"copyright": "Copyright © 2024 Soloman IBC. All rights reserved.",
+		"copyright": "Copyright 2024 Soloman IBC. All rights reserved.",
 		"quickLinks": "Quick Links",
 		"services": "Services",
 		"followUs": "Follow Us",
@@ -39,19 +34,133 @@
 			"description": "We design graphics for businesses."
 		}
 	},
-	"businessConsultation": {
+	"cta": {
+		"title": "Ready to Expand Your Business?",
+		"description": "For more information or to schedule a consultation, please don't hesitate to contact us",
+		"button": "Schedule Consultation"
+	},
+	"businessConsultancy": {
+		"title": "Business Consultancy",
+		"description": "Comprehensive business consultancy services to help you succeed in international markets.",
 		"ukMarket": {
 			"title": "UK Market",
-			"description": "Comprehensive business consultation services to help you succeed in international markets."
+			"description": "Comprehensive business consultation services for the UK market",
+			"services": [
+				{
+					"id": "franchise",
+					"title": "E-Cigarette Retail Franchise Program",
+					"items": [
+						"Provide market trend analysis and regulatory guidance for the UK e-cigarette industry.",
+						"Assist with brand selection, franchise strategy development, store location, product supply chain management, and operational support."
+					]
+				},
+				{
+					"id": "websiteDesignMarketing",
+					"title": "Website, Design, and Marketing",
+					"items": [
+						"Deliver web design, brand creation, and SEO optimization services.",
+						"Develop tailored digital marketing strategies for the UK market, including social media campaigns and email marketing."
+					]
+				},
+				{
+					"id": "cbdProducts",
+					"title": "CBD Products",
+					"items": [
+						"Offer insights into CBD market regulations and product compliance requirements.",
+						"Provide consulting services for production, distribution, and brand promotion."
+					]
+				},
+				{
+					"id": "healthFoodManufacturing",
+					"title": "Health Food Manufacturing",
+					"items": [
+						"Recommend trusted local manufacturers for health food products and assist with recipe development and production management.",
+						"Provide packaging design and marketing strategy support."
+					]
+				},
+				{
+					"id": "importAndProcurementForTheUK",
+					"title": "Import and Procurement for the UK",
+					"items": [
+						"Assist with customs clearance, logistics arrangements, and building distribution channels in the UK.",
+						"Offer supplier matchmaking services and advice on international trade policies."
+					]
+				},
+				{
+					"id": "otherUKRelatedBusinessConsultancyServices",
+					"title": "Other UK-related Business Consultancy Services",
+					"items": [
+						"Include tax advice, legal compliance reviews, and UK market entry strategy planning."
+					]
+				}
+			]
 		},
 		"hkMarket": {
 			"title": "HK Market",
-			"description": "Comprehensive business consultation services to help you succeed in international markets."
+			"description": "Comprehensive business consultation services to help you succeed in international markets.",
+			"services": [
+				{
+					"id": "acquiringExistingCompaniesAndLicenses",
+					"title": "Acquiring Existing Companies and Licenses",
+					"items": [
+						"Support in identifying company acquisition opportunities, including license validation and due diligence.",
+						"Provide legal assistance to ensure compliance and secure transactions."
+					]
+				},
+				{
+					"id": "importAndProcurementForHongKong",
+					"title": "Import and Procurement for Hong Kong",
+					"items": [
+						"Guide clients through import/export procedures, document preparation, logistics coordination, and local market strategies."
+					]
+				},
+				{
+					"id": "otherHongKongRelatedBusinessConsultancyServices",
+					"title": "Other Hong Kong-related Business Consultancy Services",
+					"items": [
+						"Include tax optimization, business registration, and bank account opening assistance."
+					]
+				}
+			]
 		},
 		"globalMarket": {
 			"title": "Global Market",
-			"description": "Comprehensive business consultation services to help you succeed in international markets."
-		}
+			"description": "Comprehensive business consultation services to help you succeed in international markets.",
+			"services": [
+				{
+					"id": "oreAndRawMaterialProcurement",
+					"title": "Ore and Raw Material Procurement",
+					"items": [
+						"Provide analysis of the ore market and resource availability, and assist in sourcing reliable suppliers.",
+						"Support contract negotiations and logistics management."
+					]
+				},
+				{
+					"id": "preciousMetalsAndGemstonesProcurement",
+					"title": "Precious Metals and Gemstones Procurement",
+					"items": [
+						"Facilitate the acquisition of precious metals and gemstones, offering authentication services.",
+						"Include price negotiation, contract drafting, and transportation logistics support."
+					]
+				},
+				{
+					"id": "petroleumAndNaturalGasProcurement",
+					"title": "Petroleum and Natural Gas Procurement",
+					"items": [
+						"Deliver in-depth energy market analysis and establish supply chain connections.",
+						"Coordinate contract agreements and logistics to ensure steady supply."
+					]
+				},
+				{
+					"id": "otherRelatedBusinessConsultancyServices",
+					"title": "Other Related Business Consultancy Services",
+					"items": [
+						"Offer global trade project support, including cultural communication, contract review, and risk management strategies."
+					]
+				}
+			]
+		},
+		"conclusion": "For more information or personalized assistance, feel free to contact us."
 	},
 	"expertise": {
 		"title": "Professional Expertise",

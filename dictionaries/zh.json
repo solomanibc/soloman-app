@@ -4,14 +4,9 @@
 		"about": "关于",
 		"contact": "联系",
 		"blog": "博客",
-		"services": "服务",
-		"corporate": "企业",
-		"individual": "个人",
+		"servicesInvestigation": "服务",
 		"ourProfessionalism": "我们的专业",
-		"businessConsultation": "商业咨询",
-		"ukMarket": "英国市场",
-		"hkMarket": "香港市场",
-		"globalMarket": "全球市场",
+		"businessConsultancy": "商業顧問服務",
 		"media": "媒体"
 	},
 	"trusted": {
@@ -39,18 +34,124 @@
 			"description": "我们为商业设计图形。"
 		}
 	},
-	"businessConsultation": {
+	"cta": {
+		"title": "Ready to Expand Your Business?",
+		"description": "For more information or to schedule a consultation, please don't hesitate to contact us",
+		"button": "Schedule Consultation"
+	},
+	"businessConsultancy": {
+		"title": "商業顧問服務",
+		"description": "为您提供全面的商业咨询服务，以帮助您在国际市场上取得成功。",
 		"ukMarket": {
-			"title": "英国市场",
-			"description": "全面的商业咨询服务，帮助您在国际市场上取得成功。"
+			"title": "英國市場",
+			"description": "全面的商业咨询服务，帮助您在国际市场上取得成功。",
+			"services": [
+				{
+					"id": "franchise",
+					"title": "電子煙零售店加盟計畫",
+					"items": [
+						"提供電子煙市場的趨勢分析與法規解讀。",
+						"協助選擇品牌、制定加盟策略、店選選址、產品供應鏈管理及營運支援。"
+					]
+				},
+				{
+					"id": "websiteDesignMarketing",
+					"title": "網站、設計及市場推廣",
+					"items": [
+						"提供網站設計、品牌形象創建、SEO以及優化服務。",
+						"制定針對英國市場的數碼營銷策略，包括社交媒體推廣與電子郵件行銷。"
+					]
+				},
+				{
+					"id": "cbdProducts",
+					"title": "CBD相關的產品",
+					"items": [
+						"介紹CBD市場法規及產品合規性要求。",
+						"提供生產、經銷及品牌推廣的諮詢服務。"
+					]
+				},
+				{
+					"id": "healthFoodManufacturing",
+					"title": "健康食品代工",
+					"items": [
+						"推薦英國本地可靠的健康食品製造商，協助配方開發與生產管理。",
+						"提供產品包裝設計及行銷支援。"
+					]
+				},
+				{
+					"id": "importAndProcurementForUK",
+					"title": "進口到英國及採購",
+					"items": [
+						"協助處理英國的海關清關、物流安排及產品分銷渠道建設。",
+						"提供採購供應商配對及國際貿易政策建議。"
+					]
+				},
+				{
+					"id": "otherUKRelatedBusinessConsultancyServices",
+					"title": "其他英國產品相關的商業諮詢及服務",
+					"items": ["包含稅務建議、法律合規性審查及英國市場進入策略規劃。"]
+				}
+			]
 		},
 		"hkMarket": {
-			"title": "香港市场",
-			"description": "全面的商业咨询服务，帮助您在国际市场上取得成功。"
+			"title": "香港市場",
+			"description": "全面的商业咨询服务，帮助您在国际市场上取得成功。",
+			"services": [
+				{
+					"id": "acquiringExistingCompaniesAndLicenses",
+					"title": "購買現有公司及其牌照",
+					"items": [
+						"協助尋找合適的公司轉讓機會，包括牌照的驗證及盡職調查。",
+						"提供法律支持，確保交易合法合規。"
+					]
+				},
+				{
+					"id": "importAndProcurementForHongKong",
+					"title": "進口到香港及採購",
+					"items": [
+						"指導處理進出口程序，包括文件準備、物流協調及在地行銷支援。"
+					]
+				},
+				{
+					"id": "otherHongKongRelatedBusinessConsultancyServices",
+					"title": "其他香港相關的商業諮詢及服務",
+					"items": ["包括稅務問題、商業注冊及銀行開戶服務。"]
+				}
+			]
 		},
 		"globalMarket": {
-			"title": "全球市场",
-			"description": "全面的商业咨询服务，帮助您在国际市场上取得成功。"
+			"title": "全球市場",
+			"description": "全面的商业咨询服务，帮助您在国际市场上取得成功。",
+			"services": [
+				{
+					"id": "oreAndRawMaterialProcurement",
+					"title": "礦石及原料採購",
+					"items": ["協助找到可靠的供應商。", "支援交易及物流管理。"]
+				},
+				{
+					"id": "preciousMetalsAndGemstonesProcurement",
+					"title": "貴金屬及寶石採購",
+					"items": [
+						"協助完成貴金屬及寶石採購，提供真實性鑑定服務。",
+						"包括價格談判、合約起草及運輸安排支援。"
+					]
+				},
+				{
+					"id": "petroleumAndNaturalGasProcurement",
+					"title": "石油和天然氣採購",
+					"items": [
+						"提供能源市場的深度分析及供應鏈搭建。",
+						"協調交易合約及物流安排，確保供應穩定。"
+					]
+				},
+				{
+					"id": "otherRelatedBusinessConsultancyServices",
+					"title": "其他相關的商業諮詢及服務",
+					"items": [
+						"提供全球貿易項目支持，包括文化溝通、合約審查及風險控制策略。"
+					]
+				}
+			]
 		}
 	},
 	"expertise": {

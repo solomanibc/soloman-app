@@ -26,7 +26,7 @@ export default async function InvestigationServicesPage({
 				<div className="container mx-auto px-4">
 					<InvestigationContent dict={dict} type={type} />
 				</div>
-				<div className="container mx-auto px-4">
+				<div className="container mx-auto my-12 px-8">
 					{dict.services_investigation.conclusion}
 				</div>
 			</section>

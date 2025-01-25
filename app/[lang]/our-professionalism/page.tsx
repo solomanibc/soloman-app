@@ -2,8 +2,16 @@ import { CTA } from "@/components/cta";
 import { Card, CardContent } from "@/components/ui/card";
 import { Award, BookOpen, Globe2, Scale, Shield, Users } from "lucide-react";
 import Image from "next/image";
+import { type Locale, getDictionary } from "../dictionaries";
 
-export default function OurProfessionalism() {
+export default async function OurProfessionalism({
+	params,
+}: {
+	params: Promise<{ lang: Locale }>;
+}) {
+	const { lang } = await params;
+	const dict = await getDictionary(lang);
+
 	return (
 		<div className="min-h-screen pb-10">
 			{/* Hero Section */}
@@ -130,7 +138,7 @@ export default function OurProfessionalism() {
 				</div>
 			</section>
 
-			<CTA />
+			<CTA dict={dict} />
 		</div>
 	);
 }

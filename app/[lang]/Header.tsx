@@ -25,7 +25,7 @@ export default function Header({ lang, nav }: LocaleParams & { nav: Nav }) {
 		home: `/${lang}`,
 		about: `/${lang}/about`,
 		servicesInvestigation: `/${lang}/services-investigation`,
-		businessConsultation: `/${lang}/business-consultation`,
+		businessConsultancy: `/${lang}/business-consultancy`,
 		blog: `/${lang}/blog`,
 		media: `/${lang}/media`,
 		contact: `/${lang}/contact`,

@@ -129,6 +129,18 @@ export default async function Footer({ lang }: LocaleParams) {
 									height={24}
 								/>
 							</Link>
+							<Link
+								href="https://www.tiktok.com/@dimka.abadeen?_t=ZG-8thSLfrYBVI&_r=1"
+								className="hover:text-gray-300"
+							>
+								<Image
+									src="/icons/tiktok.svg"
+									className="invert"
+									alt="TikTok"
+									width={24}
+									height={24}
+								/>
+							</Link>
 						</div>
 					</div>
 				</div>

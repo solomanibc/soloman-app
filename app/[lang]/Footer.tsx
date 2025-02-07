@@ -81,7 +81,10 @@ export default async function Footer({ lang }: LocaleParams) {
 							{dict.footer.followUs}
 						</h4>
 						<div className="flex space-x-4">
-							<Link href="#" className="hover:text-gray-300">
+							<Link
+								href="https://www.facebook.com/profile.php?id=61573030075420&rdid=afqjUUWYu7S05geI&share_url=https://www.facebook.com/share/1LycgL77cB/"
+								className="hover:text-gray-300"
+							>
 								<Image
 									src="/icons/facebook.svg"
 									className="invert"
@@ -90,7 +93,10 @@ export default async function Footer({ lang }: LocaleParams) {
 									height={24}
 								/>
 							</Link>
-							<Link href="#" className="hover:text-gray-300">
+							<Link
+								href="https://x.com/Abadeenka"
+								className="hover:text-gray-300"
+							>
 								<Image
 									src="/icons/x.svg"
 									className="invert"
@@ -99,7 +105,10 @@ export default async function Footer({ lang }: LocaleParams) {
 									height={24}
 								/>
 							</Link>
-							<Link href="#" className="hover:text-gray-300">
+							<Link
+								href="https://www.linkedin.com/in/dimka-abadeen-40686b34b/"
+								className="hover:text-gray-300"
+							>
 								<Image
 									src="/icons/linkedin.svg"
 									className="invert"
@@ -108,7 +117,10 @@ export default async function Footer({ lang }: LocaleParams) {
 									height={24}
 								/>
 							</Link>
-							<Link href="#" className="hover:text-gray-300">
+							<Link
+								href="https://www.instagram.com/dim.2169"
+								className="hover:text-gray-300"
+							>
 								<Image
 									src="/icons/instagram.svg"
 									className="invert"

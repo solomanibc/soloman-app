@@ -84,6 +84,7 @@ export default async function Footer({ lang }: LocaleParams) {
 							<Link
 								href="https://www.facebook.com/profile.php?id=61573030075420&rdid=afqjUUWYu7S05geI&share_url=https://www.facebook.com/share/1LycgL77cB/"
 								className="hover:text-gray-300"
+								target="_blank"
 							>
 								<Image
 									src="/icons/facebook.svg"
@@ -96,6 +97,7 @@ export default async function Footer({ lang }: LocaleParams) {
 							<Link
 								href="https://x.com/Abadeenka"
 								className="hover:text-gray-300"
+								target="_blank"
 							>
 								<Image
 									src="/icons/x.svg"
@@ -108,6 +110,7 @@ export default async function Footer({ lang }: LocaleParams) {
 							<Link
 								href="https://www.linkedin.com/in/dimka-abadeen-40686b34b/"
 								className="hover:text-gray-300"
+								target="_blank"
 							>
 								<Image
 									src="/icons/linkedin.svg"
@@ -120,6 +123,7 @@ export default async function Footer({ lang }: LocaleParams) {
 							<Link
 								href="https://www.instagram.com/dim.2169"
 								className="hover:text-gray-300"
+								target="_blank"
 							>
 								<Image
 									src="/icons/instagram.svg"
@@ -132,6 +136,7 @@ export default async function Footer({ lang }: LocaleParams) {
 							<Link
 								href="https://www.tiktok.com/@dimka.abadeen?_t=ZG-8thSLfrYBVI&_r=1"
 								className="hover:text-gray-300"
+								target="_blank"
 							>
 								<Image
 									src="/icons/tiktok.svg"

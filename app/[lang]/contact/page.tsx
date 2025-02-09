@@ -25,7 +25,7 @@ export default async function Contact({
 			</Section>
 
 			<Section className="grid md:grid-cols-2 gap-8 mx-auto">
-				<ContactForm lang={lang} />
+				<ContactForm />
 
 				<MapContact />
 			</Section>

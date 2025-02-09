@@ -13,11 +13,11 @@
 		"title": "Trusted by"
 	},
 	"footer": {
-		"copyright": "Copyright © 2025 Soloman IBC. All rights reserved.",
+		"copyright": "Copyright 2025 Soloman IBC. All rights reserved.",
 		"quickLinks": "Quick Links",
 		"services": "Services",
 		"followUs": "Follow Us",
-		"description": "Soloman IBC is a company that provides services to clients."
+		"description": "Soliman Investigation and Business Consultant Limited is a company that provides Professional Consulting Services to clients."
 	},
 	"services": {
 		"title": "Our Investigation Services",
@@ -196,8 +196,8 @@
 		"email": "contact@solomanibc.com"
 	},
 	"hero": {
-		"title": "Welcome to Soloman IBC",
-		"description": "We are a company that provides services to clients.",
+		"title": "Welcome to Soliman Investigation and Business Consultant Limited",
+		"description": "We provide professional consulting services to clients.",
 		"cta": "Get Started",
 		"imageAlt": "Hero image"
 	},
@@ -390,6 +390,29 @@
 					]
 				}
 			]
+		}
+	},
+	"addresses": {
+		"companyName": "Soloman Investigation and Business Consultant Limited",
+		"registered": {
+			"title": "Registered Address:",
+			"street": "85 Great Portland Street,",
+			"floor": "First Floor,",
+			"city": "London W1W 7LT"
+		},
+		"office": {
+			"title": "Office Address:",
+			"building": "Bartle House,",
+			"street": "9 Oxford Court,",
+			"city": "Manchester M2 3WQ"
+		},
+		"hongKong": {
+			"title": "Hong Kong Office:",
+			"room": "Room 14,16/F,",
+			"building": "FONDA INDUSTRIAL BUILDING,",
+			"street": "37-39 AU PUI WAN Street,",
+			"area": "FO TAN,",
+			"district": "SHATIN"
 		}
 	}
 }

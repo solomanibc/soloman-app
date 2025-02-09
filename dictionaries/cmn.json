@@ -13,7 +13,7 @@
 		"title": "值得信赖"
 	},
 	"footer": {
-		"copyright": "版权所有 © 2025 Soloman IBC。保留所有权利。",
+		"copyright": "版权所有 2025 Soloman IBC。保留所有权利。",
 		"quickLinks": "快速链接",
 		"services": "服务",
 		"followUs": "关注我们",
@@ -191,10 +191,10 @@
 		"email": "contact@solomanibc.com"
 	},
 	"hero": {
-		"title": "欢迎来到索乐万调查及商业顾问有限公司",
-		"description": "我们是一家提供专业顾问服务给客户的公司",
-		"cta": "开始",
-		"imageAlt": "英雄图片"
+		"title": "欢迎来到所罗门调查和商业咨询有限公司",
+		"description": "我们为客户提供专业的咨询服务。",
+		"cta": "开始使用",
+		"imageAlt": "主页图片"
 	},
 	"about": {
 		"title": "关于我们",
@@ -385,6 +385,29 @@
 					]
 				}
 			]
+		}
+	},
+	"addresses": {
+		"companyName": "所罗门调查和商业咨询有限公司",
+		"registered": {
+			"title": "注册地址：",
+			"street": "85 Great Portland Street,",
+			"floor": "First Floor,",
+			"city": "London W1W 7LT"
+		},
+		"office": {
+			"title": "办公地址：",
+			"building": "Bartle House,",
+			"street": "9 Oxford Court,",
+			"city": "Manchester M2 3WQ"
+		},
+		"hongKong": {
+			"title": "香港办事处：",
+			"room": "Room 14,16/F,",
+			"building": "FONDA INDUSTRIAL BUILDING,",
+			"street": "37-39 AU PUI WAN Street,",
+			"area": "FO TAN,",
+			"district": "SHATIN"
 		}
 	}
 }

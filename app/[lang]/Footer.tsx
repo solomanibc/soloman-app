@@ -55,26 +55,36 @@ export default async function Footer({ lang }: LocaleParams) {
 					</div>
 					<div>
 						<h4 className="text-lg font-semibold mb-4">
-							{dict.footer.services}
+							{dict.addresses.companyName}
 						</h4>
-						<ul className="space-y-2">
-							<li>
-								<Link
-									href={`/${lang}/services/corporate`}
-									className="hover:underline"
-								>
-									{dict.services.corporate.title}
-								</Link>
-							</li>
-							<li>
-								<Link
-									href={`/${lang}/services-investigation/individual`}
-									className="hover:underline"
-								>
-									{dict.services.individual.title}
-								</Link>
-							</li>
-						</ul>
+						<div className="space-y-6">
+							<div>
+								<p className="font-semibold mb-2">
+									{dict.addresses.registered.title}
+								</p>
+								<p>{dict.addresses.registered.street}</p>
+								<p>{dict.addresses.registered.floor}</p>
+								<p>{dict.addresses.registered.city}</p>
+							</div>
+							<div>
+								<p className="font-semibold mb-2">
+									{dict.addresses.office.title}
+								</p>
+								<p>{dict.addresses.office.building}</p>
+								<p>{dict.addresses.office.street}</p>
+								<p>{dict.addresses.office.city}</p>
+							</div>
+							<div>
+								<p className="font-semibold mb-2">
+									{dict.addresses.hongKong.title}
+								</p>
+								<p>{dict.addresses.hongKong.room}</p>
+								<p>{dict.addresses.hongKong.building}</p>
+								<p>{dict.addresses.hongKong.street}</p>
+								<p>{dict.addresses.hongKong.area}</p>
+								<p>{dict.addresses.hongKong.district}</p>
+							</div>
+						</div>
 					</div>
 					<div>
 						<h4 className="text-lg font-semibold mb-4">
@@ -142,6 +152,19 @@ export default async function Footer({ lang }: LocaleParams) {
 									src="/icons/tiktok.svg"
 									className="invert"
 									alt="TikTok"
+									width={24}
+									height={24}
+								/>
+							</Link>
+							<Link
+								href="https://www.xiaohongshu.com/explore"
+								className="hover:text-gray-300"
+								target="_blank"
+							>
+								<Image
+									src="/icons/rednote.svg"
+									className="invert"
+									alt="RedNote"
 									width={24}
 									height={24}
 								/>

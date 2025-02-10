@@ -7,13 +7,14 @@
 		"servicesInvestigation": "Investigation Services",
 		"ourProfessionalism": "Our Professionalism",
 		"businessConsultancy": "Business Consultancy",
-		"media": "Media"
+		"media": "Media",
+		"hkpda": "Hong Kong Private Detective Association"
 	},
 	"trusted": {
 		"title": "Trusted by"
 	},
 	"footer": {
-		"copyright": "Copyright 2025 Soloman IBC. All rights reserved.",
+		"copyright": "Copyright 2025 Soloman Investigation and Business Consultant Limited. All rights reserved.",
 		"quickLinks": "Quick Links",
 		"services": "Services",
 		"followUs": "Follow Us",
@@ -265,29 +266,26 @@
 	},
 	"services_investigation": {
 		"title": "Investigation Services",
-		"description": "We provide comprehensive investigations and business consulting services to help clients succeed in international markets.",
+		"description": "Professional and discreet investigation services for corporate and personal needs",
 		"button_corporate": "Corporate Investigations",
 		"button_personal": "Personal Investigations",
 		"conclusion": "Each service can be tailored to meet the specific needs of our clients, ensuring precise and detailed investigation results. We prioritize privacy and compliance, guaranteeing a secure and reliable process. For further inquiries or consultations, feel free to contact us!",
 		"corporate": {
 			"title": "Corporate Investigations",
-			"description": "We provide comprehensive investigations and business consulting services to help clients succeed in international markets.",
 			"list": [
 				{
 					"title": "Company Background",
-					"icon": "Building2",
 					"description": "Thorough investigation of company history and operations",
-					"features": [
+					"items": [
 						"Investigate the company's history, registration details, and scope of operations.",
 						"Verify if the company has a history of illegal operations, contract breaches, or other negative records.",
-						"Analyze the company’s financial condition and market reputation."
+						"Analyze the company's financial condition and market reputation."
 					]
 				},
 				{
 					"title": "Property Investigation",
-					"icon": "Home",
 					"description": "Detailed verification of property-related matters",
-					"features": [
+					"items": [
 						"Verify property ownership, leasing arrangements, and any legal disputes",
 						"Ensure the authenticity and compliance of property transactions",
 						"Investigate property history to identify potential risks"
@@ -295,38 +293,34 @@
 				},
 				{
 					"title": "Background Investigation",
-					"icon": "Users",
-					"description": "Comprehensive background checks on key personnel",
-					"features": [
-						"Conduct thorough identity checks on management, shareholders, or business partners",
-						"Identify hidden conflicts of interest or unethical business practices"
+					"description": "Comprehensive background checks for business associates",
+					"items": [
+						"Conduct thorough identity verification of management, shareholders, or business partners",
+						"Investigate potential conflicts of interest or unethical business practices"
 					]
 				},
 				{
 					"title": "Asset Investigation",
-					"icon": "Briefcase",
-					"description": "Detailed assessment of company assets",
-					"features": [
-						"Assess the company’s assets, including fixed and liquid assets",
-						"Locate hidden or transferred assets, especially in litigation cases"
+					"description": "Detailed assessment of business assets",
+					"items": [
+						"Evaluate company assets, including fixed and current assets",
+						"Identify hidden or transferred assets, particularly in litigation cases"
 					]
 				},
 				{
 					"title": "Mystery Shopping",
-					"icon": "ShoppingBag",
-					"description": "Professional service quality evaluation",
-					"features": [
+					"description": "Professional service quality assessment",
+					"items": [
 						"Deploy professional mystery shoppers to evaluate service quality",
-						"Analyze customer experiences and provide recommendations for improvement to enhance brand image"
+						"Analyze customer experience and provide improvement recommendations"
 					]
 				},
 				{
-					"title": "Marriage Records",
-					"icon": "HeartHandshake",
-					"description": "Verification of marital status for risk management",
-					"features": [
-						"Assess legal compliance of the company, including tax, regulatory, and other legal matters",
-						"Identify potential legal issues and develop strategies to address them"
+					"title": "Marriage Record",
+					"description": "Marriage record verification for risk management",
+					"items": [
+						"Verify marital status in personal or business transactions to prevent fraud",
+						"Investigate marriage relationships for potential legal disputes"
 					]
 				}
 			]

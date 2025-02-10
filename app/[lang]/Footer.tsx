@@ -51,6 +51,16 @@ export default async function Footer({ lang }: LocaleParams) {
 									{dict.nav.contact}
 								</Link>
 							</li>
+							<li>
+								<Link
+									href="https://hk-pi.org.hk"
+									className="hover:underline"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									{dict.nav.hkpda}
+								</Link>
+							</li>
 						</ul>
 					</div>
 					<div>
@@ -90,9 +100,9 @@ export default async function Footer({ lang }: LocaleParams) {
 						<h4 className="text-lg font-semibold mb-4">
 							{dict.footer.followUs}
 						</h4>
-						<div className="flex space-x-4">
+						<div className="flex items-center gap-4">
 							<Link
-								href="https://www.facebook.com/profile.php?id=61573030075420&rdid=afqjUUWYu7S05geI&share_url=https://www.facebook.com/share/1LycgL77cB/"
+								href="https://www.facebook.com/profile.php?id=100091291623092"
 								className="hover:text-gray-300"
 								target="_blank"
 							>
@@ -100,8 +110,8 @@ export default async function Footer({ lang }: LocaleParams) {
 									src="/icons/facebook.svg"
 									className="invert"
 									alt="Facebook"
-									width={24}
-									height={24}
+									width={28}
+									height={28}
 								/>
 							</Link>
 							<Link
@@ -113,8 +123,8 @@ export default async function Footer({ lang }: LocaleParams) {
 									src="/icons/x.svg"
 									className="invert"
 									alt="Twitter"
-									width={24}
-									height={24}
+									width={28}
+									height={28}
 								/>
 							</Link>
 							<Link
@@ -126,8 +136,8 @@ export default async function Footer({ lang }: LocaleParams) {
 									src="/icons/linkedin.svg"
 									className="invert"
 									alt="LinkedIn"
-									width={24}
-									height={24}
+									width={28}
+									height={28}
 								/>
 							</Link>
 							<Link
@@ -139,8 +149,8 @@ export default async function Footer({ lang }: LocaleParams) {
 									src="/icons/instagram.svg"
 									className="invert"
 									alt="Instagram"
-									width={24}
-									height={24}
+									width={28}
+									height={28}
 								/>
 							</Link>
 							<Link
@@ -152,8 +162,8 @@ export default async function Footer({ lang }: LocaleParams) {
 									src="/icons/tiktok.svg"
 									className="invert"
 									alt="TikTok"
-									width={24}
-									height={24}
+									width={28}
+									height={28}
 								/>
 							</Link>
 							<Link
@@ -161,13 +171,15 @@ export default async function Footer({ lang }: LocaleParams) {
 								className="hover:text-gray-300"
 								target="_blank"
 							>
-								<Image
-									src="/icons/rednote.svg"
-									className="invert"
-									alt="RedNote"
-									width={24}
-									height={24}
-								/>
+								<div className="w-[28px] h-[28px] bg-white rounded-sm flex items-center justify-center">
+									<Image
+										src="/images/Rednote.jpg"
+										alt="RedNote"
+										width={20}
+										height={12}
+										className="object-contain"
+									/>
+								</div>
 							</Link>
 						</div>
 					</div>

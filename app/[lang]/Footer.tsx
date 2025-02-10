@@ -62,6 +62,7 @@ export default async function Footer({ lang }: LocaleParams) {
 								</Link>
 							</li>
 						</ul>
+
 					</div>
 					<div>
 						<h4 className="text-lg font-semibold mb-4">
@@ -180,6 +181,7 @@ export default async function Footer({ lang }: LocaleParams) {
 										className="object-contain"
 									/>
 								</div>
+
 							</Link>
 						</div>
 					</div>

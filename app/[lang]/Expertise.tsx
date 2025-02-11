@@ -33,14 +33,6 @@ export default async function Expertise({ lang }: { lang: Locale }) {
 							<ExpertisePoint text={dict.expertise.points[3]} />
 							<ExpertisePoint text={dict.expertise.points[4]} />
 						</div>
-						<div className="mt-8">
-							<Link
-								href={`/${lang}/our-professionalism`}
-								className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-primary hover:bg-primary/80 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary"
-							>
-								{dict.expertise.cta}
-							</Link>
-						</div>
 					</div>
 				</div>
 			</div>

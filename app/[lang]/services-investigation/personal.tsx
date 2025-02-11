@@ -13,7 +13,7 @@ export const PersonalInvestigations = ({ dict }: { dict: Dictionary }) => {
 			<div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
 				{personal.list.map((item) => (
 					<InvestigationServiceCard
-						key={item.title}
+						key={`${item.title}-${item.icon || ""}`}
 						title={item.title}
 						items={item.items || item.features || []}
 					/>

@@ -2,24 +2,26 @@
 	"nav": {
 		"home": "首页",
 		"about": "关于我们",
-		"contact": "联系我们",
-		"blog": "博客",
 		"servicesInvestigation": "调查服务",
-		"ourProfessionalism": "我们的专业",
-		"businessConsultancy": "商业顾问服务",
+		"businessConsultancy": "商业咨询",
+		"blog": "博客",
 		"media": "媒体",
-		"hkpda": "香港私家偵探總會"
+		"contact": "联系我们"
 	},
 	"trusted": {
 		"title": "值得信赖"
 	},
 	"footer": {
-		"copyright": "版权所有 2025 索乐万调查及商业顾问有限公司。保留所有权利。",
-
-		"quickLinks": "快速链接",
-		"services": "服务",
-		"followUs": "关注我们",
-		"description": "索乐万调查及商业顾问有限公司是一家提供专业顾问服务给客户的公司"
+		"title": "SOLOMAN IBC",
+		"description": "我们是一家专业的商业调查和咨询公司，致力于为您的业务提供最佳解决方案。",
+		"navigation": "导航",
+		"contact": {
+			"title": "联系我们",
+			"address": "香港中环皇后大道中99号中环中心76楼",
+			"phone": "+852 2234 5678",
+			"email": "info@solomanibc.com"
+		},
+		"copyright": " 2024 SOLOMAN IBC."
 	},
 	"services": {
 		"title": "我们的服务",
@@ -38,8 +40,8 @@
 	},
 	"cta": {
 		"title": "你准备好扩展你的业务吗",
-		"description": "For more information or to schedule a consultation, please don't hesitate to contact us",
-		"button": "Schedule Consultation"
+		"description": "如需更多信息或预约咨询，请随时与我们联系",
+		"button": "预约咨询"
 	},
 	"businessConsultancy": {
 		"title": "商业顾问服务",

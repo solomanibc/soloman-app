@@ -2,13 +2,11 @@
 	"nav": {
 		"home": "Home",
 		"about": "About Us",
-		"contact": "Contact",
-		"blog": "Blog",
 		"servicesInvestigation": "Investigation Services",
-		"ourProfessionalism": "Our Professionalism",
 		"businessConsultancy": "Business Consultancy",
+		"blog": "Blog",
 		"media": "Media",
-		"hkpda": "Hong Kong Private Detective Association"
+		"contact": "Contact"
 	},
 	"trusted": {
 		"title": "Trusted by"

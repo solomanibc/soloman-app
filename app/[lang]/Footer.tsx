@@ -4,7 +4,7 @@ import Link from "next/link";
 import { type LocaleParams, getDictionary } from "./dictionaries";
 
 export default async function Footer({ lang }: LocaleParams) {
-	const dict = await getDictionary(lang);
+  const dict = await getDictionary(lang);
 
 	return (
 		<footer className="bg-gray-900 text-white py-12">

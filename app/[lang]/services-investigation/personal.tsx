@@ -14,6 +14,7 @@ export const PersonalInvestigations = ({ dict }: { dict: Dictionary }) => {
 				{personal.list.map((item) => (
 					<InvestigationServiceCard
 						key={`${item.title}-${item.icon || ""}`}
+
 						title={item.title}
 						items={item.items || item.features || []}
 					/>

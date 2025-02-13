@@ -89,6 +89,7 @@ interface NewFooter {
 	copyright: string;
 }
 
+
 export interface Dictionary {
 	nav: {
 		home: string;
@@ -181,6 +182,7 @@ export interface Dictionary {
 			district: string;
 		};
 	};
+
 }
 
 const dictionaries = {

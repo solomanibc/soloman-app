@@ -1,25 +1,35 @@
 {
 	"nav": {
-		"home": "首页",
-		"about": "关于",
-		"contact": "联系",
+		"home": "首頁",
+		"about": "關於我們",
+		"contact": "聯繫我們",
 		"blog": "博客",
-		"servicesInvestigation": "服务",
-		"ourProfessionalism": "我们的专业",
-		"businessConsultancy": "商業顧問服務",
-		"media": "媒体",
+		"servicesInvestigation": "調查服務",
+		"ourProfessionalism": "我們的專業",
+		"businessConsultancy": "商業諮詢",
+		"media": "媒體",
+
 		"hkpda": "香港私家偵探總會"
 	},
 	"trusted": {
 		"title": "信任"
 	},
 	"footer": {
+		"title": "SOLOMAN IBC",
+		"description": "我們是一家專業的商業調查和諮詢公司，致力於為您的業務提供最佳解決方案。",
+		"navigation": "導航",
+		"contact": {
+			"title": "聯繫我們",
+			"address": "香港中環皇后大道中99號中環中心76樓",
+			"phone": "+852 2234 5678",
+			"email": "info@solomanibc.com"
+		},
+
 		"copyright": "版权所有 2025 索乐万调查及商业顾问有限公司。保留所有权利。",
 
 		"quickLinks": "快速链接",
 		"services": "服务",
-		"followUs": "关注我们",
-		"description": "Soloman IBC 是一家提供服务给客户的公"
+		"followUs": "关注我们"
 	},
 	"services": {
 		"title": "我们的服务",
@@ -37,9 +47,9 @@
 		}
 	},
 	"cta": {
-		"title": "Ready to Expand Your Business?",
-		"description": "For more information or to schedule a consultation, please don't hesitate to contact us",
-		"button": "Schedule Consultation"
+		"title": "準備擴展您的業務？",
+		"description": "如需更多信息或預約諮詢，請隨時與我們聯繫",
+		"button": "預約諮詢"
 	},
 	"businessConsultancy": {
 		"title": "商業顧問服務",

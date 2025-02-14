@@ -68,22 +68,121 @@ interface CTA {
 	button: string;
 }
 
+interface OldFooter {
+	copyright: string;
+	quickLinks: string;
+	services: string;
+	followUs: string;
+	description: string;
+}
+
+interface NewFooter {
+	title: string;
+	description: string;
+	navigation: string;
+	contact: {
+		title: string;
+		address: string;
+		phone: string;
+		email: string;
+	};
+	copyright: string;
+}
+
+
 export interface Dictionary {
 	nav: {
 		home: string;
 		about: string;
-		contact: string;
-		blog: string;
 		servicesInvestigation: string;
-		ourProfessionalism: string;
 		businessConsultancy: string;
+		blog: string;
 		media: string;
-		hkpda: string;
+		contact: string;
 	};
+	footer: OldFooter | NewFooter;
 	services_investigation: ServicesInvestigation;
 	about: About;
 	cta: CTA;
-	// ... other dictionary fields
+	trusted: {
+		title: string;
+	};
+	services: {
+		title: string;
+		corporate: {
+			title: string;
+			description: string;
+		};
+		individual: {
+			title: string;
+			description: string;
+		};
+		graphicDesign: {
+			title: string;
+			description: string;
+		};
+	};
+	blog: {
+		title: string;
+		description: string;
+	};
+	feature: {
+		imageAlt: string;
+		title: string;
+		description: string;
+		cta: string;
+	};
+	contact: {
+		title: string;
+		description: string;
+		namePlaceholder: string;
+		emailPlaceholder: string;
+		messagePlaceholder: string;
+		submit: string;
+		callUs: string;
+		emailUs: string;
+		visitUs: string;
+		address: string;
+		phone: string;
+		email: string;
+	};
+	hero: {
+		title: string;
+		description: string;
+		cta: string;
+		imageAlt: string;
+	};
+	expertise: {
+		title: string;
+		description: string;
+		imageAlt: string;
+		cta: string;
+		points: string[];
+	};
+	addresses: {
+		companyName: string;
+		registered: {
+			title: string;
+			street: string;
+			floor: string;
+			city: string;
+		};
+		office: {
+			title: string;
+			building: string;
+			street: string;
+			city: string;
+		};
+		hongKong: {
+			title: string;
+			room: string;
+			building: string;
+			street: string;
+			area: string;
+			district: string;
+		};
+	};
+
 }
 
 const dictionaries = {

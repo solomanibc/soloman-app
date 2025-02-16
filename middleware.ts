@@ -10,7 +10,7 @@ const defaultLocale = "en";
 match(languages, locales, defaultLocale); // -> 'en-US'
 
 // Get the preferred locale, similar to the above or using a library
-function getLocale(request: NextRequest) {
+function getLocale() {
 	return match(languages, locales, defaultLocale);
 }
 
@@ -24,7 +24,7 @@ export function middleware(request: NextRequest) {
 	if (pathnameHasLocale) return;
 
 	// Redirect if there is no locale
-	const locale = getLocale(request);
+	const locale = getLocale();
 	request.nextUrl.pathname = `/${locale}${pathname}`;
 	// e.g. incoming request is /products
 	// The new URL is now /en-US/products

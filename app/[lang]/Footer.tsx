@@ -4,7 +4,7 @@ import Link from "next/link";
 import { type LocaleParams, getDictionary } from "./dictionaries";
 
 export default async function Footer({ lang }: LocaleParams) {
-  const dict = await getDictionary(lang);
+	const dict = await getDictionary(lang);
 
 	return (
 		<footer className="bg-gray-900 text-white py-12">
@@ -97,15 +97,15 @@ export default async function Footer({ lang }: LocaleParams) {
 						</h4>
 						<div className="flex items-center gap-4">
 							<Link
-								href="https://twitter.com"
+								href="https://x.com"
 								className="text-gray-500 hover:text-gray-600"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
 								<Image
-									src="/icons/twitter.svg"
+									src="/icons/x.svg"
 									className="invert"
-									alt="Twitter"
+									alt="X Twitter"
 									width={28}
 									height={28}
 								/>

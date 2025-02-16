@@ -28,9 +28,9 @@ export default function Header({ lang, nav }: LocaleParams & { nav: Nav }) {
 	const menu: Record<string, string> = {
 		home: `/${lang}`,
 		about: `/${lang}/about`,
-		blog: `/${lang}/blog`,
 		servicesInvestigation: `/${lang}/services-investigation`,
 		businessConsultancy: `/${lang}/business-consultancy`,
+		blog: `/${lang}/blog`,
 		media: `/${lang}/media`,
 		contact: `/${lang}/contact`,
 	};

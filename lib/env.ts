@@ -7,6 +7,7 @@ export const env = createEnv({
 		NOTION_API_KEY: z.string().min(1),
 		NOTION_DATABASE_BLOG_ID: z.string().min(1),
 		NOTION_DATABASE_MEDIA_ID: z.string().min(1),
+		UMAMI_WEBSITE_ID: z.string().min(1),
 	},
 	client: {},
 	experimental__runtimeEnv: {
@@ -14,5 +15,6 @@ export const env = createEnv({
 		NOTION_API_KEY: process.env.NOTION_API_KEY,
 		NOTION_DATABASE_BLOG_ID: process.env.NOTION_DATABASE_BLOG_ID,
 		NOTION_DATABASE_MEDIA_ID: process.env.NOTION_DATABASE_MEDIA_ID,
+		UMAMI_WEBSITE_ID: process.env.UMAMI_WEBSITE_ID,
 	},
 });

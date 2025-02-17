@@ -3,6 +3,7 @@ import { env } from "@/lib/env";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Lexend } from "next/font/google";
+import Script from "next/script";
 import Footer from "./Footer";
 import Header from "./Header";
 import type { Locale } from "./dictionaries";
@@ -95,6 +96,11 @@ export default async function RootLayout({
 				<Header lang={lang} nav={dict.nav} />
 				<main>{children}</main>
 				<Footer lang={lang} />
+				<Script
+					defer
+					src="https://cloud.umami.is/script.js"
+					data-website-id={env.UMAMI_WEBSITE_ID}
+				/>
 			</body>
 		</html>
 	);

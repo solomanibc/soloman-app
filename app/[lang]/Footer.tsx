@@ -1,4 +1,5 @@
 import { Section } from "@/components/Section";
+import ContactInfo from "@/components/contact-info";
 import Image from "next/image";
 import Link from "next/link";
 import { type LocaleParams, getDictionary } from "./dictionaries";
@@ -104,86 +105,11 @@ export default async function Footer({ lang }: LocaleParams) {
 								))}
 							</div>
 							<div className="mt-4">
-								<div className="flex items-center gap-4">
-									<Link
-										href={`mailto:${dict.contact.email}`}
-										className="flex flex-col items-center hover:text-primary transition-colors"
-									>
-										<Image
-											src="/icons/email.svg"
-											className="invert"
-											alt="Email"
-											width={24}
-											height={24}
-										/>
-										<span className="text-xs mt-1">Email</span>
-									</Link>
-									<Link
-										href={`https://wa.me/${dict.contact.phone.replace(
-											/[^0-9]/g,
-											"",
-										)}`}
-										className="flex flex-col items-center hover:text-primary transition-colors"
-										target="_blank"
-										rel="noopener noreferrer"
-									>
-										<Image
-											src="/icons/whatsapp.svg"
-											className="invert"
-											alt="WhatsApp"
-											width={24}
-											height={24}
-										/>
-										<span className="text-xs mt-1">WhatsApp</span>
-									</Link>
-									<Link
-										href={`https://t.me/${dict.contact.phone.replace(
-											/[^0-9]/g,
-											"",
-										)}`}
-										className="flex flex-col items-center hover:text-primary transition-colors"
-										target="_blank"
-										rel="noopener noreferrer"
-									>
-										<Image
-											src="/icons/telegram.svg"
-											className="invert"
-											alt="Telegram"
-											width={24}
-											height={24}
-										/>
-										<span className="text-xs mt-1">Telegram</span>
-									</Link>
-									<Link
-										href={`signal://send?phone=${dict.contact.phone.replace(
-											/[^0-9]/g,
-											"",
-										)}`}
-										className="flex flex-col items-center hover:text-primary transition-colors"
-									>
-										<Image
-											src="/icons/signal.svg"
-											className="invert"
-											alt="Signal"
-											width={24}
-											height={24}
-										/>
-										<span className="text-xs mt-1">Signal</span>
-									</Link>
-									<Link
-										href={`tel:${dict.contact.phone}`}
-										className="flex flex-col items-center hover:text-primary transition-colors"
-									>
-										<Image
-											src="/icons/phone.svg"
-											className="invert"
-											alt="Phone"
-											width={24}
-											height={24}
-										/>
-										<span className="text-xs mt-1">Phone</span>
-									</Link>
-								</div>
+								<ContactInfo
+									email={dict.contact.email}
+									phone={dict.contact.phone}
+									classIcon="invert"
+								/>
 							</div>
 						</div>
 					</div>
@@ -265,7 +191,7 @@ export default async function Footer({ lang }: LocaleParams) {
 						</div>
 					</div>
 				</div>
-				<div className="mt-12 text-center">
+				<div className="mt-12 text-center border-t border-gray-400 pt-8">
 					<p>{dict.footer.copyright}</p>
 				</div>
 			</Section>

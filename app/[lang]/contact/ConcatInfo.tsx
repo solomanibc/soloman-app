@@ -1,4 +1,5 @@
 import { Section } from "@/components/Section";
+import ContactInfo from "@/components/contact-info";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Building2, Mail, MapPin, Phone } from "lucide-react";
 import { type Locale, getDictionary } from "../dictionaries";
@@ -69,6 +70,13 @@ export const ConcatInfo = async ({ lang }: { lang: Locale }) => {
 						<p className="text-sm text-muted-foreground mt-1">
 							{dict.contact.companyName}
 						</p>
+						<div className="text-sm text-muted-foreground mt-4">
+							<ContactInfo
+								email={dict.contact.email}
+								phone={dict.contact.phone}
+								classIcon="text-blue-500"
+							/>
+						</div>
 					</CardContent>
 				</Card>
 

@@ -17,21 +17,17 @@
 		"quickLinks": "Quick Links",
 		"services": "Services",
 		"followUs": "Follow Us",
-		"description": "Soloman Investigation and Business Consultant Limited is a company that provides Professional Consulting Services to clients."
+		"description": "Soloman Investigation and Business Consultant Limited is a company that provides Professional Investigation & Consulting Services to clients."
 	},
 	"services": {
 		"title": "Our Investigation Services",
 		"corporate": {
-			"title": "Corporate Investigations",
-			"description": "Comprehensive corporate solutions to establish and maintain your business presence in Hong Kong"
+			"title": "Corporate Investigation",
+			"description": "Comprehensive corporate solutions to maintain your business"
 		},
 		"individual": {
-			"title": "Personal Investigations",
-			"description": "Comprehensive personal solutions for your financial and legal needs in Hong Kong"
-		},
-		"graphicDesign": {
-			"title": "Graphic Design",
-			"description": "We design graphics for businesses."
+			"title": "Personal Investigation",
+			"description": "Comprehensive personal solutions for your financial and legal needs"
 		}
 	},
 	"cta": {

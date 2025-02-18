@@ -116,10 +116,6 @@ export interface Dictionary {
 			title: string;
 			description: string;
 		};
-		graphicDesign: {
-			title: string;
-			description: string;
-		};
 	};
 	blog: {
 		title: string;

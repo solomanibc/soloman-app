@@ -16,7 +16,7 @@
 	},
 	"footer": {
 		"title": "SOLOMAN IBC",
-		"description": "我們是一家專業的商業調查和諮詢公司，致力於為您的業務提供最佳解決方案。",
+		"description": "索樂萬調查及商業顧問有限公司是一家專業的調查和商業諮詢公司，致力於為您的業務提供最佳解決方案。",
 		"navigation": "導航",
 		"contact": {
 			"title": "聯繫我們",
@@ -35,15 +35,11 @@
 		"title": "我们的服务",
 		"corporate": {
 			"title": "企业服务",
-			"description": "全面的商业解决方案，以在香港建立和维持您的业务存在"
+			"description": "全面的商業解決方案，協助建立及維持業務"
 		},
 		"individual": {
-			"title": "个人服务",
-			"description": "全面的个人解决方案，以满足您在香港的财务和法律需求"
-		},
-		"graphicDesign": {
-			"title": "平面设计",
-			"description": "我们为商业设计图形。"
+			"title": "個人調查",
+			"description": "全面的個人解决方案，滿足你的財務和法律需求"
 		}
 	},
 	"cta": {

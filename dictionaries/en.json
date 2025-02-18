@@ -187,9 +187,27 @@
 		"callUs": "Call Us",
 		"emailUs": "Email Us",
 		"visitUs": "Visit Us",
-		"address": "Halifax, UK",
-		"phone": "+ 44 7551 837 319",
-		"email": "contact@solomanibc.com"
+		"companyName": "Soloman Investigation and Business Consultant Limited",
+		"phone": "+44 7551 857 319",
+		"email": "solomanibc@gmail.com",
+		"registeredAddress": {
+			"title": "Registered Address",
+			"lines": ["85 Great Portland Street,", "First Floor,", "London W1W 7LT"]
+		},
+		"ukOffice": {
+			"title": "Office Address",
+			"lines": ["Bartle House,", "9 Oxford Court,", "Manchester M2 3WQ"]
+		},
+		"hkOffice": {
+			"title": "Hong Kong Office",
+			"lines": [
+				"Room 14,16/F,",
+				"FONDA INDUSTRIAL BUILDING,",
+				"37-39 AU PUI WAN Street,",
+				"FO TAN,",
+				"SHATIN"
+			]
+		}
 	},
 	"hero": {
 		"title": "Welcome to Soloman Investigation and Business Consultant Limited",

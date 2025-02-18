@@ -186,9 +186,26 @@
 		"callUs": "打电话给我们",
 		"emailUs": "发邮件给我们",
 		"visitUs": "访问我们",
-		"address": "Halifax, UK",
-		"phone": "+ 44 7551 837 319",
-		"email": "contact@solomanibc.com"
+		"companyName": "索乐万调查及商业顾问有限公司",
+		"phone": "+44 7551 857 319",
+		"email": "solomanibc@gmail.com",
+		"registeredAddress": {
+			"title": "注册地址",
+			"lines": ["85 Great Portland Street", "First Floor", "London W1W 7LT"]
+		},
+		"ukOffice": {
+			"title": "办公室地址",
+			"lines": ["Bartle House", "9 Oxford Court", "Manchester M2 3WQ"]
+		},
+		"hkOffice": {
+			"title": "香港办公室",
+			"lines": [
+				"Room 14, 16/F",
+				"FONDA INDUSTRIAL BUILDING",
+				"37-39 AU PUI WAN Street",
+				"FO TAN, SHATIN"
+			]
+		}
 	},
 	"hero": {
 		"title": "欢迎来到索乐万调查及商业顾问有限公司",

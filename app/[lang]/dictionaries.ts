@@ -137,9 +137,20 @@ export interface Dictionary {
 		callUs: string;
 		emailUs: string;
 		visitUs: string;
-		address: string;
 		phone: string;
 		email: string;
+		registeredAddress: {
+			title: string;
+			lines: string[];
+		};
+		hkOffice: {
+			title: string;
+			lines: string[];
+		};
+		ukOffice: {
+			title: string;
+			lines: string[];
+		};
 	};
 	hero: {
 		title: string;

@@ -18,13 +18,6 @@
 		"title": "SOLOMAN IBC",
 		"description": "索樂萬調查及商業顧問有限公司是一家專業的調查和商業諮詢公司，致力於為您的業務提供最佳解決方案。",
 		"navigation": "導航",
-		"contact": {
-			"title": "聯繫我們",
-			"address": "香港中環皇后大道中99號中環中心76樓",
-			"phone": "+852 2234 5678",
-			"email": "info@solomanibc.com"
-		},
-
 		"copyright": "版权所有 2025 索乐万调查及商业顾问有限公司。保留所有权利。",
 
 		"quickLinks": "快速链接",
@@ -182,18 +175,35 @@
 		"cta": "开始"
 	},
 	"contact": {
-		"title": "联系我们",
-		"description": "与我们联系。我们准备帮助您找到最佳解决方案。",
+		"title": "聯繫我們",
+		"description": "與我們聯繫。我們準備幫助您找到最佳解決方案。",
 		"namePlaceholder": "姓名",
-		"emailPlaceholder": "电子邮件",
-		"messagePlaceholder": "消息",
+		"emailPlaceholder": "電子郵件",
+		"messagePlaceholder": "訊息",
 		"submit": "提交",
-		"callUs": "打电话给我们",
-		"emailUs": "发邮件给我们",
-		"visitUs": "访问我们",
-		"address": "Halifax, UK",
-		"phone": "+ 44 7551 837 319",
-		"email": "contact@solomanibc.com"
+		"callUs": "致電我們",
+		"emailUs": "電郵我們",
+		"visitUs": "訪問我們",
+		"companyName": "索樂萬調查及商業顧問有限公司",
+		"phone": "+44 7551 857 319",
+		"email": "solomanibc@gmail.com",
+		"registeredAddress": {
+			"title": "註冊地址",
+			"lines": ["85 Great Portland Street", "First Floor", "London W1W 7LT"]
+		},
+		"ukOffice": {
+			"title": "辦公室地址",
+			"lines": ["Bartle House", "9 Oxford Court", "Manchester M2 3WQ"]
+		},
+		"hkOffice": {
+			"title": "香港辦公室",
+			"lines": [
+				"Room 14, 16/F",
+				"FONDA INDUSTRIAL BUILDING",
+				"37-39 AU PUI WAN Street",
+				"FO TAN, SHATIN"
+			]
+		}
 	},
 	"hero": {
 		"title": "歡迎來到索樂萬調查及商業顧問有限公司",

@@ -73,22 +73,118 @@ export default async function Footer({ lang }: LocaleParams) {
 								? dict.footer.contact.title
 								: dict.nav.contact}
 						</h4>
-						<div className="space-y-2">
-							<p>
-								{"contact" in dict.footer
-									? dict.footer.contact.address
-									: dict.contact.address}
-							</p>
-							<p>
-								{"contact" in dict.footer
-									? dict.footer.contact.phone
-									: dict.contact.phone}
-							</p>
-							<p>
-								{"contact" in dict.footer
-									? dict.footer.contact.email
-									: dict.contact.email}
-							</p>
+						<div className="space-y-4">
+							<div>
+								<p className="font-medium">{dict.contact.companyName}</p>
+							</div>
+							<div>
+								<p className="font-medium">
+									{dict.contact.registeredAddress.title}
+								</p>
+								{dict.contact.registeredAddress.lines.map((line) => (
+									<p key={line.replace(" ", "")} className="text-sm">
+										{line}
+									</p>
+								))}
+							</div>
+							<div>
+								<p className="font-medium">{dict.contact.ukOffice.title}</p>
+								{dict.contact.ukOffice.lines.map((line) => (
+									<p key={line.replace(" ", "")} className="text-sm">
+										{line}
+									</p>
+								))}
+							</div>
+							<div>
+								<p className="font-medium">{dict.contact.hkOffice.title}</p>
+								{dict.contact.hkOffice.lines.map((line) => (
+									<p key={line.replace(" ", "")} className="text-sm">
+										{line}
+									</p>
+								))}
+							</div>
+							<div className="mt-4">
+								<div className="flex items-center gap-4">
+									<Link
+										href={`mailto:${dict.contact.email}`}
+										className="flex flex-col items-center hover:text-primary transition-colors"
+									>
+										<Image
+											src="/icons/email.svg"
+											className="invert"
+											alt="Email"
+											width={24}
+											height={24}
+										/>
+										<span className="text-xs mt-1">Email</span>
+									</Link>
+									<Link
+										href={`https://wa.me/${dict.contact.phone.replace(
+											/[^0-9]/g,
+											"",
+										)}`}
+										className="flex flex-col items-center hover:text-primary transition-colors"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<Image
+											src="/icons/whatsapp.svg"
+											className="invert"
+											alt="WhatsApp"
+											width={24}
+											height={24}
+										/>
+										<span className="text-xs mt-1">WhatsApp</span>
+									</Link>
+									<Link
+										href={`https://t.me/${dict.contact.phone.replace(
+											/[^0-9]/g,
+											"",
+										)}`}
+										className="flex flex-col items-center hover:text-primary transition-colors"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<Image
+											src="/icons/telegram.svg"
+											className="invert"
+											alt="Telegram"
+											width={24}
+											height={24}
+										/>
+										<span className="text-xs mt-1">Telegram</span>
+									</Link>
+									<Link
+										href={`signal://send?phone=${dict.contact.phone.replace(
+											/[^0-9]/g,
+											"",
+										)}`}
+										className="flex flex-col items-center hover:text-primary transition-colors"
+									>
+										<Image
+											src="/icons/signal.svg"
+											className="invert"
+											alt="Signal"
+											width={24}
+											height={24}
+										/>
+										<span className="text-xs mt-1">Signal</span>
+									</Link>
+									<Link
+										href={`tel:${dict.contact.phone}`}
+										className="flex flex-col items-center hover:text-primary transition-colors"
+									>
+										<Image
+											src="/icons/phone.svg"
+											className="invert"
+											alt="Phone"
+											width={24}
+											height={24}
+										/>
+										<span className="text-xs mt-1">Phone</span>
+									</Link>
+								</div>
+							</div>
 						</div>
 					</div>
 					<div>

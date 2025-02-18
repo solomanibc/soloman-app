@@ -1,37 +1,97 @@
 import { Section } from "@/components/Section";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Building2, Mail, MapPin, Phone } from "lucide-react";
 import { type Locale, getDictionary } from "../dictionaries";
 
 export const ConcatInfo = async ({ lang }: { lang: Locale }) => {
 	const dict = await getDictionary(lang);
 
 	return (
-		<Section className="mt-12 grid md:grid-cols-3 gap-8 text-center">
-			<Card>
-				<CardContent className="pt-6">
-					<h2 className="text-xl font-semibold mb-2">{dict.contact.callUs}</h2>
-					<p>{dict.contact.phone}</p>
-				</CardContent>
-			</Card>
-			<Card>
-				<CardContent className="pt-6">
-					<h2 className="text-xl font-semibold mb-2">{dict.contact.emailUs}</h2>
-					<p>
+		<Section className="mt-12">
+			<div className="grid gap-8 lg:grid-cols-2">
+				<Card className="relative overflow-hidden lg:row-span-2">
+					<CardHeader className="pb-3">
+						<div className="mb-2 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
+							<Building2 className="h-6 w-6 text-primary" />
+						</div>
+						<CardTitle>{dict.contact.visitUs}</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-1">
+							<div className="space-y-1">
+								<div className="flex items-center gap-2">
+									<MapPin className="h-4 w-4 text-muted-foreground" />
+									<h3 className="font-medium text-sm">
+										{dict.contact.registeredAddress.title}
+									</h3>
+								</div>
+								<p className="pl-6 text-muted-foreground whitespace-pre-line">
+									{dict.contact.registeredAddress.lines.join("\n")}
+								</p>
+							</div>
+
+							<div className="space-y-1">
+								<div className="flex items-center gap-2">
+									<MapPin className="h-4 w-4 text-muted-foreground" />
+									<h3 className="font-medium text-sm">
+										{dict.contact.ukOffice.title}
+									</h3>
+								</div>
+								<p className="pl-6 text-muted-foreground whitespace-pre-line">
+									{dict.contact.ukOffice.lines.join("\n")}
+								</p>
+							</div>
+
+							<div className="space-y-1">
+								<div className="flex items-center gap-2">
+									<MapPin className="h-4 w-4 text-muted-foreground" />
+									<h3 className="font-medium text-sm">
+										{dict.contact.hkOffice.title}
+									</h3>
+								</div>
+								<p className="pl-6 text-muted-foreground whitespace-pre-line">
+									{dict.contact.hkOffice.lines.join("\n")}
+								</p>
+							</div>
+						</div>
+					</CardContent>
+				</Card>
+
+				<Card className="relative overflow-hidden">
+					<CardHeader className="pb-3">
+						<div className="mb-2 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
+							<Phone className="h-6 w-6 text-primary" />
+						</div>
+						<CardTitle>{dict.contact.callUs}</CardTitle>
+					</CardHeader>
+					<CardContent>
+						<p className="text-xl font-medium">{dict.contact.phone}</p>
+						<p className="text-sm text-muted-foreground mt-1">
+							{dict.contact.companyName}
+						</p>
+					</CardContent>
+				</Card>
+
+				<Card className="relative overflow-hidden">
+					<CardHeader className="pb-3">
+						<div className="mb-2 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
+							<Mail className="h-6 w-6 text-primary" />
+						</div>
+						<CardTitle>{dict.contact.emailUs}</CardTitle>
+					</CardHeader>
+					<CardContent>
 						<a
 							href={`mailto:${dict.contact.email}`}
-							className="text-primary hover:underline"
+							className="text-xl font-medium hover:text-primary"
 						>
 							{dict.contact.email}
 						</a>
-					</p>
-				</CardContent>
-			</Card>
-			<Card>
-				<CardContent className="pt-6">
-					<h2 className="text-xl font-semibold mb-2">{dict.contact.visitUs}</h2>
-					<p>{dict.contact.address}</p>
-				</CardContent>
-			</Card>
+						<p className="text-sm text-muted-foreground mt-1">
+							{dict.contact.description}
+						</p>
+					</CardContent>
+				</Card>
+			</div>
 		</Section>
 	);
 };

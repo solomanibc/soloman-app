@@ -17,6 +17,10 @@ help: ## Outputs this help screen
 
 sync: docker-restart clean install prisma-migrate dev
 
+update:
+	@$(PACKAGE_MANAGER) update
+	$(MAKE) push msg="chore: Update packages"
+
 clean:
 	@rm -rf node_modules .next yarn.lock bun.lockb pnpm-lock.yaml package-lock.json
 

@@ -65,3 +65,17 @@ const makeMedias = (medias: NotionMedia[]) => {
 		created_time: new Date(media.created_time),
 	}));
 };
+
+export const getTotalMediaCount = async (): Promise<number> => {
+	const response = await notion.databases.query({
+		database_id: env.NOTION_DATABASE_MEDIA_ID,
+		filter: {
+			property: "status",
+			status: {
+				equals: "Done",
+			},
+		},
+	});
+
+	return response.results.length;
+};

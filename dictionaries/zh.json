@@ -42,7 +42,7 @@
 	},
 	"businessConsultancy": {
 		"title": "商業顧問服務",
-		"description": "为您提供全面的商业咨询服务，以帮助您在国际市场上取得成功。",
+		"description": "為您提供全面的商業諮詢服務，幫助您在國際市場上取得成功。",
 		"ukMarket": {
 			"title": "英國市場",
 			"description": "全面的商业咨询服务，帮助您在国际市场上取得成功。",
@@ -270,8 +270,8 @@
 		}
 	},
 	"blog": {
-		"title": "最新见解和新闻",
-		"description": "香港商业、金融和企业服务的专家分析和更新"
+		"title": "新聞，博客與見解",
+		"description": "分析最新的新聞，引人深思的博客和行業洞察"
 	},
 	"services_investigation": {
 		"title": "調查服務",
@@ -406,5 +406,11 @@
 			"area": "FO TAN,",
 			"district": "SHATIN"
 		}
+	},
+	"media": {
+		"video_count": "{count} available videos",
+		"title": "媒體中心",
+		"description": "探索我們收藏的教育性和啟發性視頻",
+		"load_more": "Load more"
 	}
 }

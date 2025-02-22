@@ -1,4 +1,4 @@
-import type { Dictionary } from "@/app/[lang]/dictionaries";
+import type { Dictionary } from "@/types/dictionnary.type";
 import { InvestigationServiceCard } from "./investigation-service-card";
 
 export const PersonalInvestigations = ({ dict }: { dict: Dictionary }) => {

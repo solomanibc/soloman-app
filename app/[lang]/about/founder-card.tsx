@@ -1,4 +1,4 @@
-import type { Dictionary } from "@/app/[lang]/dictionaries";
+import type { Dictionary } from "@/types/dictionnary.type";
 
 export const FounderCard = ({ dict }: { dict: Dictionary }) => {
 	return (

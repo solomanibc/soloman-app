@@ -3,7 +3,8 @@
 import { Button } from "@/components/ui/button";
 import { Building2, Users } from "lucide-react";
 import { useState } from "react";
-import type { Dictionary } from "../dictionaries";
+
+import type { Dictionary } from "@/types/dictionnary.type";
 import { CorporateInvestigations } from "./corporate";
 import { PersonalInvestigations } from "./personal";
 

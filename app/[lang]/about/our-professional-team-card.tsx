@@ -1,5 +1,5 @@
-import type { Dictionary } from "@/app/[lang]/dictionaries";
 import { DynamicIcon } from "@/components/dynamic-icon";
+import type { Dictionary } from "@/types/dictionnary.type";
 import type * as LucideIcons from "lucide-react";
 import { SkillCard } from "./skill-card";
 

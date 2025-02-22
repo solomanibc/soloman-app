@@ -272,8 +272,8 @@
 		}
 	},
 	"blog": {
-		"title": "最新见解和新闻",
-		"description": "香港商业、金融和企业服务的专家分析和更新"
+		"title": "新闻，博客与见解",
+		"description": "分析最新的新闻，引人深思的博客和行业洞察"
 	},
 	"services_investigation": {
 		"title": "调查服务",
@@ -408,5 +408,11 @@
 			"area": "FO TAN,",
 			"district": "SHATIN"
 		}
+	},
+	"media": {
+		"video_count": "{count} available videos",
+		"title": "媒体中心",
+		"description": "探索我们收藏的教育性和启发性视频",
+		"load_more": "Load more"
 	}
 }

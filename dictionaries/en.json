@@ -274,8 +274,8 @@
 		}
 	},
 	"blog": {
-		"title": "Latest Insights & News",
-		"description": "Expert analysis and updates on business, finance, and corporate services in Hong Kong"
+		"title": "News, Blogs & Insights",
+		"description": "Analysis on latest news, thought-provoking blog and industry insights"
 	},
 	"services_investigation": {
 		"title": "Investigation Services",
@@ -421,5 +421,11 @@
 			"area": "FO TAN,",
 			"district": "SHATIN"
 		}
+	},
+	"media": {
+		"video_count": "{count} available videos",
+		"title": "Media",
+		"description": "Explore our collection of educational and inspirational videos",
+		"load_more": "Load more"
 	}
 }

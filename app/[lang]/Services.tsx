@@ -3,6 +3,7 @@ import { Section } from "@/components/Section";
 import { Card, CardContent } from "@/components/ui/card";
 import { Briefcase, Zap } from "lucide-react";
 import Link from "next/link";
+
 export default async function Services({ lang }: LocaleParams) {
 	const dict = await getDictionary(lang);
 

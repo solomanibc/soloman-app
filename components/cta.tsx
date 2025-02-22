@@ -1,5 +1,5 @@
-import type { Dictionary } from "@/app/[lang]/dictionaries";
 import { cn } from "@/lib/utils";
+import type { Dictionary } from "@/types/dictionnary.type";
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
 

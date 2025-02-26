@@ -13,9 +13,8 @@
 	},
 	"footer": {
 		"copyright": "Copyright 2025 Soloman Investigation and Business Consultant Limited. All rights reserved.",
-
+		"partnerships": "Partnerships",
 		"quickLinks": "Quick Links",
-		"services": "Services",
 		"followUs": "Follow Us",
 		"description": "Soloman Investigation and Business Consultant Limited is a company that provides Professional Investigation & Consulting Services to clients."
 	},
@@ -186,7 +185,7 @@
 		"submit": "Submit",
 		"callUs": "Call Us",
 		"emailUs": "Email Us",
-		"visitUs": "Visit Us",
+		"visitUs": "Our addresses",
 		"companyName": "Soloman Investigation and Business Consultant Limited",
 		"phone": "+44 7551 857 319",
 		"email": "solomanibc@gmail.com",

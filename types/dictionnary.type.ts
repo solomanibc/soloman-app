@@ -68,24 +68,11 @@ interface CTA {
 	button: string;
 }
 
-interface OldFooter {
-	copyright: string;
-	quickLinks: string;
-	services: string;
-	followUs: string;
-	description: string;
-}
-
 interface NewFooter {
-	title: string;
+	quickLinks: string;
+	followUs: string;
+	partnerships: string;
 	description: string;
-	navigation: string;
-	contact: {
-		title: string;
-		address: string;
-		phone: string;
-		email: string;
-	};
 	copyright: string;
 }
 
@@ -122,7 +109,7 @@ export interface Dictionary {
 		media: string;
 		contact: string;
 	};
-	footer: OldFooter | NewFooter;
+	footer: NewFooter;
 	services_investigation: ServicesInvestigation;
 	businessConsultancy: BusinessConsultancy;
 	about: About;

@@ -80,6 +80,21 @@ const ContactInfo = ({ email, phone, classIcon = "" }: ContactInfoProps) => {
 				/>
 				<span className="text-xs mt-1">Phone</span>
 			</Link>
+			<Link
+				href="https://web.wechat.com/"
+				className="flex flex-col items-center hover:text-primary transition-colors"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				<Image
+					src="/icons/wechat.svg"
+					className={cn(classIcon)}
+					alt="WeChat"
+					width={24}
+					height={24}
+				/>
+				<span className="text-xs mt-1">WeChat</span>
+			</Link>
 		</div>
 	);
 };

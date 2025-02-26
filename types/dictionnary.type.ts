@@ -68,7 +68,7 @@ interface CTA {
 	button: string;
 }
 
-interface NewFooter {
+interface Footer {
 	quickLinks: string;
 	followUs: string;
 	partnerships: string;
@@ -109,7 +109,7 @@ export interface Dictionary {
 		media: string;
 		contact: string;
 	};
-	footer: NewFooter;
+	footer: Footer;
 	services_investigation: ServicesInvestigation;
 	businessConsultancy: BusinessConsultancy;
 	about: About;

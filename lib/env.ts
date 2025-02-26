@@ -8,6 +8,12 @@ export const env = createEnv({
 		NOTION_DATABASE_BLOG_ID: z.string().min(1),
 		NOTION_DATABASE_MEDIA_ID: z.string().min(1),
 		UMAMI_WEBSITE_ID: z.string().min(1),
+		ENABLE_PARTNERSHIPS: z
+			.string()
+			.default("false")
+			.transform((value) => {
+				return value === "true";
+			}),
 	},
 	client: {},
 	experimental__runtimeEnv: {
@@ -16,5 +22,6 @@ export const env = createEnv({
 		NOTION_DATABASE_BLOG_ID: process.env.NOTION_DATABASE_BLOG_ID,
 		NOTION_DATABASE_MEDIA_ID: process.env.NOTION_DATABASE_MEDIA_ID,
 		UMAMI_WEBSITE_ID: process.env.UMAMI_WEBSITE_ID,
+		ENABLE_PARTNERSHIPS: process.env.ENABLE_PARTNERSHIPS,
 	},
 });

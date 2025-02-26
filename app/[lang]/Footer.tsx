@@ -1,5 +1,6 @@
 import { Section } from "@/components/Section";
 import ContactInfo from "@/components/contact-info";
+import { env } from "@/lib/env";
 import type { Dictionary } from "@/types/dictionnary.type";
 import Image from "next/image";
 import Link from "next/link";
@@ -214,6 +215,9 @@ const Contact = ({ dict }: { dict: Dictionary }) => {
 };
 
 const Partnership = ({ dict }: { dict: Dictionary }) => {
+	if (!env.ENABLE_PARTNERSHIPS) {
+		return null;
+	}
 	return (
 		<div>
 			<h4 className="text-lg font-semibold mb-4">{dict.footer.partnerships}</h4>

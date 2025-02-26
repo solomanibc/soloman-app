@@ -11,7 +11,7 @@ export default async function Footer({ lang }: LocaleParams) {
 	return (
 		<footer className="bg-gray-900 text-white py-12">
 			<Section>
-				<div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+				<div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
 					<div>
 						<h3 className="text-xl font-bold mb-4 flex items-center gap-2">
 							<Image src="/icons/logo.svg" alt="Logo" width={50} height={50} />
@@ -89,7 +89,7 @@ const QuickLinks = ({ dict, lang }: { dict: Dictionary; lang: string }) => {
 
 const FollowUs = ({ dict }: { dict: Dictionary }) => {
 	return (
-		<div className="space-y-4 text-center">
+		<div className="space-y-4 text-center border-t border-gray-400 pt-8">
 			<div>
 				<h4 className="text-lg font-semibold mb-4">{dict.footer.followUs}</h4>
 				<div className="flex items-center gap-4 justify-center">

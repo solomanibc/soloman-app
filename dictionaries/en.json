@@ -1,430 +1,430 @@
 {
-  "nav": {
-    "home": "Home",
-    "about": "About Us",
-    "servicesInvestigation": "Investigation Services",
-    "businessConsultancy": "Business Consultancy",
-    "blog": "Blog",
-    "media": "Media",
-    "contact": "Contact"
-  },
-  "trusted": {
-    "title": "Trusted by"
-  },
-  "footer": {
-    "copyright": "Copyright 2025 Soloman Investigation and Business Consultant Limited. All rights reserved.",
-    "partnerships": "Partnerships",
-    "quickLinks": "Quick Links",
-    "followUs": "Follow Us",
-    "description": "Soloman Investigation and Business Consultant Limited is a company that provides Professional Investigation & Consulting Services to clients."
-  },
-  "services": {
-    "title": "Our Investigation Services",
-    "corporate": {
-      "title": "Corporate Investigation",
-      "description": "Comprehensive corporate solutions to maintain your business"
-    },
-    "individual": {
-      "title": "Personal Investigation",
-      "description": "Comprehensive personal solutions for your financial and legal needs"
-    }
-  },
-  "cta": {
-    "title": "Ready to Expand Your Business?",
-    "description": "For more information or to schedule a consultation, please don't hesitate to contact us",
-    "button": "Schedule Consultation"
-  },
-  "businessConsultancy": {
-    "title": "Business Consultancy",
-    "description": "Comprehensive business consultancy services to help you succeed in international markets.",
-    "ukMarket": {
-      "title": "UK Market",
-      "description": "Comprehensive business consultation services for the UK market",
-      "services": [
-        {
-          "id": "franchise",
-          "title": "E-Cigarette Retail Franchise Program",
-          "items": [
-            "Provide market trend analysis and regulatory guidance for the UK e-cigarette industry.",
-            "Assist with brand selection, franchise strategy development, store location, product supply chain management, and operational support."
-          ]
-        },
-        {
-          "id": "websiteDesignMarketing",
-          "title": "Website, Design, and Marketing",
-          "items": [
-            "Deliver web design, brand creation, and SEO optimization services.",
-            "Develop tailored digital marketing strategies for the UK market, including social media campaigns and email marketing."
-          ]
-        },
-        {
-          "id": "cbdProducts",
-          "title": "CBD Products",
-          "items": [
-            "Offer insights into CBD market regulations and product compliance requirements.",
-            "Provide consulting services for production, distribution, and brand promotion."
-          ]
-        },
-        {
-          "id": "healthFoodManufacturing",
-          "title": "Health Food Manufacturing",
-          "items": [
-            "Recommend trusted local manufacturers for health food products and assist with recipe development and production management.",
-            "Provide packaging design and marketing strategy support."
-          ]
-        },
-        {
-          "id": "importAndProcurementForTheUK",
-          "title": "Import and Procurement for the UK",
-          "items": [
-            "Assist with customs clearance, logistics arrangements, and building distribution channels in the UK.",
-            "Offer supplier matchmaking services and advice on international trade policies."
-          ]
-        },
-        {
-          "id": "otherUKRelatedBusinessConsultancyServices",
-          "title": "Other UK-related Business Consultancy Services",
-          "items": [
-            "Include tax advice, legal compliance reviews, and UK market entry strategy planning."
-          ]
-        }
-      ]
-    },
-    "hkMarket": {
-      "title": "HK Market",
-      "description": "Comprehensive business consultation services to help you succeed in international markets.",
-      "services": [
-        {
-          "id": "acquiringExistingCompaniesAndLicenses",
-          "title": "Acquiring Existing Companies and Licenses",
-          "items": [
-            "Support in identifying company acquisition opportunities, including license validation and due diligence.",
-            "Provide legal assistance to ensure compliance and secure transactions."
-          ]
-        },
-        {
-          "id": "importAndProcurementForHongKong",
-          "title": "Import and Procurement for Hong Kong",
-          "items": [
-            "Guide clients through import/export procedures, document preparation, logistics coordination, and local market strategies."
-          ]
-        },
-        {
-          "id": "otherHongKongRelatedBusinessConsultancyServices",
-          "title": "Other Hong Kong-related Business Consultancy Services",
-          "items": [
-            "Include tax optimization, business registration, and bank account opening assistance."
-          ]
-        }
-      ]
-    },
-    "globalMarket": {
-      "title": "Global Market",
-      "description": "Comprehensive business consultation services to help you succeed in international markets.",
-      "services": [
-        {
-          "id": "oreAndRawMaterialProcurement",
-          "title": "Ore and Raw Material Procurement",
-          "items": [
-            "Provide analysis of the ore market and resource availability, and assist in sourcing reliable suppliers.",
-            "Support contract negotiations and logistics management."
-          ]
-        },
-        {
-          "id": "preciousMetalsAndGemstonesProcurement",
-          "title": "Precious Metals and Gemstones Procurement",
-          "items": [
-            "Facilitate the acquisition of precious metals and gemstones, offering authentication services.",
-            "Include price negotiation, contract drafting, and transportation logistics support."
-          ]
-        },
-        {
-          "id": "petroleumAndNaturalGasProcurement",
-          "title": "Petroleum and Natural Gas Procurement",
-          "items": [
-            "Deliver in-depth energy market analysis and establish supply chain connections.",
-            "Coordinate contract agreements and logistics to ensure steady supply."
-          ]
-        },
-        {
-          "id": "otherRelatedBusinessConsultancyServices",
-          "title": "Other Related Business Consultancy Services",
-          "items": [
-            "Offer global trade project support, including cultural communication, contract review, and risk management strategies."
-          ]
-        }
-      ]
-    },
-    "conclusion": "For more information or personalized assistance, feel free to contact us."
-  },
-  "expertise": {
-    "title": "Professional Expertise",
-    "description": "With decades of experience and a global network, we provide comprehensive solutions that help businesses thrive in international markets.",
-    "imageAlt": "Professional expertise",
-    "cta": "Learn More",
-    "points": [
-      "20+ years of international business experience",
-      "Global network across major jurisdictions",
-      "Tailored solutions for your business needs",
-      "Comprehensive range of corporate services",
-      "Professional team with diverse expertise"
-    ]
-  },
-  "feature": {
-    "imageAlt": "Feature image",
-    "title": "Feature",
-    "description": "Feature description",
-    "cta": "Get Started"
-  },
-  "contact": {
-    "title": "Contact Us",
-    "description": "Get in touch with us. We're ready to help you find the best solutions.",
-    "namePlaceholder": "Name",
-    "emailPlaceholder": "Email",
-    "messagePlaceholder": "Message",
-    "submit": "Submit",
-    "callUs": "Call Us",
-    "emailUs": "Email Us",
-    "visitUs": "Our addresses",
-    "companyName": "Soloman Investigation and Business Consultant Limited",
-    "phone": "+44 7551 837319",
-    "email": "info@solomanibc.com",
-    "registeredAddress": {
-      "title": "Registered Address",
-      "lines": ["85 Great Portland Street,", "First Floor,", "London W1W 7LT"]
-    },
-    "ukOffice": {
-      "title": "Office Address",
-      "lines": ["Bartle House,", "9 Oxford Court,", "Manchester M2 3WQ"]
-    },
-    "hkOffice": {
-      "title": "Hong Kong Office",
-      "lines": [
-        "Room 14,16/F,",
-        "FONDA INDUSTRIAL BUILDING,",
-        "37-39 AU PUI WAN Street,",
-        "FO TAN,",
-        "SHATIN"
-      ]
-    }
-  },
-  "hero": {
-    "title": "Welcome to Soloman Investigation and Business Consultant Limited",
-    "description": "We provide professional consulting services to clients.",
-    "cta": "Get Started",
-    "imageAlt": "Hero image"
-  },
-  "about": {
-    "title": "About US",
-    "founder": {
-      "title": "Founder’s Profile",
-      "name": "I am Mr. Sulayman,",
-      "graduation": "the founder of Soloman Investigation and Business Consultant Ltd., with over 12 years of international experience and a solid professional background. I completed my secondary education in Hong Kong before pursuing accounting studies in the UK. I hold certifications in Private Detective Training from the UK, Senior Financial Advisor, and U.S. Certified Financial Consultant.",
-      "experience": "After graduation, I returned to Hong Kong, where I gained extensive practical experience through roles in financial consulting and international trade. Working on business cases across Greater China, the Middle East, Europe, and Africa, I demonstrated exceptional problem-solving abilities and insights. Driven by a passion for uncovering the truth, I transitioned into the investigative industry, progressing from a field investigator at a renowned agency to a senior investigative consultant at Hong Kong’s largest investigation firm, where I deepened my expertise in this field.",
-      "relocating": "After relocating to the UK, I founded Solomon Investigation and Business Consultant Ltd. as a platform to serve clients with my professional expertise and cross-cultural experience. As a passionate professional in the investigative field, I firmly believe that beneath every surface lies hidden truths waiting to be uncovered. My mission is to deliver tailored solutions through professionalism, integrity, and innovation—resolving challenges while achieving mutual success and continually pursuing excellence."
-    },
-    "professionalTeam": {
-      "title": "Our Professional Team",
-      "description": "Our team is composed of multi-disciplinary experts based in both Hong Kong and the UK, bringing extensive industry knowledge and hands-on experience:",
-      "list": [
-        {
-          "title": "Tax Experts",
-          "icon": "DollarSign",
-          "description": "Provide comprehensive financial and tax compliance advice to ensure all transactions and investigations are legally sound."
-        },
-        {
-          "title": "Legal Experts",
-          "icon": "Scale",
-          "description": "Ensure every investigative and consulting project complies with the law, offering robust legal support."
-        },
-        {
-          "title": "Trade Experts",
-          "icon": "ChartCandlestick",
-          "description": "Specialize in international trade regulations and market analysis, offering efficient cross-border business solutions."
-        },
-        {
-          "title": "Professional Investigators",
-          "icon": "TextSearch",
-          "description": "Skilled in advanced investigative techniques, focusing on confidentiality and efficient execution to uncover the facts."
-        }
-      ],
-      "excellence": "We excel in handling cross-border investigations and business projects, leveraging local expertise and global perspectives to deliver customized solutions."
-    },
-    "ourApproach": {
-      "title": "Our Approach",
-      "list": [
-        {
-          "title": "Confidentiality and Trust",
-          "description": "Protecting client privacy and data security is our top priority. We guarantee the highest standards to safeguard your information and maintain strict confidentiality throughout the investigation process."
-        },
-        {
-          "title": "Tailored Solutions",
-          "description": "We understand that every client’s needs are unique. Therefore, we design bespoke investigation plans and consulting services to ensure precise and practical outcomes."
-        },
-        {
-          "title": "Professionalism and Efficiency",
-          "description": "With over 12 years of industry experience and international expertise, we diagnose issues quickly and deliver efficient solutions to help clients gain a competitive edge and achieve success."
-        },
-        {
-          "title": "Legal and Compliant Full-Service Support",
-          "description": "Operating within the bounds of legality and compliance, we assist clients in navigating diverse matters, becoming your trusted partner in both personal and business endeavors."
-        }
-      ]
-    }
-  },
-  "blog": {
-    "title": "News, Blogs & Insights",
-    "description": "Analysis on latest news, thought-provoking blog and industry insights"
-  },
-  "services_investigation": {
-    "title": "Investigation Services",
-    "description": "Professional and discreet investigation services for corporate and personal needs",
-    "button_corporate": "Corporate Investigations",
-    "button_personal": "Personal Investigations",
-    "conclusion": "Each service can be tailored to meet the specific needs of our clients, ensuring precise and detailed investigation results. We prioritize privacy and compliance, guaranteeing a secure and reliable process. For further inquiries or consultations, feel free to contact us!",
-    "corporate": {
-      "title": "Corporate Investigations",
-      "list": [
-        {
-          "title": "Company Background",
-          "description": "Thorough investigation of company history and operations",
-          "items": [
-            "Investigate the company's history, registration details, and scope of operations.",
-            "Verify if the company has a history of illegal operations, contract breaches, or other negative records.",
-            "Analyze the company's financial condition and market reputation."
-          ]
-        },
-        {
-          "title": "Property Investigation",
-          "description": "Detailed verification of property-related matters",
-          "items": [
-            "Verify property ownership, leasing arrangements, and any legal disputes",
-            "Ensure the authenticity and compliance of property transactions",
-            "Investigate property history to identify potential risks"
-          ]
-        },
-        {
-          "title": "Background Investigation",
-          "description": "Comprehensive background checks for business associates",
-          "items": [
-            "Conduct thorough identity verification of management, shareholders, or business partners",
-            "Investigate potential conflicts of interest or unethical business practices"
-          ]
-        },
-        {
-          "title": "Asset Investigation",
-          "description": "Detailed assessment of business assets",
-          "items": [
-            "Evaluate company assets, including fixed and current assets",
-            "Identify hidden or transferred assets, particularly in litigation cases"
-          ]
-        },
-        {
-          "title": "Mystery Shopping",
-          "description": "Professional service quality assessment",
-          "items": [
-            "Deploy professional mystery shoppers to evaluate service quality",
-            "Analyze customer experience and provide improvement recommendations"
-          ]
-        },
-        {
-          "title": "Marriage Record",
-          "description": "Marriage record verification for risk management",
-          "items": [
-            "Verify marital status in personal or business transactions to prevent fraud",
-            "Investigate marriage relationships for potential legal disputes"
-          ]
-        }
-      ]
-    },
-    "personal": {
-      "title": "Personal Investigations",
-      "description": "Discreet and professional investigation services for personal matters and peace of mind",
-      "list": [
-        {
-          "title": "People Search & Address Investigation",
-          "icon": "MapPin",
-          "description": "Verification of marital status for risk management",
-          "features": [
-            "Assist in locating estranged family members, friends, or business partners",
-            "Confirm the target's address or latest contact information"
-          ]
-        },
-        {
-          "title": "Partner Monitoring",
-          "icon": "Eye",
-          "description": "Professional monitoring services for safety concerns",
-          "features": [
-            "Monitor partner activities for abnormal behavior to address trust or safety concerns",
-            "Provide detailed reports to assist in handling relationship issues"
-          ]
-        },
-        {
-          "title": "Child Activity Monitoring",
-          "icon": "Baby",
-          "description": "Ensure the safety and well-being of minors",
-          "features": [
-            "Help parents understand the activities and social circles of minors",
-            "Address suspected risky behaviors or threats in advance"
-          ]
-        },
-        {
-          "title": "Online Dating Background Checks",
-          "icon": "Heart",
-          "description": "Verify the authenticity of online relationships",
-          "features": [
-            "Verify the authenticity and background of online dating partners",
-            "Confirm if the individual has undisclosed marital or criminal records"
-          ]
-        },
-        {
-          "title": "Life and Death Records",
-          "icon": "FileCheck",
-          "description": "Official record verification services",
-          "features": [
-            "Confirm the living or deceased status of an individual, particularly in inheritance cases",
-            "Verify the authenticity of life or death records for legal purposes"
-          ]
-        },
-        {
-          "title": "Bankruptcy Records",
-          "icon": "UserCheck",
-          "description": "Financial background investigation",
-          "features": [
-            "Investigate an individual's financial background and bankruptcy history",
-            "Assess risks associated with financial transactions or partnerships"
-          ]
-        }
-      ]
-    }
-  },
-  "addresses": {
-    "companyName": "Soloman Investigation and Business Consultant Limited",
-    "registered": {
-      "title": "Registered Address:",
-      "street": "85 Great Portland Street,",
-      "floor": "First Floor,",
-      "city": "London W1W 7LT"
-    },
-    "office": {
-      "title": "Office Address:",
-      "building": "Bartle House,",
-      "street": "9 Oxford Court,",
-      "city": "Manchester M2 3WQ"
-    },
-    "hongKong": {
-      "title": "Hong Kong Office:",
-      "room": "Room 14,16/F,",
-      "building": "FONDA INDUSTRIAL BUILDING,",
-      "street": "37-39 AU PUI WAN Street,",
-      "area": "FO TAN,",
-      "district": "SHATIN"
-    }
-  },
-  "media": {
-    "video_count": "{count} available videos",
-    "title": "Media",
-    "description": "Explore our collection of educational and inspirational videos",
-    "load_more": "Load more"
-  }
+	"nav": {
+		"home": "Home",
+		"about": "About Us",
+		"servicesInvestigation": "Investigation Services",
+		"businessConsultancy": "Business Consultancy",
+		"blog": "Blog",
+		"media": "Media",
+		"contact": "Contact"
+	},
+	"trusted": {
+		"title": "Trusted by"
+	},
+	"footer": {
+		"copyright": "Copyright 2025 Soloman Investigation and Business Consultant Limited. All rights reserved.",
+		"partnerships": "Partnerships",
+		"quickLinks": "Quick Links",
+		"followUs": "Follow Us",
+		"description": "Soloman Investigation and Business Consultant Limited is a company that provides Professional Investigation & Consulting Services to clients."
+	},
+	"services": {
+		"title": "Our Investigation Services",
+		"corporate": {
+			"title": "Corporate Investigation",
+			"description": "Comprehensive corporate solutions to maintain your business"
+		},
+		"individual": {
+			"title": "Personal Investigation",
+			"description": "Comprehensive personal solutions for your financial and legal needs"
+		}
+	},
+	"cta": {
+		"title": "Ready to Expand Your Business?",
+		"description": "For more information or to schedule a consultation, please don't hesitate to contact us",
+		"button": "Schedule Consultation"
+	},
+	"businessConsultancy": {
+		"title": "Business Consultancy",
+		"description": "Comprehensive business consultancy services to help you succeed in international markets.",
+		"ukMarket": {
+			"title": "UK Market",
+			"description": "Comprehensive business consultation services for the UK market",
+			"services": [
+				{
+					"id": "franchise",
+					"title": "E-Cigarette Retail Franchise Program",
+					"items": [
+						"Provide market trend analysis and regulatory guidance for the UK e-cigarette industry.",
+						"Assist with brand selection, franchise strategy development, store location, product supply chain management, and operational support."
+					]
+				},
+				{
+					"id": "websiteDesignMarketing",
+					"title": "Website, Design, and Marketing",
+					"items": [
+						"Deliver web design, brand creation, and SEO optimization services.",
+						"Develop tailored digital marketing strategies for the UK market, including social media campaigns and email marketing."
+					]
+				},
+				{
+					"id": "cbdProducts",
+					"title": "CBD Products",
+					"items": [
+						"Offer insights into CBD market regulations and product compliance requirements.",
+						"Provide consulting services for production, distribution, and brand promotion."
+					]
+				},
+				{
+					"id": "healthFoodManufacturing",
+					"title": "Health Food Manufacturing",
+					"items": [
+						"Recommend trusted local manufacturers for health food products and assist with recipe development and production management.",
+						"Provide packaging design and marketing strategy support."
+					]
+				},
+				{
+					"id": "importAndProcurementForTheUK",
+					"title": "Import and Procurement for the UK",
+					"items": [
+						"Assist with customs clearance, logistics arrangements, and building distribution channels in the UK.",
+						"Offer supplier matchmaking services and advice on international trade policies."
+					]
+				},
+				{
+					"id": "otherUKRelatedBusinessConsultancyServices",
+					"title": "Other UK-related Business Consultancy Services",
+					"items": [
+						"Include tax advice, legal compliance reviews, and UK market entry strategy planning."
+					]
+				}
+			]
+		},
+		"hkMarket": {
+			"title": "HK Market",
+			"description": "Comprehensive business consultation services to help you succeed in international markets.",
+			"services": [
+				{
+					"id": "acquiringExistingCompaniesAndLicenses",
+					"title": "Acquiring Existing Companies and Licenses",
+					"items": [
+						"Support in identifying company acquisition opportunities, including license validation and due diligence.",
+						"Provide legal assistance to ensure compliance and secure transactions."
+					]
+				},
+				{
+					"id": "importAndProcurementForHongKong",
+					"title": "Import and Procurement for Hong Kong",
+					"items": [
+						"Guide clients through import/export procedures, document preparation, logistics coordination, and local market strategies."
+					]
+				},
+				{
+					"id": "otherHongKongRelatedBusinessConsultancyServices",
+					"title": "Other Hong Kong-related Business Consultancy Services",
+					"items": [
+						"Include tax optimization, business registration, and bank account opening assistance."
+					]
+				}
+			]
+		},
+		"globalMarket": {
+			"title": "Global Market",
+			"description": "Comprehensive business consultation services to help you succeed in international markets.",
+			"services": [
+				{
+					"id": "oreAndRawMaterialProcurement",
+					"title": "Ore and Raw Material Procurement",
+					"items": [
+						"Provide analysis of the ore market and resource availability, and assist in sourcing reliable suppliers.",
+						"Support contract negotiations and logistics management."
+					]
+				},
+				{
+					"id": "preciousMetalsAndGemstonesProcurement",
+					"title": "Precious Metals and Gemstones Procurement",
+					"items": [
+						"Facilitate the acquisition of precious metals and gemstones, offering authentication services.",
+						"Include price negotiation, contract drafting, and transportation logistics support."
+					]
+				},
+				{
+					"id": "petroleumAndNaturalGasProcurement",
+					"title": "Petroleum and Natural Gas Procurement",
+					"items": [
+						"Deliver in-depth energy market analysis and establish supply chain connections.",
+						"Coordinate contract agreements and logistics to ensure steady supply."
+					]
+				},
+				{
+					"id": "otherRelatedBusinessConsultancyServices",
+					"title": "Other Related Business Consultancy Services",
+					"items": [
+						"Offer global trade project support, including cultural communication, contract review, and risk management strategies."
+					]
+				}
+			]
+		},
+		"conclusion": "For more information or personalized assistance, feel free to contact us."
+	},
+	"expertise": {
+		"title": "Professional Expertise",
+		"description": "With decades of experience and a global network, we provide comprehensive solutions that help businesses thrive in international markets.",
+		"imageAlt": "Professional expertise",
+		"cta": "Learn More",
+		"points": [
+			"20+ years of international business experience",
+			"Global network across major jurisdictions",
+			"Tailored solutions for your business needs",
+			"Comprehensive range of corporate services",
+			"Professional team with diverse expertise"
+		]
+	},
+	"feature": {
+		"imageAlt": "Feature image",
+		"title": "Feature",
+		"description": "Feature description",
+		"cta": "Get Started"
+	},
+	"contact": {
+		"title": "Contact Us",
+		"description": "Get in touch with us. We're ready to help you find the best solutions.",
+		"namePlaceholder": "Name",
+		"emailPlaceholder": "Email",
+		"messagePlaceholder": "Message",
+		"submit": "Submit",
+		"callUs": "Call Us",
+		"emailUs": "Email Us",
+		"visitUs": "Our addresses",
+		"companyName": "Soloman Investigation and Business Consultant Limited",
+		"phone": "+44 7551 837319",
+		"email": "info@solomanibc.com",
+		"registeredAddress": {
+			"title": "Registered Address",
+			"lines": ["85 Great Portland Street,", "First Floor,", "London W1W 7LT"]
+		},
+		"ukOffice": {
+			"title": "Office Address",
+			"lines": ["Bartle House,", "9 Oxford Court,", "Manchester M2 3WQ"]
+		},
+		"hkOffice": {
+			"title": "Hong Kong Office",
+			"lines": [
+				"Room 14,16/F,",
+				"FONDA INDUSTRIAL BUILDING,",
+				"37-39 AU PUI WAN Street,",
+				"FO TAN,",
+				"SHATIN"
+			]
+		}
+	},
+	"hero": {
+		"title": "Welcome to Soloman Investigation and Business Consultant Limited",
+		"description": "We provide professional consulting services to clients.",
+		"cta": "Get Started",
+		"imageAlt": "Hero image"
+	},
+	"about": {
+		"title": "About US",
+		"founder": {
+			"title": "Founder’s Profile",
+			"name": "I am Mr. Sulayman,",
+			"graduation": "the founder of Soloman Investigation and Business Consultant Ltd., with over 12 years of international experience and a solid professional background. I completed my secondary education in Hong Kong before pursuing accounting studies in the UK. I hold certifications in Private Detective Training from the UK, Senior Financial Advisor, and U.S. Certified Financial Consultant.",
+			"experience": "After graduation, I returned to Hong Kong, where I gained extensive practical experience through roles in financial consulting and international trade. Working on business cases across Greater China, the Middle East, Europe, and Africa, I demonstrated exceptional problem-solving abilities and insights. Driven by a passion for uncovering the truth, I transitioned into the investigative industry, progressing from a field investigator at a renowned agency to a senior investigative consultant at Hong Kong’s largest investigation firm, where I deepened my expertise in this field.",
+			"relocating": "After relocating to the UK, I founded Solomon Investigation and Business Consultant Ltd. as a platform to serve clients with my professional expertise and cross-cultural experience. As a passionate professional in the investigative field, I firmly believe that beneath every surface lies hidden truths waiting to be uncovered. My mission is to deliver tailored solutions through professionalism, integrity, and innovation—resolving challenges while achieving mutual success and continually pursuing excellence."
+		},
+		"professionalTeam": {
+			"title": "Our Professional Team",
+			"description": "Our team is composed of multi-disciplinary experts based in both Hong Kong and the UK, bringing extensive industry knowledge and hands-on experience:",
+			"list": [
+				{
+					"title": "Tax Experts",
+					"icon": "DollarSign",
+					"description": "Provide comprehensive financial and tax compliance advice to ensure all transactions and investigations are legally sound."
+				},
+				{
+					"title": "Legal Experts",
+					"icon": "Scale",
+					"description": "Ensure every investigative and consulting project complies with the law, offering robust legal support."
+				},
+				{
+					"title": "Trade Experts",
+					"icon": "ChartCandlestick",
+					"description": "Specialize in international trade regulations and market analysis, offering efficient cross-border business solutions."
+				},
+				{
+					"title": "Professional Investigators",
+					"icon": "TextSearch",
+					"description": "Skilled in advanced investigative techniques, focusing on confidentiality and efficient execution to uncover the facts."
+				}
+			],
+			"excellence": "We excel in handling cross-border investigations and business projects, leveraging local expertise and global perspectives to deliver customized solutions."
+		},
+		"ourApproach": {
+			"title": "Our Approach",
+			"list": [
+				{
+					"title": "Confidentiality and Trust",
+					"description": "Protecting client privacy and data security is our top priority. We guarantee the highest standards to safeguard your information and maintain strict confidentiality throughout the investigation process."
+				},
+				{
+					"title": "Tailored Solutions",
+					"description": "We understand that every client’s needs are unique. Therefore, we design bespoke investigation plans and consulting services to ensure precise and practical outcomes."
+				},
+				{
+					"title": "Professionalism and Efficiency",
+					"description": "With over 12 years of industry experience and international expertise, we diagnose issues quickly and deliver efficient solutions to help clients gain a competitive edge and achieve success."
+				},
+				{
+					"title": "Legal and Compliant Full-Service Support",
+					"description": "Operating within the bounds of legality and compliance, we assist clients in navigating diverse matters, becoming your trusted partner in both personal and business endeavors."
+				}
+			]
+		}
+	},
+	"blog": {
+		"title": "News, Blogs & Insights",
+		"description": "Analysis on latest news, thought-provoking blog and industry insights"
+	},
+	"services_investigation": {
+		"title": "Investigation Services",
+		"description": "Professional and discreet investigation services for corporate and personal needs",
+		"button_corporate": "Corporate Investigations",
+		"button_personal": "Personal Investigations",
+		"conclusion": "Each service can be tailored to meet the specific needs of our clients, ensuring precise and detailed investigation results. We prioritize privacy and compliance, guaranteeing a secure and reliable process. For further inquiries or consultations, feel free to contact us!",
+		"corporate": {
+			"title": "Corporate Investigations",
+			"list": [
+				{
+					"title": "Company Background",
+					"description": "Thorough investigation of company history and operations",
+					"items": [
+						"Investigate the company's history, registration details, and scope of operations.",
+						"Verify if the company has a history of illegal operations, contract breaches, or other negative records.",
+						"Analyze the company's financial condition and market reputation."
+					]
+				},
+				{
+					"title": "Property Investigation",
+					"description": "Detailed verification of property-related matters",
+					"items": [
+						"Verify property ownership, leasing arrangements, and any legal disputes",
+						"Ensure the authenticity and compliance of property transactions",
+						"Investigate property history to identify potential risks"
+					]
+				},
+				{
+					"title": "Background Investigation",
+					"description": "Comprehensive background checks for business associates",
+					"items": [
+						"Conduct thorough identity verification of management, shareholders, or business partners",
+						"Investigate potential conflicts of interest or unethical business practices"
+					]
+				},
+				{
+					"title": "Asset Investigation",
+					"description": "Detailed assessment of business assets",
+					"items": [
+						"Evaluate company assets, including fixed and current assets",
+						"Identify hidden or transferred assets, particularly in litigation cases"
+					]
+				},
+				{
+					"title": "Mystery Shopping",
+					"description": "Professional service quality assessment",
+					"items": [
+						"Deploy professional mystery shoppers to evaluate service quality",
+						"Analyze customer experience and provide improvement recommendations"
+					]
+				},
+				{
+					"title": "Marriage Record",
+					"description": "Marriage record verification for risk management",
+					"items": [
+						"Verify marital status in personal or business transactions to prevent fraud",
+						"Investigate marriage relationships for potential legal disputes"
+					]
+				}
+			]
+		},
+		"personal": {
+			"title": "Personal Investigations",
+			"description": "Discreet and professional investigation services for personal matters and peace of mind",
+			"list": [
+				{
+					"title": "People Search & Address Investigation",
+					"icon": "MapPin",
+					"description": "Verification of marital status for risk management",
+					"features": [
+						"Assist in locating estranged family members, friends, or business partners",
+						"Confirm the target's address or latest contact information"
+					]
+				},
+				{
+					"title": "Partner Monitoring",
+					"icon": "Eye",
+					"description": "Professional monitoring services for safety concerns",
+					"features": [
+						"Monitor partner activities for abnormal behavior to address trust or safety concerns",
+						"Provide detailed reports to assist in handling relationship issues"
+					]
+				},
+				{
+					"title": "Child Activity Monitoring",
+					"icon": "Baby",
+					"description": "Ensure the safety and well-being of minors",
+					"features": [
+						"Help parents understand the activities and social circles of minors",
+						"Address suspected risky behaviors or threats in advance"
+					]
+				},
+				{
+					"title": "Online Dating Background Checks",
+					"icon": "Heart",
+					"description": "Verify the authenticity of online relationships",
+					"features": [
+						"Verify the authenticity and background of online dating partners",
+						"Confirm if the individual has undisclosed marital or criminal records"
+					]
+				},
+				{
+					"title": "Life and Death Records",
+					"icon": "FileCheck",
+					"description": "Official record verification services",
+					"features": [
+						"Confirm the living or deceased status of an individual, particularly in inheritance cases",
+						"Verify the authenticity of life or death records for legal purposes"
+					]
+				},
+				{
+					"title": "Bankruptcy Records",
+					"icon": "UserCheck",
+					"description": "Financial background investigation",
+					"features": [
+						"Investigate an individual's financial background and bankruptcy history",
+						"Assess risks associated with financial transactions or partnerships"
+					]
+				}
+			]
+		}
+	},
+	"addresses": {
+		"companyName": "Soloman Investigation and Business Consultant Limited",
+		"registered": {
+			"title": "Registered Address:",
+			"street": "85 Great Portland Street,",
+			"floor": "First Floor,",
+			"city": "London W1W 7LT"
+		},
+		"office": {
+			"title": "Office Address:",
+			"building": "Bartle House,",
+			"street": "9 Oxford Court,",
+			"city": "Manchester M2 3WQ"
+		},
+		"hongKong": {
+			"title": "Hong Kong Office:",
+			"room": "Room 14,16/F,",
+			"building": "FONDA INDUSTRIAL BUILDING,",
+			"street": "37-39 AU PUI WAN Street,",
+			"area": "FO TAN,",
+			"district": "SHATIN"
+		}
+	},
+	"media": {
+		"video_count": "{count} available videos",
+		"title": "Media",
+		"description": "Explore our collection of educational and inspirational videos",
+		"load_more": "Load more"
+	}
 }

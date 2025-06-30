@@ -1,413 +1,413 @@
 {
-  "nav": {
-    "home": "首页",
-    "about": "关于我们",
-    "servicesInvestigation": "调查服务",
-    "businessConsultancy": "商业咨询",
-    "blog": "博客",
-    "media": "媒体",
-    "contact": "联系我们"
-  },
-  "trusted": {
-    "title": "值得信赖"
-  },
-  "footer": {
-    "description": "索乐万调查及商业顾问有限公司是一家专业的调查和商业咨询公司，致力于为您的业务提供最佳解决方案。",
-    "partnerships": "Partnerships",
-    "followUs": "Follow Us",
-    "quickLinks": "Quick Links",
-    "copyright": "版权所有 2025 索乐万调查及商业顾问有限公司。保留所有权利。"
-  },
-  "services": {
-    "title": "我们的服务",
-    "corporate": {
-      "title": "企业调查",
-      "description": "全面的商业解决方案，协助建立及维持业务"
-    },
-    "individual": {
-      "title": "个人调查",
-      "description": "全面的个人解决方案，满足你的财务和法律需求"
-    }
-  },
-  "cta": {
-    "title": "你准备好扩展你的业务吗",
-    "description": "如需更多信息或预约咨询，请随时与我们联系",
-    "button": "预约咨询"
-  },
-  "businessConsultancy": {
-    "title": "商业顾问服务",
-    "description": "为您提供全面的商业咨询服务，以帮助您在国际市场上取得成功。",
-    "ukMarket": {
-      "title": "英国市场",
-      "description": "全面的商业咨询服务，帮助您在国际市场上取得成功。",
-      "services": [
-        {
-          "id": "franchise",
-          "title": "电子烟零售店加盟计划",
-          "items": [
-            "提供电子烟市场的趋势分析与法规解读。",
-            "协助选择品牌、制定加盟策略、店面选址、产品供应链管理及运营支持。"
-          ]
-        },
-        {
-          "id": "websiteDesignMarketing",
-          "title": "网站、设计及市场推广",
-          "items": [
-            "提供网站设计、品牌形象创建、以及SEO优化服务。",
-            "制定针对英国市场的数字营销策略，包括社交媒体推广与电子邮件营销。"
-          ]
-        },
-        {
-          "id": "cbdProducts",
-          "title": "CBD相关的产品",
-          "items": [
-            "介绍CBD市场法规及产品合规性要求。",
-            "提供生产、分销及品牌推广的咨询服务。"
-          ]
-        },
-        {
-          "id": "healthFoodManufacturing",
-          "title": "健康食品代工",
-          "items": [
-            "推荐英国本地可靠的健康食品制造商，协助进行配方开发与生产管理。",
-            "提供产品包装设计及市场营销支持。"
-          ]
-        },
-        {
-          "id": "importAndProcurementForUK",
-          "title": "进口到英国及采购",
-          "items": [
-            "协助处理英国的海关清关、物流安排及产品分销渠道建设。",
-            "提供采购供应商匹配及国际贸易政策建议。"
-          ]
-        },
-        {
-          "id": "otherUKRelatedBusinessConsultancyServices",
-          "title": "其他英国产品相关的商业咨询及服务",
-          "items": ["包括税务建议、法律合规性审查及英国市场进入战略规划。"]
-        }
-      ]
-    },
-    "hkMarket": {
-      "title": "香港市场",
-      "description": "全面的商业咨询服务，帮助您在国际市场上取得成功。",
-      "services": [
-        {
-          "id": "acquiringExistingCompaniesAndLicenses",
-          "title": "购买现有公司及其牌照",
-          "items": [
-            "协助寻找适合的公司转让机会，包括牌照的验证及尽职调查。",
-            "提供法律支持，确保交易合法合规。"
-          ]
-        },
-        {
-          "id": "importAndProcurementForHongKong",
-          "title": "进口到香港及采购",
-          "items": [
-            "指导处理进出口程序，包括文件准备、物流协调及本地市场营销支持。"
-          ]
-        },
-        {
-          "id": "otherHongKongRelatedBusinessConsultancyServices",
-          "title": "其他香港相关的商业咨询及服务",
-          "items": ["包括税务优化、商业注册及银行开户服务。"]
-        }
-      ]
-    },
-    "globalMarket": {
-      "title": "全球市场",
-      "description": "全面的商业咨询服务，帮助您在国际市场上取得成功。",
-      "services": [
-        {
-          "id": "oreAndRawMaterialProcurement",
-          "title": "矿石及原材料采购",
-          "items": [
-            "提供矿石市场分析及资源分布信息，协助找到可靠的供应商。",
-            "支持交易谈判及物流管理。"
-          ]
-        },
-        {
-          "id": "preciousMetalsAndGemstonesProcurement",
-          "title": "贵金属及宝石采购",
-          "items": [
-            "协助完成贵金属及宝石采购，提供真实性鉴定服务。",
-            "包括价格谈判、合同起草及运输安排支持。"
-          ]
-        },
-        {
-          "id": "petroleumAndNaturalGasProcurement",
-          "title": "石油和天然气采购",
-          "items": [
-            "提供能源市场的深度分析及供应链搭建。",
-            "协调交易合同及物流安排，确保供应稳定。"
-          ]
-        },
-        {
-          "id": "otherRelatedBusinessConsultancyServices",
-          "title": "其他相关的商业咨询及服务",
-          "items": [
-            "提供全球贸易项目支持，包括文化沟通、合同审查及风险控制策略。"
-          ]
-        }
-      ]
-    }
-  },
-  "expertise": {
-    "title": "专业知识",
-    "description": "凭借数十年的经验和全球网络，我们提供全面的解决方案，帮助企业在国际市场上蓬勃发展。",
-    "imageAlt": "专业知识",
-    "cta": "了解更多",
-    "points": [
-      "20+ 年的国际商业经验",
-      "全球网络覆盖主要司法管辖区",
-      "量身定制的解决方案满足您的业务需求",
-      "全面的商业服务范围",
-      "专业团队，拥有多元化的专业知识"
-    ]
-  },
-  "feature": {
-    "imageAlt": "功能图片",
-    "title": "功能",
-    "description": "功能描述",
-    "cta": "开始"
-  },
-  "contact": {
-    "title": "联系我们",
-    "description": "与我们联系。我们准备帮助您找到最佳解决方案。",
-    "namePlaceholder": "姓名",
-    "emailPlaceholder": "电子邮件",
-    "messagePlaceholder": "消息",
-    "submit": "提交",
-    "callUs": "打电话给我们",
-    "emailUs": "发邮件给我们",
-    "visitUs": "访问我们",
-    "companyName": "索乐万调查及商业顾问有限公司",
-    "phone": "+44 7551 837319",
-    "email": "info@solomanibc.com",
-    "registeredAddress": {
-      "title": "注册地址",
-      "lines": ["85 Great Portland Street", "First Floor", "London W1W 7LT"]
-    },
-    "ukOffice": {
-      "title": "办公室地址",
-      "lines": ["Bartle House", "9 Oxford Court", "Manchester M2 3WQ"]
-    },
-    "hkOffice": {
-      "title": "香港办公室",
-      "lines": [
-        "Room 14, 16/F",
-        "FONDA INDUSTRIAL BUILDING",
-        "37-39 AU PUI WAN Street",
-        "FO TAN, SHATIN"
-      ]
-    }
-  },
-  "hero": {
-    "title": "欢迎来到索乐万调查及商业顾问有限公司",
-    "description": "我们为客户提供专业的咨询服务。",
-    "cta": "开始使用",
-    "imageAlt": "主页图片"
-  },
-  "about": {
-    "title": "关于我们",
-    "founder": {
-      "title": "创始人简介",
-      "name": "我是苏莱曼",
-      "graduation": "索乐万调查及商业顾问有限公司的创始人，拥有超过12年的跨国经验与深厚的专业背景。我在香港完成中学教育，后赴英国修读会计专业，并取得英国私家侦探训练证书、高级理财顾问证书及美国认证财务顾问证书。",
-      "experience": "毕业后，我回到香港，先后从事理财顾问及外贸行业，积累了丰富的实战经验。在处理中港台及中东、欧洲、非洲等地的商业案例中，我展现了卓越的洞察力与解决问题的能力。因对真相探索的热忱，我投身侦探行业，从老牌侦探社的前线调查员一路晋升为全港最大规模侦探社的高级调查顾问，在该领域深耕多年。",
-      "relocating": "移居英国后，我希望以索乐万调查及商业顾问有限公司为平台，将我的专业知识与跨文化经验服务于更多客户。作为一名热爱侦探工作的专业人士，我坚信，每一件事情的表面之下都可能隐藏着鲜为人知的真相。我的使命是以专业、诚信和创新的方式，为客户提供量身定制的解决方案，解决问题的同时实现双赢，并不断追求卓越。"
-    },
-    "professionalTeam": {
-      "title": "专业团队",
-      "description": "我们的团队由来自香港及英国的多领域专家组成，拥有深厚的行业背景与丰富的实践经验：",
-      "list": [
-        {
-          "title": "税务专家",
-          "icon": "DollarSign",
-          "description": "提供全面的财务与税务合规建议，确保每笔交易与调查在税务上都稳妥无虞。"
-        },
-        {
-          "title": "贸易专家",
-          "icon": "Scale",
-          "description": "精通国际贸易法规及市场分析，为客户提供高效的跨境商业解决方案。"
-        },
-        {
-          "title": "法律专家",
-          "icon": "ChartCandlestick",
-          "description": "确保每个调查与顾问项目合法合规，并提供全面的法律支持。"
-        },
-        {
-          "title": "专业侦探团队",
-          "icon": "TextSearch",
-          "description": "熟练掌握调查技术，专注于保密性和高效执行，为客户揭示事实真相。"
-        }
-      ],
-      "excellence": "我们擅长处理跨境调查与商业项目，结合本地专业知识与国际视野，提供量身定制的解决方案，帮助客户在全球化背景下应对挑战。"
-    },
-    "ourApproach": {
-      "title": "我们的工作方式",
-      "list": [
-        {
-          "title": "保密与信任",
-          "description": "每位客户的隐私和数据安全始终是我们的首要考量。我们承诺以最高标准保护您的信息，确保调查过程绝对保密。"
-        },
-        {
-          "title": "量身定制的解决方案",
-          "description": "我们深知每位客户的需求各不相同。因此，我们根据具体情况为您设计专属的调查计划与顾问服务，确保结果精准且切合实际。"
-        },
-        {
-          "title": "专业与效率",
-          "description": "凭借超过12年的行业经验和跨国专业技能，我们能够快速诊断问题并提供高效的解决方案，助您掌握先机，赢得成功。"
-        },
-        {
-          "title": "合法与合规的全方位支持",
-          "description": "我们在合法合规的框架下，协助客户处理多样化的事务，成为您值得信赖的生活与商业伙伴。"
-        }
-      ]
-    }
-  },
-  "blog": {
-    "title": "新闻，博客与见解",
-    "description": "分析最新的新闻，引人深思的博客和行业洞察"
-  },
-  "services_investigation": {
-    "title": "调查服务",
-    "description": "为企业和个人需求提供专业和谨慎的调查服务",
-    "button_corporate": "企业调查",
-    "button_personal": "个人调查",
-    "conclusion": "每项服务都可以根据客户的具体需求进行定制，确保精确和详细的调查结果。我们优先考虑隐私和合规性，保证安全可靠的流程。如有任何疑问或咨询，欢迎随时联系我们！",
-    "corporate": {
-      "title": "企业调查",
-      "description": "我们提供调查及商业顾问服务，协助客人发展国际市场。",
-      "list": [
-        {
-          "title": "公司背景",
-          "description": "全面調查公司歷史和運營情況",
-          "items": [
-            "调查公司的历史、注册信息及业务范围。 ",
-            "核实公司是否有违法经营、合同违约或其他不良记录。 ",
-            "分析公司的财务状况和市场声誉。"
-          ]
-        },
-        {
-          "title": "物业调查",
-          "description": "詳細核實物業相關事務",
-          "items": [
-            "核实物业的所有权、租赁情况及法律纠纷。",
-            "确保物业交易的真实性及合规性。  ",
-            "调查物业历史，识别潜在风险。"
-          ]
-        },
-        {
-          "title": "背景调查",
-          "description": "詳細評估企業資產",
-          "items": [
-            "对管理层、股东或商业伙伴进行深入身份核查。",
-            "识别潜在的利益冲突或不道德商业行为。"
-          ]
-        },
-        {
-          "title": "资产调查",
-          "description": "專業服務質量評估",
-          "items": [
-            "评估公司资产，包括固定资产及流动资产。",
-            "寻找隐匿或转移资产，特别是与诉讼相关的案件。"
-          ]
-        },
-        {
-          "title": "神秘顾客",
-          "description": "全面的商業夥伴背景調查",
-          "items": [
-            "派遣专业的神秘顾客评估服务质量。",
-            "分析客户体验，并提供改进建议，以提升品牌形象。"
-          ]
-        },
-        {
-          "title": "婚姻记录",
-          "description": "婚姻狀況核實以管理風險",
-          "items": [
-            "在个人或商业交易中核实婚姻状况，避免欺诈或风险。",
-            "调查婚姻关系是否涉及潜在的法律纠纷。"
-          ]
-        }
-      ]
-    },
-    "personal": {
-      "title": "个人调查",
-      "description": "专業，保密的調查服務，讓你安枕無憂",
-      "list": [
-        {
-          "title": "寻人及地址调查",
-          "items": [
-            "协助寻找失联的家人、朋友或商业伙伴。",
-            "确认目标的地址或最新联系方式。"
-          ]
-        },
-        {
-          "title": "伴侣动向",
-          "items": [
-            "监控伴侣活动，发现异常行为，以解决信任或安全问题。",
-            "提供详细报告，协助处理关系问题。"
-          ]
-        },
-        {
-          "title": "子女动向",
-          "items": [
-            "帮助家长了解未成年子女的活动及社交圈子。",
-            "提前应对疑似高风险行为或威胁。"
-          ]
-        },
-        {
-          "title": "网恋对象背景调查",
-          "items": [
-            "核实网恋对象的真实性及背景信息。",
-            "确认对方是否有隐瞒的婚姻或犯罪记录。"
-          ]
-        },
-        {
-          "title": "生死记录",
-          "items": [
-            "确认个人的生存或死亡状态，特别是在遗产案件中。",
-            "核实生死记录的真实性以满足法律用途。"
-          ]
-        },
-        {
-          "title": "破产记录",
-          "items": [
-            "调查个人的财务背景及破产历史。 ",
-            "评估与财务交易或合作相关的风险。"
-          ]
-        }
-      ]
-    }
-  },
-  "addresses": {
-    "companyName": "所罗门调查和商业咨询有限公司",
-    "registered": {
-      "title": "注册地址：",
-      "street": "85 Great Portland Street,",
-      "floor": "First Floor,",
-      "city": "London W1W 7LT"
-    },
-    "office": {
-      "title": "办公地址：",
-      "building": "Bartle House,",
-      "street": "9 Oxford Court,",
-      "city": "Manchester M2 3WQ"
-    },
-    "hongKong": {
-      "title": "香港办事处：",
-      "room": "Room 14,16/F,",
-      "building": "FONDA INDUSTRIAL BUILDING,",
-      "street": "37-39 AU PUI WAN Street,",
-      "area": "FO TAN,",
-      "district": "SHATIN"
-    }
-  },
-  "media": {
-    "video_count": "{count} available videos",
-    "title": "媒体中心",
-    "description": "探索我们收藏的教育性和启发性视频",
-    "load_more": "Load more"
-  }
+	"nav": {
+		"home": "首页",
+		"about": "关于我们",
+		"servicesInvestigation": "调查服务",
+		"businessConsultancy": "商业咨询",
+		"blog": "博客",
+		"media": "媒体",
+		"contact": "联系我们"
+	},
+	"trusted": {
+		"title": "值得信赖"
+	},
+	"footer": {
+		"description": "索乐万调查及商业顾问有限公司是一家专业的调查和商业咨询公司，致力于为您的业务提供最佳解决方案。",
+		"partnerships": "Partnerships",
+		"followUs": "Follow Us",
+		"quickLinks": "Quick Links",
+		"copyright": "版权所有 2025 索乐万调查及商业顾问有限公司。保留所有权利。"
+	},
+	"services": {
+		"title": "我们的服务",
+		"corporate": {
+			"title": "企业调查",
+			"description": "全面的商业解决方案，协助建立及维持业务"
+		},
+		"individual": {
+			"title": "个人调查",
+			"description": "全面的个人解决方案，满足你的财务和法律需求"
+		}
+	},
+	"cta": {
+		"title": "你准备好扩展你的业务吗",
+		"description": "如需更多信息或预约咨询，请随时与我们联系",
+		"button": "预约咨询"
+	},
+	"businessConsultancy": {
+		"title": "商业顾问服务",
+		"description": "为您提供全面的商业咨询服务，以帮助您在国际市场上取得成功。",
+		"ukMarket": {
+			"title": "英国市场",
+			"description": "全面的商业咨询服务，帮助您在国际市场上取得成功。",
+			"services": [
+				{
+					"id": "franchise",
+					"title": "电子烟零售店加盟计划",
+					"items": [
+						"提供电子烟市场的趋势分析与法规解读。",
+						"协助选择品牌、制定加盟策略、店面选址、产品供应链管理及运营支持。"
+					]
+				},
+				{
+					"id": "websiteDesignMarketing",
+					"title": "网站、设计及市场推广",
+					"items": [
+						"提供网站设计、品牌形象创建、以及SEO优化服务。",
+						"制定针对英国市场的数字营销策略，包括社交媒体推广与电子邮件营销。"
+					]
+				},
+				{
+					"id": "cbdProducts",
+					"title": "CBD相关的产品",
+					"items": [
+						"介绍CBD市场法规及产品合规性要求。",
+						"提供生产、分销及品牌推广的咨询服务。"
+					]
+				},
+				{
+					"id": "healthFoodManufacturing",
+					"title": "健康食品代工",
+					"items": [
+						"推荐英国本地可靠的健康食品制造商，协助进行配方开发与生产管理。",
+						"提供产品包装设计及市场营销支持。"
+					]
+				},
+				{
+					"id": "importAndProcurementForUK",
+					"title": "进口到英国及采购",
+					"items": [
+						"协助处理英国的海关清关、物流安排及产品分销渠道建设。",
+						"提供采购供应商匹配及国际贸易政策建议。"
+					]
+				},
+				{
+					"id": "otherUKRelatedBusinessConsultancyServices",
+					"title": "其他英国产品相关的商业咨询及服务",
+					"items": ["包括税务建议、法律合规性审查及英国市场进入战略规划。"]
+				}
+			]
+		},
+		"hkMarket": {
+			"title": "香港市场",
+			"description": "全面的商业咨询服务，帮助您在国际市场上取得成功。",
+			"services": [
+				{
+					"id": "acquiringExistingCompaniesAndLicenses",
+					"title": "购买现有公司及其牌照",
+					"items": [
+						"协助寻找适合的公司转让机会，包括牌照的验证及尽职调查。",
+						"提供法律支持，确保交易合法合规。"
+					]
+				},
+				{
+					"id": "importAndProcurementForHongKong",
+					"title": "进口到香港及采购",
+					"items": [
+						"指导处理进出口程序，包括文件准备、物流协调及本地市场营销支持。"
+					]
+				},
+				{
+					"id": "otherHongKongRelatedBusinessConsultancyServices",
+					"title": "其他香港相关的商业咨询及服务",
+					"items": ["包括税务优化、商业注册及银行开户服务。"]
+				}
+			]
+		},
+		"globalMarket": {
+			"title": "全球市场",
+			"description": "全面的商业咨询服务，帮助您在国际市场上取得成功。",
+			"services": [
+				{
+					"id": "oreAndRawMaterialProcurement",
+					"title": "矿石及原材料采购",
+					"items": [
+						"提供矿石市场分析及资源分布信息，协助找到可靠的供应商。",
+						"支持交易谈判及物流管理。"
+					]
+				},
+				{
+					"id": "preciousMetalsAndGemstonesProcurement",
+					"title": "贵金属及宝石采购",
+					"items": [
+						"协助完成贵金属及宝石采购，提供真实性鉴定服务。",
+						"包括价格谈判、合同起草及运输安排支持。"
+					]
+				},
+				{
+					"id": "petroleumAndNaturalGasProcurement",
+					"title": "石油和天然气采购",
+					"items": [
+						"提供能源市场的深度分析及供应链搭建。",
+						"协调交易合同及物流安排，确保供应稳定。"
+					]
+				},
+				{
+					"id": "otherRelatedBusinessConsultancyServices",
+					"title": "其他相关的商业咨询及服务",
+					"items": [
+						"提供全球贸易项目支持，包括文化沟通、合同审查及风险控制策略。"
+					]
+				}
+			]
+		}
+	},
+	"expertise": {
+		"title": "专业知识",
+		"description": "凭借数十年的经验和全球网络，我们提供全面的解决方案，帮助企业在国际市场上蓬勃发展。",
+		"imageAlt": "专业知识",
+		"cta": "了解更多",
+		"points": [
+			"20+ 年的国际商业经验",
+			"全球网络覆盖主要司法管辖区",
+			"量身定制的解决方案满足您的业务需求",
+			"全面的商业服务范围",
+			"专业团队，拥有多元化的专业知识"
+		]
+	},
+	"feature": {
+		"imageAlt": "功能图片",
+		"title": "功能",
+		"description": "功能描述",
+		"cta": "开始"
+	},
+	"contact": {
+		"title": "联系我们",
+		"description": "与我们联系。我们准备帮助您找到最佳解决方案。",
+		"namePlaceholder": "姓名",
+		"emailPlaceholder": "电子邮件",
+		"messagePlaceholder": "消息",
+		"submit": "提交",
+		"callUs": "打电话给我们",
+		"emailUs": "发邮件给我们",
+		"visitUs": "访问我们",
+		"companyName": "索乐万调查及商业顾问有限公司",
+		"phone": "+44 7551 837319",
+		"email": "info@solomanibc.com",
+		"registeredAddress": {
+			"title": "注册地址",
+			"lines": ["85 Great Portland Street", "First Floor", "London W1W 7LT"]
+		},
+		"ukOffice": {
+			"title": "办公室地址",
+			"lines": ["Bartle House", "9 Oxford Court", "Manchester M2 3WQ"]
+		},
+		"hkOffice": {
+			"title": "香港办公室",
+			"lines": [
+				"Room 14, 16/F",
+				"FONDA INDUSTRIAL BUILDING",
+				"37-39 AU PUI WAN Street",
+				"FO TAN, SHATIN"
+			]
+		}
+	},
+	"hero": {
+		"title": "欢迎来到索乐万调查及商业顾问有限公司",
+		"description": "我们为客户提供专业的咨询服务。",
+		"cta": "开始使用",
+		"imageAlt": "主页图片"
+	},
+	"about": {
+		"title": "关于我们",
+		"founder": {
+			"title": "创始人简介",
+			"name": "我是苏莱曼",
+			"graduation": "索乐万调查及商业顾问有限公司的创始人，拥有超过12年的跨国经验与深厚的专业背景。我在香港完成中学教育，后赴英国修读会计专业，并取得英国私家侦探训练证书、高级理财顾问证书及美国认证财务顾问证书。",
+			"experience": "毕业后，我回到香港，先后从事理财顾问及外贸行业，积累了丰富的实战经验。在处理中港台及中东、欧洲、非洲等地的商业案例中，我展现了卓越的洞察力与解决问题的能力。因对真相探索的热忱，我投身侦探行业，从老牌侦探社的前线调查员一路晋升为全港最大规模侦探社的高级调查顾问，在该领域深耕多年。",
+			"relocating": "移居英国后，我希望以索乐万调查及商业顾问有限公司为平台，将我的专业知识与跨文化经验服务于更多客户。作为一名热爱侦探工作的专业人士，我坚信，每一件事情的表面之下都可能隐藏着鲜为人知的真相。我的使命是以专业、诚信和创新的方式，为客户提供量身定制的解决方案，解决问题的同时实现双赢，并不断追求卓越。"
+		},
+		"professionalTeam": {
+			"title": "专业团队",
+			"description": "我们的团队由来自香港及英国的多领域专家组成，拥有深厚的行业背景与丰富的实践经验：",
+			"list": [
+				{
+					"title": "税务专家",
+					"icon": "DollarSign",
+					"description": "提供全面的财务与税务合规建议，确保每笔交易与调查在税务上都稳妥无虞。"
+				},
+				{
+					"title": "贸易专家",
+					"icon": "Scale",
+					"description": "精通国际贸易法规及市场分析，为客户提供高效的跨境商业解决方案。"
+				},
+				{
+					"title": "法律专家",
+					"icon": "ChartCandlestick",
+					"description": "确保每个调查与顾问项目合法合规，并提供全面的法律支持。"
+				},
+				{
+					"title": "专业侦探团队",
+					"icon": "TextSearch",
+					"description": "熟练掌握调查技术，专注于保密性和高效执行，为客户揭示事实真相。"
+				}
+			],
+			"excellence": "我们擅长处理跨境调查与商业项目，结合本地专业知识与国际视野，提供量身定制的解决方案，帮助客户在全球化背景下应对挑战。"
+		},
+		"ourApproach": {
+			"title": "我们的工作方式",
+			"list": [
+				{
+					"title": "保密与信任",
+					"description": "每位客户的隐私和数据安全始终是我们的首要考量。我们承诺以最高标准保护您的信息，确保调查过程绝对保密。"
+				},
+				{
+					"title": "量身定制的解决方案",
+					"description": "我们深知每位客户的需求各不相同。因此，我们根据具体情况为您设计专属的调查计划与顾问服务，确保结果精准且切合实际。"
+				},
+				{
+					"title": "专业与效率",
+					"description": "凭借超过12年的行业经验和跨国专业技能，我们能够快速诊断问题并提供高效的解决方案，助您掌握先机，赢得成功。"
+				},
+				{
+					"title": "合法与合规的全方位支持",
+					"description": "我们在合法合规的框架下，协助客户处理多样化的事务，成为您值得信赖的生活与商业伙伴。"
+				}
+			]
+		}
+	},
+	"blog": {
+		"title": "新闻，博客与见解",
+		"description": "分析最新的新闻，引人深思的博客和行业洞察"
+	},
+	"services_investigation": {
+		"title": "调查服务",
+		"description": "为企业和个人需求提供专业和谨慎的调查服务",
+		"button_corporate": "企业调查",
+		"button_personal": "个人调查",
+		"conclusion": "每项服务都可以根据客户的具体需求进行定制，确保精确和详细的调查结果。我们优先考虑隐私和合规性，保证安全可靠的流程。如有任何疑问或咨询，欢迎随时联系我们！",
+		"corporate": {
+			"title": "企业调查",
+			"description": "我们提供调查及商业顾问服务，协助客人发展国际市场。",
+			"list": [
+				{
+					"title": "公司背景",
+					"description": "全面調查公司歷史和運營情況",
+					"items": [
+						"调查公司的历史、注册信息及业务范围。 ",
+						"核实公司是否有违法经营、合同违约或其他不良记录。 ",
+						"分析公司的财务状况和市场声誉。"
+					]
+				},
+				{
+					"title": "物业调查",
+					"description": "詳細核實物業相關事務",
+					"items": [
+						"核实物业的所有权、租赁情况及法律纠纷。",
+						"确保物业交易的真实性及合规性。  ",
+						"调查物业历史，识别潜在风险。"
+					]
+				},
+				{
+					"title": "背景调查",
+					"description": "詳細評估企業資產",
+					"items": [
+						"对管理层、股东或商业伙伴进行深入身份核查。",
+						"识别潜在的利益冲突或不道德商业行为。"
+					]
+				},
+				{
+					"title": "资产调查",
+					"description": "專業服務質量評估",
+					"items": [
+						"评估公司资产，包括固定资产及流动资产。",
+						"寻找隐匿或转移资产，特别是与诉讼相关的案件。"
+					]
+				},
+				{
+					"title": "神秘顾客",
+					"description": "全面的商業夥伴背景調查",
+					"items": [
+						"派遣专业的神秘顾客评估服务质量。",
+						"分析客户体验，并提供改进建议，以提升品牌形象。"
+					]
+				},
+				{
+					"title": "婚姻记录",
+					"description": "婚姻狀況核實以管理風險",
+					"items": [
+						"在个人或商业交易中核实婚姻状况，避免欺诈或风险。",
+						"调查婚姻关系是否涉及潜在的法律纠纷。"
+					]
+				}
+			]
+		},
+		"personal": {
+			"title": "个人调查",
+			"description": "专業，保密的調查服務，讓你安枕無憂",
+			"list": [
+				{
+					"title": "寻人及地址调查",
+					"items": [
+						"协助寻找失联的家人、朋友或商业伙伴。",
+						"确认目标的地址或最新联系方式。"
+					]
+				},
+				{
+					"title": "伴侣动向",
+					"items": [
+						"监控伴侣活动，发现异常行为，以解决信任或安全问题。",
+						"提供详细报告，协助处理关系问题。"
+					]
+				},
+				{
+					"title": "子女动向",
+					"items": [
+						"帮助家长了解未成年子女的活动及社交圈子。",
+						"提前应对疑似高风险行为或威胁。"
+					]
+				},
+				{
+					"title": "网恋对象背景调查",
+					"items": [
+						"核实网恋对象的真实性及背景信息。",
+						"确认对方是否有隐瞒的婚姻或犯罪记录。"
+					]
+				},
+				{
+					"title": "生死记录",
+					"items": [
+						"确认个人的生存或死亡状态，特别是在遗产案件中。",
+						"核实生死记录的真实性以满足法律用途。"
+					]
+				},
+				{
+					"title": "破产记录",
+					"items": [
+						"调查个人的财务背景及破产历史。 ",
+						"评估与财务交易或合作相关的风险。"
+					]
+				}
+			]
+		}
+	},
+	"addresses": {
+		"companyName": "所罗门调查和商业咨询有限公司",
+		"registered": {
+			"title": "注册地址：",
+			"street": "85 Great Portland Street,",
+			"floor": "First Floor,",
+			"city": "London W1W 7LT"
+		},
+		"office": {
+			"title": "办公地址：",
+			"building": "Bartle House,",
+			"street": "9 Oxford Court,",
+			"city": "Manchester M2 3WQ"
+		},
+		"hongKong": {
+			"title": "香港办事处：",
+			"room": "Room 14,16/F,",
+			"building": "FONDA INDUSTRIAL BUILDING,",
+			"street": "37-39 AU PUI WAN Street,",
+			"area": "FO TAN,",
+			"district": "SHATIN"
+		}
+	},
+	"media": {
+		"video_count": "{count} available videos",
+		"title": "媒体中心",
+		"description": "探索我们收藏的教育性和启发性视频",
+		"load_more": "Load more"
+	}
 }

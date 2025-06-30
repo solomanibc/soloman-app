@@ -54,7 +54,7 @@ prisma-reset: ## Reset prisma
 ## —— Linters ———————————————————————————————————
 lint: ## Run all linters
 	$(X_MANAGER) biome check --write
-	$(PACKAGE_MANAGER) lint
+	$(PACKAGE_MANAGER) lint --fix
 
 analyze: lint build ## Run all linters and tests
 

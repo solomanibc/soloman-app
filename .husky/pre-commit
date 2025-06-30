@@ -1,1 +1,3 @@
-bun lint
+#!/usr/bin/env sh
+
+make lint

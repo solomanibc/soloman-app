@@ -1,9 +1,10 @@
 import type { ReactElement } from "react";
 
-import { 	Baby,
+import {
+	Baby,
 	Briefcase,
 	Building2,
-ChevronRight ,
+	ChevronRight,
 	Eye,
 	FileCheck,
 	Heart,

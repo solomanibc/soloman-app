@@ -1,0 +1,9 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+- Toujours utiliser `console.log({ variable })` pour le debugging
+- Ne jamais utiliser `console.log(variable)` seul
+- Préférer des noms explicites pour les objets loggés (ex : `{ error }`, `{ response }`)
+- Utiliser des objets structurés pour logguer des valeurs spécifiques (ex : `console.log({ test: object.value })`)

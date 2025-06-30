@@ -1,413 +1,413 @@
 {
-	"nav": {
-		"home": "首頁",
-		"about": "關於我們",
-		"contact": "聯繫我們",
-		"blog": "博客",
-		"servicesInvestigation": "調查服務",
-		"ourProfessionalism": "我們的專業",
-		"businessConsultancy": "商業諮詢",
-		"media": "媒體",
+  "nav": {
+    "home": "首頁",
+    "about": "關於我們",
+    "contact": "聯繫我們",
+    "blog": "博客",
+    "servicesInvestigation": "調查服務",
+    "ourProfessionalism": "我們的專業",
+    "businessConsultancy": "商業諮詢",
+    "media": "媒體",
 
-		"hkpda": "香港私家偵探總會"
-	},
-	"trusted": {
-		"title": "信任"
-	},
-	"footer": {
-		"description": "索樂萬調查及商業顧問有限公司是一家專業的調查和商業諮詢公司，致力於為您的業務提供最佳解決方案。",
-		"copyright": "版權所有 2025 索樂萬調查及商業顧問有限公司。保留所有權利。",
-		"partnerships": "Partnerships",
-		"quickLinks": "快速链接",
-		"followUs": "關注我們"
-	},
-	"services": {
-		"title": "我們的服務",
-		"corporate": {
-			"title": "企業服務",
-			"description": "全面的商業解決方案，協助建立及維持業務"
-		},
-		"individual": {
-			"title": "個人調查",
-			"description": "全面的個人解决方案，滿足你的財務和法律需求"
-		}
-	},
-	"cta": {
-		"title": "準備擴展您的業務？",
-		"description": "如需更多信息或預約諮詢，請隨時與我們聯繫",
-		"button": "預約諮詢"
-	},
-	"businessConsultancy": {
-		"title": "商業顧問服務",
-		"description": "為您提供全面的商業諮詢服務，幫助您在國際市場上取得成功。",
-		"ukMarket": {
-			"title": "英國市場",
-			"description": "全面的商业咨询服务，帮助您在国际市场上取得成功。",
-			"services": [
-				{
-					"id": "franchise",
-					"title": "電子煙零售店加盟計畫",
-					"items": [
-						"提供電子煙市場的趨勢分析與法規解讀。",
-						"協助選擇品牌、制定加盟策略、店選選址、產品供應鏈管理及營運支援。"
-					]
-				},
-				{
-					"id": "websiteDesignMarketing",
-					"title": "網站、設計及市場推廣",
-					"items": [
-						"提供網站設計、品牌形象創建、SEO以及優化服務。",
-						"制定針對英國市場的數碼營銷策略，包括社交媒體推廣與電子郵件行銷。"
-					]
-				},
-				{
-					"id": "cbdProducts",
-					"title": "CBD相關的產品",
-					"items": [
-						"介紹CBD市場法規及產品合規性要求。",
-						"提供生產、經銷及品牌推廣的諮詢服務。"
-					]
-				},
-				{
-					"id": "healthFoodManufacturing",
-					"title": "健康食品代工",
-					"items": [
-						"推薦英國本地可靠的健康食品製造商，協助配方開發與生產管理。",
-						"提供產品包裝設計及行銷支援。"
-					]
-				},
-				{
-					"id": "importAndProcurementForUK",
-					"title": "進口到英國及採購",
-					"items": [
-						"協助處理英國的海關清關、物流安排及產品分銷渠道建設。",
-						"提供採購供應商配對及國際貿易政策建議。"
-					]
-				},
-				{
-					"id": "otherUKRelatedBusinessConsultancyServices",
-					"title": "其他英國產品相關的商業諮詢及服務",
-					"items": ["包含稅務建議、法律合規性審查及英國市場進入策略規劃。"]
-				}
-			]
-		},
-		"hkMarket": {
-			"title": "香港市場",
-			"description": "全面的商业咨询服务，帮助您在国际市场上取得成功。",
-			"services": [
-				{
-					"id": "acquiringExistingCompaniesAndLicenses",
-					"title": "購買現有公司及其牌照",
-					"items": [
-						"協助尋找合適的公司轉讓機會，包括牌照的驗證及盡職調查。",
-						"提供法律支持，確保交易合法合規。"
-					]
-				},
-				{
-					"id": "importAndProcurementForHongKong",
-					"title": "進口到香港及採購",
-					"items": [
-						"指導處理進出口程序，包括文件準備、物流協調及在地行銷支援。"
-					]
-				},
-				{
-					"id": "otherHongKongRelatedBusinessConsultancyServices",
-					"title": "其他香港相關的商業諮詢及服務",
-					"items": ["包括稅務問題、商業注冊及銀行開戶服務。"]
-				}
-			]
-		},
-		"globalMarket": {
-			"title": "全球市場",
-			"description": "全面的商业咨询服务，帮助您在国际市场上取得成功。",
-			"services": [
-				{
-					"id": "oreAndRawMaterialProcurement",
-					"title": "礦石及原料採購",
-					"items": ["協助找到可靠的供應商。", "支援交易及物流管理。"]
-				},
-				{
-					"id": "preciousMetalsAndGemstonesProcurement",
-					"title": "貴金屬及寶石採購",
-					"items": [
-						"協助完成貴金屬及寶石採購，提供真實性鑑定服務。",
-						"包括價格談判、合約起草及運輸安排支援。"
-					]
-				},
-				{
-					"id": "petroleumAndNaturalGasProcurement",
-					"title": "石油和天然氣採購",
-					"items": [
-						"提供能源市場的深度分析及供應鏈搭建。",
-						"協調交易合約及物流安排，確保供應穩定。"
-					]
-				},
-				{
-					"id": "otherRelatedBusinessConsultancyServices",
-					"title": "其他相關的商業諮詢及服務",
-					"items": [
-						"提供全球貿易項目支持，包括文化溝通、合約審查及風險控制策略。"
-					]
-				}
-			]
-		}
-	},
-	"expertise": {
-		"title": "專業知識",
-		"description": "憑藉十多年的經驗和全球網絡，我們提供全面的解決方案，幫助企業在國際市場上蓬勃發展。",
-		"imageAlt": "专业知识",
-		"cta": "了解更多",
-		"points": [
-			"20+年的國際商業經驗",
-			"全球網絡覆蓋主要司法區域",
-			"度身訂做的解決方案滿足您業務需求",
-			"全面的商業服務範圍",
-			"專業團隊，擁有多元化的專業知識"
-		]
-	},
-	"feature": {
-		"imageAlt": "功能图片",
-		"title": "功能",
-		"description": "功能描述",
-		"cta": "开始"
-	},
-	"contact": {
-		"title": "聯繫我們",
-		"description": "與我們聯繫。我們準備幫助您找到最佳解決方案。",
-		"namePlaceholder": "姓名",
-		"emailPlaceholder": "電子郵件",
-		"messagePlaceholder": "訊息",
-		"submit": "提交",
-		"callUs": "致電我們",
-		"emailUs": "電郵我們",
-		"visitUs": "訪問我們",
-		"companyName": "索樂萬調查及商業顧問有限公司",
-		"phone": "+44 7551 857 319",
-		"email": "solomanibc@gmail.com",
-		"registeredAddress": {
-			"title": "註冊地址",
-			"lines": ["85 Great Portland Street", "First Floor", "London W1W 7LT"]
-		},
-		"ukOffice": {
-			"title": "辦公室地址",
-			"lines": ["Bartle House", "9 Oxford Court", "Manchester M2 3WQ"]
-		},
-		"hkOffice": {
-			"title": "香港辦公室",
-			"lines": [
-				"Room 14, 16/F",
-				"FONDA INDUSTRIAL BUILDING",
-				"37-39 AU PUI WAN Street",
-				"FO TAN, SHATIN"
-			]
-		}
-	},
-	"hero": {
-		"title": "歡迎來到索樂萬調查及商業顧問有限公司",
-		"description": "我們為客戶提供專業的諮詢服務。",
-		"cta": "開始使用",
-		"imageAlt": "主頁圖片"
-	},
-	"about": {
-		"title": "關於我們",
-		"founder": {
-			"title": "創始人簡介",
-			"name": "我是蘇萊曼",
-			"graduation": "索樂萬調查及商業顧問有限公司的創始人，擁有超過12年的跨國經驗與深厚的專業背景。我在香港完成中學教育，後赴英國修讀會計專業，並取得英國私家偵探訓練證書、高級理財顧問證書及美國認證財務顧問證書。",
-			"experience": "畢業後，我回到香港，先後從事理財顧問及外貿行業，累積了豐富的實戰經驗。在處理中港臺及中東、歐洲、非洲等地的商業案例中，我展現了卓越的洞察力與解決問題的能力。因對真相探索的熱忱，我投身偵探行業，從老牌偵探社的前線調查員一路晉升為全港最大規模偵探社的高級調查顧問，在該領域深耕多年。",
-			"relocating": "移居英國後，我希望以索樂萬調查及商業顧問有限公司為平台，將我的專業知識與跨文化經驗服務於更多客戶。作為一名熱愛偵探工作的專業人士，我堅信，每一件事情的表面之下都可能隱藏著鮮為人知的真相。我的使命是以專業、誠信和創新的方式，為客戶提供量身定制的解決方案，解決問題的同時實現雙贏，並不斷追求卓越。"
-		},
-		"professionalTeam": {
-			"title": "專業團隊",
-			"description": "我們的團隊由來自香港及英國的多領域專家組成，擁有深厚的行業背景與豐富的實踐經驗：",
-			"list": [
-				{
-					"title": "稅務專家",
-					"icon": "DollarSign",
-					"description": "提供全面的財務與稅務合規建議，確保每筆交易與調查在稅務上都穩妥無虞。"
-				},
-				{
-					"title": "貿易專家",
-					"icon": "Scale",
-					"description": "精通國際貿易法規及市場分析，為客戶提供高效的跨境商業解決方案。"
-				},
-				{
-					"title": "法律專家",
-					"icon": "ChartCandlestick",
-					"description": "確保每個調查與顧問項目合法合規，並提供全面的法律支持。"
-				},
-				{
-					"title": "專業偵探團隊",
-					"icon": "TextSearch",
-					"description": "熟練掌握調查技術，專注於保密性和高效執行，為客戶揭示事實真相。"
-				}
-			],
-			"excellence": "我們擅長處理跨境調查與商業項目，結合本地專業知識與國際視野，提供量身定制的解決方案，幫助客戶在全球化背景下應對挑戰。"
-		},
-		"ourApproach": {
-			"title": "我們的工作方式",
-			"list": [
-				{
-					"title": "保密與信任",
-					"description": "每位客戶的隱私和數據安全始終是我們的首要考量。我們承諾以最高標準保護您的信息，確保調查過程絕對保密。"
-				},
-				{
-					"title": "量身定制的解決方案",
-					"description": "我們深知每位客戶的需求各不相同。因此，我們根據具體情況為您設計專屬的調查計劃與顧問服務，確保結果精準且切合實際。"
-				},
-				{
-					"title": "專業與效率",
-					"description": "憑藉超過12年的行業經驗和跨國專業技能，我們能夠快速診斷問題並提供高效的解決方案，助您掌握先機，贏得成功。"
-				},
-				{
-					"title": "合法與合規的全方位支持",
-					"description": "我們在合法合規的框架下，協助客戶處理多樣化的事務，成為您值得信賴的生活與商業夥伴。"
-				}
-			]
-		}
-	},
-	"blog": {
-		"title": "新聞，博客與見解",
-		"description": "分析最新的新聞，引人深思的博客和行業洞察"
-	},
-	"services_investigation": {
-		"title": "調查服務",
-		"description": "為企業和個人需求提供專業和謹慎的調查服務",
-		"button_corporate": "企業調查",
-		"button_personal": "個人調查",
-		"conclusion": "每項服務都可以根據客戶的具體需求進行定制，確保精確和詳細的調查結果。我們優先考慮隱私和合規性，保證安全可靠的流程。如有任何疑問或諮詢，歡迎隨時聯繫我們！",
-		"corporate": {
-			"title": "企業調查",
-			"description": "我们提供全面的企業調查服務，以幫助客戶在國際市場上取得成功。",
-			"list": [
-				{
-					"title": "公司背景",
-					"description": "全面調查公司歷史和運營情況",
-					"items": [
-						"調查公司歷史、註冊詳情和經營範圍",
-						"核實公司是否有非法經營、違約或其他負面記錄的歷史",
-						"分析公司的財務狀況和市場聲譽"
-					]
-				},
-				{
-					"title": "物業調查",
-					"description": "詳細核實物業相關事務",
-					"items": [
-						"驗證物業所有權、租賃安排和任何法律糾紛",
-						"確保物業交易的真實性和合規性",
-						"調查物業歷史以識別潛在風險"
-					]
-				},
-				{
-					"title": "背景調查",
-					"description": "全面的商業伙伴背景調查",
-					"items": [
-						"對企業管理層、股東或合作伙伴進行詳細的身份核查",
-						"調查是否存在隱藏利益衝突或不良商業行為"
-					]
-				},
-				{
-					"title": "資產調查",
-					"description": "詳細評估企業資產",
-					"items": [
-						"確定企業的資產規模，包括固定資產和流動資產",
-						"查找隱藏或轉移的資產，特別是在訴訟案件中"
-					]
-				},
-				{
-					"title": "神秘顧客",
-					"description": "專業服務質量評估",
-					"items": [
-						"派遣專業的神秘顧客進行現場調查，評估企業的服務質量",
-						"分析顧客體驗，提供改進建議，提升品牌形象"
-					]
-				},
-				{
-					"title": "婚姻記錄",
-					"description": "婚姻狀況核實以管理風險",
-					"items": [
-						"在個人或商業交易中核實婚姻狀況，避免欺詐或風險",
-						"調查婚姻關係是否涉及潛在的法律糾紛"
-					]
-				}
-			]
-		},
-		"personal": {
-			"title": "個人調查",
-			"description": "個人調查服務",
-			"list": [
-				{
-					"title": "尋人及地址調查",
-					"items": [
-						"協助查找失聯的親人、朋友或商業伙伴",
-						"確定目標的住址或最新聯繫方式"
-					]
-				},
-				{
-					"title": "伴侶動向",
-					"items": [
-						"監察伴侶的行動是否異常，以確認忠誠或安全問題",
-						"提供詳細報告，幫助處理情感問題"
-					]
-				},
-				{
-					"title": "子女動向",
-					"items": [
-						"協助家長了解未成年子女的活動情況及交友圈",
-						"對疑似不良行為或風險進行提前干預"
-					]
-				},
-				{
-					"title": "網戀對象背景調查",
-					"items": [
-						"核查網絡約會對象的真實身份及背景",
-						"確認對方是否有隱藏的婚姻或犯罪記錄"
-					]
-				},
-				{
-					"title": "生死記錄",
-					"items": [
-						"確定個人的生存狀況或死亡信息，特別是在遺產相關案件中",
-						"核實生死記錄的真實性以應對法律需求"
-					]
-				},
-				{
-					"title": "破產記錄",
-					"items": [
-						"調查目標個人的財務背景及破產記錄",
-						"確認其在商業交易或合作中的信譽風險"
-					]
-				}
-			]
-		}
-	},
-	"addresses": {
-		"companyName": "所羅門調查和商業諮詢有限公司",
-		"registered": {
-			"title": "註冊地址：",
-			"street": "85 Great Portland Street,",
-			"floor": "First Floor,",
-			"city": "London W1W 7LT"
-		},
-		"office": {
-			"title": "辦公地址：",
-			"building": "Bartle House,",
-			"street": "9 Oxford Court,",
-			"city": "Manchester M2 3WQ"
-		},
-		"hongKong": {
-			"title": "香港辦事處：",
-			"room": "Room 14,16/F,",
-			"building": "FONDA INDUSTRIAL BUILDING,",
-			"street": "37-39 AU PUI WAN Street,",
-			"area": "FO TAN,",
-			"district": "SHATIN"
-		}
-	},
-	"media": {
-		"video_count": "{count} available videos",
-		"title": "媒體中心",
-		"description": "探索我們收藏的教育性和啟發性視頻",
-		"load_more": "Load more"
-	}
+    "hkpda": "香港私家偵探總會"
+  },
+  "trusted": {
+    "title": "信任"
+  },
+  "footer": {
+    "description": "索樂萬調查及商業顧問有限公司是一家專業的調查和商業諮詢公司，致力於為您的業務提供最佳解決方案。",
+    "copyright": "版權所有 2025 索樂萬調查及商業顧問有限公司。保留所有權利。",
+    "partnerships": "Partnerships",
+    "quickLinks": "快速链接",
+    "followUs": "關注我們"
+  },
+  "services": {
+    "title": "我們的服務",
+    "corporate": {
+      "title": "企業服務",
+      "description": "全面的商業解決方案，協助建立及維持業務"
+    },
+    "individual": {
+      "title": "個人調查",
+      "description": "全面的個人解决方案，滿足你的財務和法律需求"
+    }
+  },
+  "cta": {
+    "title": "準備擴展您的業務？",
+    "description": "如需更多信息或預約諮詢，請隨時與我們聯繫",
+    "button": "預約諮詢"
+  },
+  "businessConsultancy": {
+    "title": "商業顧問服務",
+    "description": "為您提供全面的商業諮詢服務，幫助您在國際市場上取得成功。",
+    "ukMarket": {
+      "title": "英國市場",
+      "description": "全面的商业咨询服务，帮助您在国际市场上取得成功。",
+      "services": [
+        {
+          "id": "franchise",
+          "title": "電子煙零售店加盟計畫",
+          "items": [
+            "提供電子煙市場的趨勢分析與法規解讀。",
+            "協助選擇品牌、制定加盟策略、店選選址、產品供應鏈管理及營運支援。"
+          ]
+        },
+        {
+          "id": "websiteDesignMarketing",
+          "title": "網站、設計及市場推廣",
+          "items": [
+            "提供網站設計、品牌形象創建、SEO以及優化服務。",
+            "制定針對英國市場的數碼營銷策略，包括社交媒體推廣與電子郵件行銷。"
+          ]
+        },
+        {
+          "id": "cbdProducts",
+          "title": "CBD相關的產品",
+          "items": [
+            "介紹CBD市場法規及產品合規性要求。",
+            "提供生產、經銷及品牌推廣的諮詢服務。"
+          ]
+        },
+        {
+          "id": "healthFoodManufacturing",
+          "title": "健康食品代工",
+          "items": [
+            "推薦英國本地可靠的健康食品製造商，協助配方開發與生產管理。",
+            "提供產品包裝設計及行銷支援。"
+          ]
+        },
+        {
+          "id": "importAndProcurementForUK",
+          "title": "進口到英國及採購",
+          "items": [
+            "協助處理英國的海關清關、物流安排及產品分銷渠道建設。",
+            "提供採購供應商配對及國際貿易政策建議。"
+          ]
+        },
+        {
+          "id": "otherUKRelatedBusinessConsultancyServices",
+          "title": "其他英國產品相關的商業諮詢及服務",
+          "items": ["包含稅務建議、法律合規性審查及英國市場進入策略規劃。"]
+        }
+      ]
+    },
+    "hkMarket": {
+      "title": "香港市場",
+      "description": "全面的商业咨询服务，帮助您在国际市场上取得成功。",
+      "services": [
+        {
+          "id": "acquiringExistingCompaniesAndLicenses",
+          "title": "購買現有公司及其牌照",
+          "items": [
+            "協助尋找合適的公司轉讓機會，包括牌照的驗證及盡職調查。",
+            "提供法律支持，確保交易合法合規。"
+          ]
+        },
+        {
+          "id": "importAndProcurementForHongKong",
+          "title": "進口到香港及採購",
+          "items": [
+            "指導處理進出口程序，包括文件準備、物流協調及在地行銷支援。"
+          ]
+        },
+        {
+          "id": "otherHongKongRelatedBusinessConsultancyServices",
+          "title": "其他香港相關的商業諮詢及服務",
+          "items": ["包括稅務問題、商業注冊及銀行開戶服務。"]
+        }
+      ]
+    },
+    "globalMarket": {
+      "title": "全球市場",
+      "description": "全面的商业咨询服务，帮助您在国际市场上取得成功。",
+      "services": [
+        {
+          "id": "oreAndRawMaterialProcurement",
+          "title": "礦石及原料採購",
+          "items": ["協助找到可靠的供應商。", "支援交易及物流管理。"]
+        },
+        {
+          "id": "preciousMetalsAndGemstonesProcurement",
+          "title": "貴金屬及寶石採購",
+          "items": [
+            "協助完成貴金屬及寶石採購，提供真實性鑑定服務。",
+            "包括價格談判、合約起草及運輸安排支援。"
+          ]
+        },
+        {
+          "id": "petroleumAndNaturalGasProcurement",
+          "title": "石油和天然氣採購",
+          "items": [
+            "提供能源市場的深度分析及供應鏈搭建。",
+            "協調交易合約及物流安排，確保供應穩定。"
+          ]
+        },
+        {
+          "id": "otherRelatedBusinessConsultancyServices",
+          "title": "其他相關的商業諮詢及服務",
+          "items": [
+            "提供全球貿易項目支持，包括文化溝通、合約審查及風險控制策略。"
+          ]
+        }
+      ]
+    }
+  },
+  "expertise": {
+    "title": "專業知識",
+    "description": "憑藉十多年的經驗和全球網絡，我們提供全面的解決方案，幫助企業在國際市場上蓬勃發展。",
+    "imageAlt": "专业知识",
+    "cta": "了解更多",
+    "points": [
+      "20+年的國際商業經驗",
+      "全球網絡覆蓋主要司法區域",
+      "度身訂做的解決方案滿足您業務需求",
+      "全面的商業服務範圍",
+      "專業團隊，擁有多元化的專業知識"
+    ]
+  },
+  "feature": {
+    "imageAlt": "功能图片",
+    "title": "功能",
+    "description": "功能描述",
+    "cta": "开始"
+  },
+  "contact": {
+    "title": "聯繫我們",
+    "description": "與我們聯繫。我們準備幫助您找到最佳解決方案。",
+    "namePlaceholder": "姓名",
+    "emailPlaceholder": "電子郵件",
+    "messagePlaceholder": "訊息",
+    "submit": "提交",
+    "callUs": "致電我們",
+    "emailUs": "電郵我們",
+    "visitUs": "訪問我們",
+    "companyName": "索樂萬調查及商業顧問有限公司",
+    "phone": "+44 7551 837319",
+    "email": "info@solomanibc.com",
+    "registeredAddress": {
+      "title": "註冊地址",
+      "lines": ["85 Great Portland Street", "First Floor", "London W1W 7LT"]
+    },
+    "ukOffice": {
+      "title": "辦公室地址",
+      "lines": ["Bartle House", "9 Oxford Court", "Manchester M2 3WQ"]
+    },
+    "hkOffice": {
+      "title": "香港辦公室",
+      "lines": [
+        "Room 14, 16/F",
+        "FONDA INDUSTRIAL BUILDING",
+        "37-39 AU PUI WAN Street",
+        "FO TAN, SHATIN"
+      ]
+    }
+  },
+  "hero": {
+    "title": "歡迎來到索樂萬調查及商業顧問有限公司",
+    "description": "我們為客戶提供專業的諮詢服務。",
+    "cta": "開始使用",
+    "imageAlt": "主頁圖片"
+  },
+  "about": {
+    "title": "關於我們",
+    "founder": {
+      "title": "創始人簡介",
+      "name": "我是蘇萊曼",
+      "graduation": "索樂萬調查及商業顧問有限公司的創始人，擁有超過12年的跨國經驗與深厚的專業背景。我在香港完成中學教育，後赴英國修讀會計專業，並取得英國私家偵探訓練證書、高級理財顧問證書及美國認證財務顧問證書。",
+      "experience": "畢業後，我回到香港，先後從事理財顧問及外貿行業，累積了豐富的實戰經驗。在處理中港臺及中東、歐洲、非洲等地的商業案例中，我展現了卓越的洞察力與解決問題的能力。因對真相探索的熱忱，我投身偵探行業，從老牌偵探社的前線調查員一路晉升為全港最大規模偵探社的高級調查顧問，在該領域深耕多年。",
+      "relocating": "移居英國後，我希望以索樂萬調查及商業顧問有限公司為平台，將我的專業知識與跨文化經驗服務於更多客戶。作為一名熱愛偵探工作的專業人士，我堅信，每一件事情的表面之下都可能隱藏著鮮為人知的真相。我的使命是以專業、誠信和創新的方式，為客戶提供量身定制的解決方案，解決問題的同時實現雙贏，並不斷追求卓越。"
+    },
+    "professionalTeam": {
+      "title": "專業團隊",
+      "description": "我們的團隊由來自香港及英國的多領域專家組成，擁有深厚的行業背景與豐富的實踐經驗：",
+      "list": [
+        {
+          "title": "稅務專家",
+          "icon": "DollarSign",
+          "description": "提供全面的財務與稅務合規建議，確保每筆交易與調查在稅務上都穩妥無虞。"
+        },
+        {
+          "title": "貿易專家",
+          "icon": "Scale",
+          "description": "精通國際貿易法規及市場分析，為客戶提供高效的跨境商業解決方案。"
+        },
+        {
+          "title": "法律專家",
+          "icon": "ChartCandlestick",
+          "description": "確保每個調查與顧問項目合法合規，並提供全面的法律支持。"
+        },
+        {
+          "title": "專業偵探團隊",
+          "icon": "TextSearch",
+          "description": "熟練掌握調查技術，專注於保密性和高效執行，為客戶揭示事實真相。"
+        }
+      ],
+      "excellence": "我們擅長處理跨境調查與商業項目，結合本地專業知識與國際視野，提供量身定制的解決方案，幫助客戶在全球化背景下應對挑戰。"
+    },
+    "ourApproach": {
+      "title": "我們的工作方式",
+      "list": [
+        {
+          "title": "保密與信任",
+          "description": "每位客戶的隱私和數據安全始終是我們的首要考量。我們承諾以最高標準保護您的信息，確保調查過程絕對保密。"
+        },
+        {
+          "title": "量身定制的解決方案",
+          "description": "我們深知每位客戶的需求各不相同。因此，我們根據具體情況為您設計專屬的調查計劃與顧問服務，確保結果精準且切合實際。"
+        },
+        {
+          "title": "專業與效率",
+          "description": "憑藉超過12年的行業經驗和跨國專業技能，我們能夠快速診斷問題並提供高效的解決方案，助您掌握先機，贏得成功。"
+        },
+        {
+          "title": "合法與合規的全方位支持",
+          "description": "我們在合法合規的框架下，協助客戶處理多樣化的事務，成為您值得信賴的生活與商業夥伴。"
+        }
+      ]
+    }
+  },
+  "blog": {
+    "title": "新聞，博客與見解",
+    "description": "分析最新的新聞，引人深思的博客和行業洞察"
+  },
+  "services_investigation": {
+    "title": "調查服務",
+    "description": "為企業和個人需求提供專業和謹慎的調查服務",
+    "button_corporate": "企業調查",
+    "button_personal": "個人調查",
+    "conclusion": "每項服務都可以根據客戶的具體需求進行定制，確保精確和詳細的調查結果。我們優先考慮隱私和合規性，保證安全可靠的流程。如有任何疑問或諮詢，歡迎隨時聯繫我們！",
+    "corporate": {
+      "title": "企業調查",
+      "description": "我们提供全面的企業調查服務，以幫助客戶在國際市場上取得成功。",
+      "list": [
+        {
+          "title": "公司背景",
+          "description": "全面調查公司歷史和運營情況",
+          "items": [
+            "調查公司歷史、註冊詳情和經營範圍",
+            "核實公司是否有非法經營、違約或其他負面記錄的歷史",
+            "分析公司的財務狀況和市場聲譽"
+          ]
+        },
+        {
+          "title": "物業調查",
+          "description": "詳細核實物業相關事務",
+          "items": [
+            "驗證物業所有權、租賃安排和任何法律糾紛",
+            "確保物業交易的真實性和合規性",
+            "調查物業歷史以識別潛在風險"
+          ]
+        },
+        {
+          "title": "背景調查",
+          "description": "全面的商業伙伴背景調查",
+          "items": [
+            "對企業管理層、股東或合作伙伴進行詳細的身份核查",
+            "調查是否存在隱藏利益衝突或不良商業行為"
+          ]
+        },
+        {
+          "title": "資產調查",
+          "description": "詳細評估企業資產",
+          "items": [
+            "確定企業的資產規模，包括固定資產和流動資產",
+            "查找隱藏或轉移的資產，特別是在訴訟案件中"
+          ]
+        },
+        {
+          "title": "神秘顧客",
+          "description": "專業服務質量評估",
+          "items": [
+            "派遣專業的神秘顧客進行現場調查，評估企業的服務質量",
+            "分析顧客體驗，提供改進建議，提升品牌形象"
+          ]
+        },
+        {
+          "title": "婚姻記錄",
+          "description": "婚姻狀況核實以管理風險",
+          "items": [
+            "在個人或商業交易中核實婚姻狀況，避免欺詐或風險",
+            "調查婚姻關係是否涉及潛在的法律糾紛"
+          ]
+        }
+      ]
+    },
+    "personal": {
+      "title": "個人調查",
+      "description": "個人調查服務",
+      "list": [
+        {
+          "title": "尋人及地址調查",
+          "items": [
+            "協助查找失聯的親人、朋友或商業伙伴",
+            "確定目標的住址或最新聯繫方式"
+          ]
+        },
+        {
+          "title": "伴侶動向",
+          "items": [
+            "監察伴侶的行動是否異常，以確認忠誠或安全問題",
+            "提供詳細報告，幫助處理情感問題"
+          ]
+        },
+        {
+          "title": "子女動向",
+          "items": [
+            "協助家長了解未成年子女的活動情況及交友圈",
+            "對疑似不良行為或風險進行提前干預"
+          ]
+        },
+        {
+          "title": "網戀對象背景調查",
+          "items": [
+            "核查網絡約會對象的真實身份及背景",
+            "確認對方是否有隱藏的婚姻或犯罪記錄"
+          ]
+        },
+        {
+          "title": "生死記錄",
+          "items": [
+            "確定個人的生存狀況或死亡信息，特別是在遺產相關案件中",
+            "核實生死記錄的真實性以應對法律需求"
+          ]
+        },
+        {
+          "title": "破產記錄",
+          "items": [
+            "調查目標個人的財務背景及破產記錄",
+            "確認其在商業交易或合作中的信譽風險"
+          ]
+        }
+      ]
+    }
+  },
+  "addresses": {
+    "companyName": "所羅門調查和商業諮詢有限公司",
+    "registered": {
+      "title": "註冊地址：",
+      "street": "85 Great Portland Street,",
+      "floor": "First Floor,",
+      "city": "London W1W 7LT"
+    },
+    "office": {
+      "title": "辦公地址：",
+      "building": "Bartle House,",
+      "street": "9 Oxford Court,",
+      "city": "Manchester M2 3WQ"
+    },
+    "hongKong": {
+      "title": "香港辦事處：",
+      "room": "Room 14,16/F,",
+      "building": "FONDA INDUSTRIAL BUILDING,",
+      "street": "37-39 AU PUI WAN Street,",
+      "area": "FO TAN,",
+      "district": "SHATIN"
+    }
+  },
+  "media": {
+    "video_count": "{count} available videos",
+    "title": "媒體中心",
+    "description": "探索我們收藏的教育性和啟發性視頻",
+    "load_more": "Load more"
+  }
 }

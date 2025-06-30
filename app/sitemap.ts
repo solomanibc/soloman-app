@@ -1,6 +1,7 @@
+import type { MetadataRoute } from "next";
+
 import { env } from "@/lib/env";
 import { getArticles } from "@/query/article.query";
-import type { MetadataRoute } from "next";
 
 const sitemap = async (): Promise<MetadataRoute.Sitemap> => {
 	return [

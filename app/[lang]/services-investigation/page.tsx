@@ -1,5 +1,6 @@
-import { type Locale, getDictionary } from "@/app/[lang]/dictionaries";
+import { getDictionary,type Locale } from "@/app/[lang]/dictionaries";
 import { Hero } from "@/components/hero";
+
 import { InvestigationContent } from "./investigation-content";
 
 export default async function InvestigationServicesPage({
@@ -16,9 +17,9 @@ export default async function InvestigationServicesPage({
 	return (
 		<div className="min-h-screen">
 			<Hero
-				title={dict.services_investigation.title}
 				description={dict.services_investigation.description}
 				image="https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80"
+				title={dict.services_investigation.title}
 			/>
 
 			{/* Main Content */}

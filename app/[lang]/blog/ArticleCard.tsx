@@ -1,14 +1,16 @@
-import type { Locale } from "@/app/[lang]/dictionaries";
-import { Card, CardContent } from "@/components/ui/card";
 import { formatDistance } from "date-fns";
 import { Clock } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+
+import type { Locale } from "@/app/[lang]/dictionaries";
+import { Card, CardContent } from "@/components/ui/card";
+
 import type { Article } from "../../../query/article.query";
 
 export const ArticleCard = ({
-	lang,
 	article,
+	lang,
 }: {
 	lang: Locale;
 	article: Article;
@@ -18,20 +20,20 @@ export const ArticleCard = ({
 			<Card className="overflow-hidden hover:shadow-lg transition-shadow duration-300">
 				<div className="relative h-48">
 					<Image
-						src={article.imageCover ?? "/images/blog-placeholder.jpg"}
-						alt={article.title}
 						fill
+						alt={article.title}
 						className="object-cover"
+						src={article.imageCover ?? "/images/blog-placeholder.jpg"}
 					/>
 				</div>
 				<CardContent className="p-6">
 					<div className="flex items-center gap-4 mb-4">
 						<div className="relative w-8 h-8 rounded-full overflow-hidden">
 							<Image
-								src={article.author?.avatar ?? "/icons/avatar.svg"}
-								alt={article.author?.name ?? "Soloman IBC"}
 								fill
+								alt={article.author?.name ?? "Soloman IBC"}
 								className="object-cover"
+								src={article.author?.avatar ?? "/icons/avatar.svg"}
 							/>
 						</div>
 						<div className="flex-1">

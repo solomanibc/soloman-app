@@ -1,6 +1,8 @@
-import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle } from "lucide-react";
 import type React from "react";
+
+import { CheckCircle } from "lucide-react";
+
+import { Card, CardContent } from "@/components/ui/card";
 
 interface MarketSectionProps {
 	title: string;
@@ -13,9 +15,9 @@ interface MarketSectionProps {
 }
 
 export const MarketSection = ({
-	title,
 	icon,
 	services,
+	title,
 }: MarketSectionProps) => {
 	return (
 		<div className="mb-16">

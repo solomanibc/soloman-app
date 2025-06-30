@@ -2,7 +2,9 @@ import type {
 	Heading1BlockObjectResponse,
 	TextRichTextItemResponse,
 } from "@notionhq/client/build/src/api-endpoints";
+
 import { Text } from "./Text";
+
 export const Heading1 = ({
 	heading,
 }: {

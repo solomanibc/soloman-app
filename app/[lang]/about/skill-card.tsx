@@ -1,5 +1,6 @@
-import { Card, CardContent } from "@/components/ui/card";
 import type { ReactElement } from "react";
+
+import { Card, CardContent } from "@/components/ui/card";
 
 interface SkillCardProps {
 	title: string;
@@ -7,7 +8,7 @@ interface SkillCardProps {
 	icon: ReactElement;
 }
 
-export function SkillCard({ title, description, icon }: SkillCardProps) {
+export function SkillCard({ description, icon, title }: SkillCardProps) {
 	return (
 		<Card className="border-none shadow-lg">
 			<CardContent className="p-6 text-center">

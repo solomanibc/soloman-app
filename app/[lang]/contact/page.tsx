@@ -1,4 +1,5 @@
 import { Section } from "@/components/Section";
+
 import type { Locale } from "../dictionaries";
 import { getDictionary } from "../dictionaries";
 import { ConcatInfo } from "./ConcatInfo";

@@ -1,5 +1,9 @@
 "use client";
 
+import { Globe } from "lucide-react";
+import Link from "next/link";
+import { usePathname, useRouter } from "next/navigation";
+
 import type { Locale } from "@/app/[lang]/dictionaries";
 import { Button, buttonVariants } from "@/components/ui/button";
 import {
@@ -9,9 +13,6 @@ import {
 	DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { cn } from "@/lib/utils";
-import { Globe } from "lucide-react";
-import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
 
 export const languages: { code: Locale; name: string }[] = [
 	{ code: "en", name: "English" },
@@ -40,10 +41,10 @@ export const SwitchLocale = ({ lang }: { lang: Locale }) => {
 								"text-sm font-medium text-primary hover:underline",
 								buttonVariants({ variant: "ghost" }),
 							)}
+							href={`/${language.code}${pathname.replace(`/${lang}`, "")}`}
 							onClick={() => {
 								changeLocale(language.code);
 							}}
-							href={`/${language.code}${pathname.replace(`/${lang}`, "")}`}
 						>
 							{language.name}
 						</Link>
@@ -54,7 +55,7 @@ export const SwitchLocale = ({ lang }: { lang: Locale }) => {
 			<div className="hidden md:flex items-center relative ">
 				<DropdownMenu>
 					<DropdownMenuTrigger asChild>
-						<Button variant="ghost" size="sm" className="w-9 px-0">
+						<Button className="w-9 px-0" size="sm" variant="ghost">
 							<Globe className="h-4 w-4 text-primary" />
 							<span className="sr-only">Switch language</span>
 						</Button>

@@ -1,6 +1,8 @@
+import type * as LucideIcons from "lucide-react";
+
 import { DynamicIcon } from "@/components/dynamic-icon";
 import type { Dictionary } from "@/types/dictionnary.type";
-import type * as LucideIcons from "lucide-react";
+
 import { SkillCard } from "./skill-card";
 
 export const OurProfessionalTeamCard = ({ dict }: { dict: Dictionary }) => {
@@ -17,14 +19,14 @@ export const OurProfessionalTeamCard = ({ dict }: { dict: Dictionary }) => {
 				{dict.about.professionalTeam.list.map((item) => (
 					<SkillCard
 						key={item.title}
-						title={item.title}
 						description={item.description}
 						icon={
 							<DynamicIcon
-								name={item.icon as keyof typeof LucideIcons}
 								className="w-12 h-12 mx-auto mb-4"
+								name={item.icon as keyof typeof LucideIcons}
 							/>
 						}
+						title={item.title}
 					/>
 				))}
 			</div>

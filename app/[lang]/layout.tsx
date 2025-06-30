@@ -1,13 +1,16 @@
-import "@/app/globals.css";
-import { env } from "@/lib/env";
-import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Lexend } from "next/font/google";
 import Script from "next/script";
-import Footer from "./Footer";
-import Header from "./Header";
+
+import { env } from "@/lib/env";
+import { cn } from "@/lib/utils";
+
+import "@/app/globals.css";
+
 import type { Locale } from "./dictionaries";
 import { getDictionary } from "./dictionaries";
+import Footer from "./Footer";
+import Header from "./Header";
 
 const lexend = Lexend({
 	subsets: ["latin"],
@@ -98,8 +101,8 @@ export default async function RootLayout({
 				<Footer lang={lang} />
 				<Script
 					defer
-					src="https://cloud.umami.is/script.js"
 					data-website-id={env.UMAMI_WEBSITE_ID}
+					src="https://cloud.umami.is/script.js"
 				/>
 			</body>
 		</html>

@@ -1,9 +1,11 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
-import { type Media, getMedias, getTotalMediaCount } from "@/query/media.query";
-import type { Dictionary } from "@/types/dictionnary.type";
 import { useEffect, useState } from "react";
+
+import { Button } from "@/components/ui/button";
+import { getMedias, getTotalMediaCount,type Media } from "@/query/media.query";
+import type { Dictionary } from "@/types/dictionnary.type";
+
 import { VideoCard } from "./video-card";
 
 export const VideosGrid = ({ dict }: { dict: Dictionary }) => {

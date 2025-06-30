@@ -1,6 +1,8 @@
-import { Section } from "@/components/Section";
 import { CheckCircle } from "lucide-react";
 import Image from "next/image";
+
+import { Section } from "@/components/Section";
+
 import type { Locale } from "./dictionaries";
 import { getDictionary } from "./dictionaries";
 
@@ -13,11 +15,11 @@ export default async function Expertise({ lang }: { lang: Locale }) {
 				<div className="flex flex-col lg:flex-row items-center gap-12">
 					<div className="lg:w-1/2">
 						<Image
-							src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
 							alt={dict.expertise.imageAlt}
-							width={600}
-							height={400}
 							className="rounded-lg shadow-lg"
+							height={400}
+							src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+							width={600}
 						/>
 					</div>
 					<div className="lg:w-1/2">

@@ -1,24 +1,26 @@
 "use client";
 
-import { divIcon } from "leaflet";
-import "leaflet/dist/leaflet.css";
 import { MapContainer, Marker, TileLayer, ZoomControl } from "react-leaflet";
+
+import { divIcon } from "leaflet";
+
+import "leaflet/dist/leaflet.css";
 
 export const MapContact = () => {
 	return (
 		<div className="z-0 mx-auto w-full max-w-4xl">
 			<MapContainer
 				center={[53.71667, -1.8575]}
-				zoom={7}
 				className="h-[350px] w-full rounded"
+				zoom={7}
 				zoomControl={false}
 			>
 				<TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png" />
 				<ZoomControl position="topleft" />
 				<Marker
+					icon={createCustomIcon()}
 					position={[53.71667, -1.8575]}
 					title="Halifax, UK"
-					icon={createCustomIcon()}
 				/>
 			</MapContainer>
 		</div>

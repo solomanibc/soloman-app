@@ -11,11 +11,11 @@ interface YouTubePlayerProps {
 }
 
 const YouTubePlayer: React.FC<YouTubePlayerProps> = ({
-	videoId,
-	title = "YouTube video player",
-	width = 560,
 	autoplay = false,
 	className = "",
+	title = "YouTube video player",
+	videoId,
+	width = 560,
 }) => {
 	const extractVideoId = (url: string): string => {
 		const regExp =
@@ -38,11 +38,11 @@ const YouTubePlayer: React.FC<YouTubePlayerProps> = ({
 				}}
 			>
 				<iframe
+					allowFullScreen
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 					className="absolute top-0 left-0 w-full h-full"
 					src={embedUrl}
 					title={title}
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-					allowFullScreen
 				/>
 			</div>
 		</div>

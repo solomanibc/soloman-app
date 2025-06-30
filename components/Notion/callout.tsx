@@ -2,6 +2,7 @@ import type {
 	CalloutBlockObjectResponse,
 	TextRichTextItemResponse,
 } from "@notionhq/client/build/src/api-endpoints";
+
 import { Alert, AlertDescription } from "../ui/alert";
 import { Text } from "./Text";
 

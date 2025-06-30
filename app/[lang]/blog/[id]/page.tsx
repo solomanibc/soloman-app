@@ -1,9 +1,10 @@
-import { Block } from "@/components/Notion/Block";
-import { Section } from "@/components/Section";
-import { getArticle } from "@/query/article.query";
 import { formatDistance } from "date-fns";
 import { Clock } from "lucide-react";
 import Image from "next/image";
+
+import { Block } from "@/components/Notion/Block";
+import { Section } from "@/components/Section";
+import { getArticle } from "@/query/article.query";
 
 export default async function page({
 	params,
@@ -19,11 +20,11 @@ export default async function page({
 			<Section className="pb-4 flex flex-col items-center">
 				<h1 className="text-4xl font-bold text-center">{article.title}</h1>
 				<Image
-					src={article.imageCover ?? "/images/blog-placeholder.jpg"}
 					alt={article.title}
-					width={600}
-					height={400}
 					className="rounded-lg object-cover mt-4"
+					height={400}
+					src={article.imageCover ?? "/images/blog-placeholder.jpg"}
+					width={600}
 				/>
 				<div className="flex items-center mt-4 gap-4 text-sm text-gray-500">
 					<time dateTime={article.created_time.toISOString()}>

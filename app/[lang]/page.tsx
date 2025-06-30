@@ -1,7 +1,9 @@
+import { Suspense } from "react";
+
 import Expertise from "@/app/[lang]/Expertise";
 import Hero from "@/app/[lang]/Hero";
 import Services from "@/app/[lang]/Services";
-import { Suspense } from "react";
+
 import type { Locale } from "./dictionaries";
 
 export default async function Home({

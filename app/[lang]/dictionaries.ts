@@ -1,4 +1,5 @@
 import type { Dictionary } from "@/types/dictionnary.type";
+
 import "server-only";
 
 export type Locale = "en" | "zh" | "cmn";

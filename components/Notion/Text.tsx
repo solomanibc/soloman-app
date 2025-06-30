@@ -1,5 +1,6 @@
-import { cn } from "@/lib/utils";
 import type { TextRichTextItemResponse } from "@notionhq/client/build/src/api-endpoints";
+
+import { cn } from "@/lib/utils";
 
 export const Text = ({ text }: { text: TextRichTextItemResponse }) => {
 	const color = text.annotations.color;
@@ -18,7 +19,7 @@ export const Text = ({ text }: { text: TextRichTextItemResponse }) => {
 
 	if (text.href) {
 		return (
-			<a href={text.href} className={classes}>
+			<a className={classes} href={text.href}>
 				{text.text.content}
 			</a>
 		);

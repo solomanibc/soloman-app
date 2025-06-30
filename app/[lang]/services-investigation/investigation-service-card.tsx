@@ -1,9 +1,9 @@
-import { Card, CardContent } from "@/components/ui/card";
-import { ChevronRight } from "lucide-react";
-import {
-	Baby,
+import type { ReactElement } from "react";
+
+import { 	Baby,
 	Briefcase,
 	Building2,
+ChevronRight ,
 	Eye,
 	FileCheck,
 	Heart,
@@ -14,7 +14,8 @@ import {
 	UserCheck,
 	Users,
 } from "lucide-react";
-import type { ReactElement } from "react";
+
+import { Card, CardContent } from "@/components/ui/card";
 
 interface InvestigationServiceProps {
 	title: string;
@@ -50,8 +51,8 @@ const iconMap: Record<string, ReactElement> = {
 };
 
 export const InvestigationServiceCard = ({
-	title,
 	items,
+	title,
 }: InvestigationServiceProps) => {
 	const icon = iconMap[title] || <Building2 />;
 

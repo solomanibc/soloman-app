@@ -1,4 +1,4 @@
-import { type Locale, getDictionary } from "../dictionaries";
+import { getDictionary,type Locale } from "../dictionaries";
 import { VideosGrid } from "./videos-grid";
 
 export default async function MediaPage({

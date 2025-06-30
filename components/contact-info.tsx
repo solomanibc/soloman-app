@@ -1,6 +1,7 @@
-import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
+
+import { cn } from "@/lib/utils";
 
 interface ContactInfoProps {
 	email: string;
@@ -8,90 +9,90 @@ interface ContactInfoProps {
 	classIcon?: string;
 }
 
-const ContactInfo = ({ email, phone, classIcon = "" }: ContactInfoProps) => {
+const ContactInfo = ({ classIcon = "", email, phone }: ContactInfoProps) => {
 	return (
 		<div className="flex items-center gap-4">
 			<Link
-				href={`mailto:${email}`}
 				className="flex flex-col items-center hover:text-primary transition-colors"
+				href={`mailto:${email}`}
 			>
 				<Image
-					src="/icons/email.svg"
-					className={cn(classIcon)}
 					alt="Email"
-					width={24}
+					className={cn(classIcon)}
 					height={24}
+					src="/icons/email.svg"
+					width={24}
 				/>
 				<span className="text-xs mt-1">Email</span>
 			</Link>
 			<Link
-				href={`https://wa.me/${phone.replace(/[^0-9]/g, "")}`}
 				className="flex flex-col items-center hover:text-primary transition-colors"
-				target="_blank"
+				href={`https://wa.me/${phone.replace(/[^0-9]/g, "")}`}
 				rel="noopener noreferrer"
+				target="_blank"
 			>
 				<Image
-					src="/icons/whatsapp.svg"
-					className={cn(classIcon)}
 					alt="WhatsApp"
-					width={24}
+					className={cn(classIcon)}
 					height={24}
+					src="/icons/whatsapp.svg"
+					width={24}
 				/>
 				<span className="text-xs mt-1">WhatsApp</span>
 			</Link>
 			<Link
-				href={`https://t.me/${phone.replace(/[^0-9]/g, "")}`}
 				className="flex flex-col items-center hover:text-primary transition-colors"
-				target="_blank"
+				href={`https://t.me/${phone.replace(/[^0-9]/g, "")}`}
 				rel="noopener noreferrer"
+				target="_blank"
 			>
 				<Image
-					src="/icons/telegram.svg"
-					className={cn(classIcon)}
 					alt="Telegram"
-					width={24}
+					className={cn(classIcon)}
 					height={24}
+					src="/icons/telegram.svg"
+					width={24}
 				/>
 				<span className="text-xs mt-1">Telegram</span>
 			</Link>
 			<Link
-				href={`signal://send?phone=${phone.replace(/[^0-9]/g, "")}`}
 				className="flex flex-col items-center hover:text-primary transition-colors"
+				href={`signal://send?phone=${phone.replace(/[^0-9]/g, "")}`}
 			>
 				<Image
-					src="/icons/signal.svg"
-					className={cn(classIcon)}
 					alt="Signal"
-					width={24}
+					className={cn(classIcon)}
 					height={24}
+					src="/icons/signal.svg"
+					width={24}
 				/>
 				<span className="text-xs mt-1">Signal</span>
 			</Link>
 			<Link
-				href={`tel:${phone}`}
 				className="flex flex-col items-center hover:text-primary transition-colors"
+				href={`tel:${phone}`}
 			>
 				<Image
-					src="/icons/phone.svg"
-					className={cn(classIcon)}
 					alt="Phone"
-					width={24}
+					className={cn(classIcon)}
 					height={24}
+					src="/icons/phone.svg"
+					width={24}
 				/>
 				<span className="text-xs mt-1">Phone</span>
 			</Link>
 			<Link
-				href="https://web.wechat.com/"
 				className="flex flex-col items-center hover:text-primary transition-colors"
-				target="_blank"
+				href="https://web.wechat.com/"
 				rel="noopener noreferrer"
+				target="_blank"
 			>
 				<Image
-					src="/icons/wechat.svg"
-					className={cn(classIcon)}
 					alt="WeChat"
-					width={24}
+					className={cn(classIcon)}
 					height={24}
+					src="/icons/wechat.svg"
+					width={24}
 				/>
 				<span className="text-xs mt-1">WeChat</span>
 			</Link>

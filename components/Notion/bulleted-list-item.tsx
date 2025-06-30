@@ -2,6 +2,7 @@ import type {
 	BulletedListItemBlockObjectResponse,
 	TextRichTextItemResponse,
 } from "@notionhq/client/build/src/api-endpoints";
+
 import { Text } from "./Text";
 
 export const BulletedListItem = ({

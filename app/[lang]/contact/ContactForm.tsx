@@ -6,12 +6,12 @@ import { Textarea } from "@/components/ui/textarea";
 
 export default function ContactForm() {
 	return (
-		<div id="contact-form" className="py-10">
+		<div className="py-10" id="contact-form">
 			<form className="space-y-6">
 				<Input placeholder="Name" />
-				<Input type="email" placeholder="Email" />
+				<Input placeholder="Email" type="email" />
 				<Textarea placeholder="Message" />
-				<Button type="submit" className="w-full bg-primary hover:bg-primary/80">
+				<Button className="w-full bg-primary hover:bg-primary/80" type="submit">
 					Submit
 				</Button>
 			</form>

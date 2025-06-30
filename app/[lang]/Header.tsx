@@ -1,12 +1,14 @@
 "use client";
 
-import type { LocaleParams } from "@/app/[lang]/dictionaries";
-import { SwitchLocale } from "@/components/SwitchLocale";
-import { cn } from "@/lib/utils";
+import { useState } from "react";
+
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+
+import type { LocaleParams } from "@/app/[lang]/dictionaries";
+import { SwitchLocale } from "@/components/SwitchLocale";
+import { cn } from "@/lib/utils";
 
 interface Nav {
 	home: string;
@@ -39,8 +41,8 @@ export default function Header({ lang, nav }: LocaleParams & { nav: Nav }) {
 		<header className="z-50 container fixed top-0 left-1/2 transform -translate-x-1/2">
 			<div className="flex items-center justify-between px-4 py-6 mx-auto bg-white shadow-md h-20 w-full">
 				<div className="text-2xl font-bold mr-3">
-					<Link href={`/${lang}`} className="flex items-center gap-2">
-						<Image src="/icons/logo.svg" alt="Logo" width={50} height={50} />
+					<Link className="flex items-center gap-2" href={`/${lang}`}>
+						<Image alt="Logo" height={50} src="/icons/logo.svg" width={50} />
 						<span>
 							Solo<span className="text-primary">man</span> IBC
 						</span>
@@ -49,14 +51,14 @@ export default function Header({ lang, nav }: LocaleParams & { nav: Nav }) {
 				<nav className="hidden md:flex space-x-6">
 					{Object.entries(menu).map(([key, value]) => {
 						return (
-							<NavLink key={key} href={value} className="hover:text-primary/80">
+							<NavLink key={key} className="hover:text-primary/80" href={value}>
 								{nav[key as keyof Nav]}
 							</NavLink>
 						);
 					})}
 					<SwitchLocale lang={lang} />
 				</nav>
-				<button type="button" onClick={toggleMobileMenu} className="md:hidden">
+				<button className="md:hidden" type="button" onClick={toggleMobileMenu}>
 					{isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
 				</button>
 			</div>
@@ -67,8 +69,8 @@ export default function Header({ lang, nav }: LocaleParams & { nav: Nav }) {
 						return (
 							<NavLink
 								key={key}
-								href={value}
 								className="block hover:text-primary/80"
+								href={value}
 								onClick={toggleMobileMenu}
 							>
 								{nav[key as keyof Nav]}
@@ -83,9 +85,9 @@ export default function Header({ lang, nav }: LocaleParams & { nav: Nav }) {
 }
 
 const NavLink = ({
-	href,
 	children,
 	className,
+	href,
 	...props
 }: {
 	href: string;
@@ -93,8 +95,8 @@ const NavLink = ({
 	className?: string;
 } & React.ComponentProps<"a">) => (
 	<Link
-		href={href}
 		className={cn("text-gray-600 hover:text-gray-900", className)}
+		href={href}
 		{...props}
 	>
 		{children}

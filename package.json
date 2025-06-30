@@ -6,7 +6,8 @@
 		"dev": "next dev --turbopack -p 3700",
 		"build": "next build",
 		"start": "next start",
-		"lint": "next lint"
+		"lint": "next lint",
+		"prepare": "husky"
 	},
 	"dependencies": {
 		"@ducanh2912/next-pwa": "^10.2.9",
@@ -22,6 +23,9 @@
 		"class-variance-authority": "^0.7.1",
 		"clsx": "^2.1.1",
 		"date-fns": "^4.1.0",
+		"eslint-plugin-simple-import-sort": "^12.1.1",
+		"eslint-plugin-unused-imports": "^4.1.4",
+		"husky": "^9.1.7",
 		"leaflet": "^1.9.4",
 		"lucide-react": "^0.475.0",
 		"negotiator": "^1.0.0",
@@ -45,6 +49,7 @@
 		"@typescript-eslint/eslint-plugin": "~8.24.1",
 		"eslint": "^9.30.0",
 		"eslint-config-next": "^15.3.4",
+		"eslint-plugin-sort-destructure-keys": "^2.0.0",
 		"postcss": "^8.5.6",
 		"tailwindcss": "^3.4.17",
 		"typescript": "^5.8.3"

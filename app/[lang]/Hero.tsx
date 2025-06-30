@@ -1,8 +1,9 @@
-import { type LocaleParams, getDictionary } from "@/app/[lang]/dictionaries";
-import { Section } from "@/components/Section";
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
+
+import { getDictionary,type LocaleParams } from "@/app/[lang]/dictionaries";
+import { Section } from "@/components/Section";
+import { Button } from "@/components/ui/button";
 
 export default async function Hero({ lang }: LocaleParams) {
 	const dict = await getDictionary(lang);
@@ -15,18 +16,18 @@ export default async function Hero({ lang }: LocaleParams) {
 				</h1>
 				<p className="text-xl mb-8">{dict.hero.description}</p>
 				<Link href={`/${lang}/contact`}>
-					<Button size="lg" className="bg-primary hover:bg-primary/80">
+					<Button className="bg-primary hover:bg-primary/80" size="lg">
 						{dict.hero.cta}
 					</Button>
 				</Link>
 			</div>
 			<div className="md:w-1/2">
 				<Image
-					src="/images/hero.jpg"
 					alt={dict.hero.imageAlt}
-					width={800}
-					height={800}
 					className="rounded-lg shadow-lg"
+					height={800}
+					src="/images/hero.jpg"
+					width={800}
 				/>
 			</div>
 		</Section>

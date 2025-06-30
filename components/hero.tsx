@@ -1,5 +1,6 @@
-import { cn } from "@/lib/utils";
 import type { ReactNode } from "react";
+
+import { cn } from "@/lib/utils";
 
 interface HeroProps {
 	title: string;
@@ -11,12 +12,12 @@ interface HeroProps {
 }
 
 export function Hero({
-	title,
-	description,
-	image,
-	height = "medium",
 	children,
 	className,
+	description,
+	height = "medium",
+	image,
+	title,
 }: HeroProps) {
 	const heightClasses = {
 		small: "h-[30vh]",

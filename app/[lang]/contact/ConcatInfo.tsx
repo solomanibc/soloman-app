@@ -1,8 +1,10 @@
-import { Section } from "@/components/Section";
-import ContactInfo from "@/components/contact-info";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Building2, Mail, MapPin, Phone } from "lucide-react";
-import { type Locale, getDictionary } from "../dictionaries";
+
+import ContactInfo from "@/components/contact-info";
+import { Section } from "@/components/Section";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+
+import { getDictionary,type Locale } from "../dictionaries";
 
 export const ConcatInfo = async ({ lang }: { lang: Locale }) => {
 	const dict = await getDictionary(lang);
@@ -72,9 +74,9 @@ export const ConcatInfo = async ({ lang }: { lang: Locale }) => {
 						</p>
 						<div className="text-sm text-muted-foreground mt-4">
 							<ContactInfo
+								classIcon="text-blue-500"
 								email={dict.contact.email}
 								phone={dict.contact.phone}
-								classIcon="text-blue-500"
 							/>
 						</div>
 					</CardContent>
@@ -89,8 +91,8 @@ export const ConcatInfo = async ({ lang }: { lang: Locale }) => {
 					</CardHeader>
 					<CardContent>
 						<a
-							href={`mailto:${dict.contact.email}`}
 							className="text-xl font-medium hover:text-primary"
+							href={`mailto:${dict.contact.email}`}
 						>
 							{dict.contact.email}
 						</a>

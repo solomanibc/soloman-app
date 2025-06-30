@@ -1,6 +1,8 @@
+import { formatDistance } from "date-fns";
+
 import { Card, CardContent } from "@/components/ui/card";
 import type { Media } from "@/query/media.query";
-import { formatDistance } from "date-fns";
+
 import YouTubePlayer from "./youtube-player";
 
 interface VideoCardProps {

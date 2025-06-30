@@ -1,8 +1,10 @@
-import { type Locale, getDictionary } from "@/app/[lang]/dictionaries";
+import Link from "next/link";
+
+import { getDictionary,type Locale } from "@/app/[lang]/dictionaries";
 import { Section } from "@/components/Section";
 import { Button } from "@/components/ui/button";
 import { getArticles } from "@/query/article.query";
-import Link from "next/link";
+
 import { ArticleCard } from "./ArticleCard";
 
 export default async function About({

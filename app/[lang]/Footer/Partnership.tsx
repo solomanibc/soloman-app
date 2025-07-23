@@ -18,7 +18,10 @@ export function Partnership({ dict }: { dict: Dictionary }) {
 					/>
 				</Link>
 
-				<Link href="https://hk-pi.org.hk/" target="_blank">
+				<Link
+					href="https://hk-pi.org.hk/#/pages/company/detail?uuid=cdadbe00-62df-11f0-a5e0-560003a62d99"
+					target="_blank"
+				>
 					<Image
 						alt="HK PI Logo"
 						className="object-contain"

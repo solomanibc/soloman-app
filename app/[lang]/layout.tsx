@@ -92,7 +92,7 @@ export default async function RootLayout({
 		<html lang={lang}>
 			<body
 				className={cn(
-					"min-h-screen bg-gradient-to-b from-[#e6f0ee] to-white mt-24",
+					"min-h-screen bg-linear-to-b from-[#e6f0ee] to-white mt-24",
 					lexend.className,
 				)}
 			>

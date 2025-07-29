@@ -69,7 +69,7 @@ export const InvestigationServiceCard = ({
 				<ul className="space-y-2">
 					{items.map((item) => (
 						<li key={item} className="flex items-start gap-2">
-							<ChevronRight className="h-5 w-5 text-blue-600 flex-shrink-0 mt-0.5" />
+							<ChevronRight className="h-5 w-5 text-blue-600 shrink-0 mt-0.5" />
 							<span className="text-gray-700">{item}</span>
 						</li>
 					))}

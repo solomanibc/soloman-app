@@ -29,7 +29,7 @@ export function InvestigationContent({
 			>
 				<Button
 					className="md:w-auto w-full"
-					variant={activeTab === "corporate" ? "default" : "outline"}
+					variant={activeTab === "corporate" ? "default" : "outline-solid"}
 					onClick={() => setActiveTab("corporate")}
 				>
 					<Building2 className="mr-2 h-4 w-4" />
@@ -37,7 +37,7 @@ export function InvestigationContent({
 				</Button>
 				<Button
 					className="md:w-auto w-full"
-					variant={activeTab === "personal" ? "default" : "outline"}
+					variant={activeTab === "personal" ? "default" : "outline-solid"}
 					onClick={() => setActiveTab("personal")}
 				>
 					<Users className="mr-2 h-4 w-4" />

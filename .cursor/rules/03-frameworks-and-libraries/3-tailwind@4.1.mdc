@@ -26,11 +26,11 @@ Custom Utilities:
 
 Variants:
 - Apply variants left-to-right.
-  - ✅ `*:first:pt-0`
-  - ❌ `first:*:pt-0`
+  - ✅ `first:*:pt-0`
+  - ❌ `*:first:pt-0`
 - Use parentheses for arbitrary CSS variables.
   - ✅ `bg-(--brand-color)`
-  - ❌ `bg-[--brand-color]`
+  - ❌ `bg-(--brand-color)`
 
 Responsive Design:
 - Scope hover styles with `@media (hover: hover)`.

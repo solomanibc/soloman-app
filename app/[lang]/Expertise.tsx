@@ -44,7 +44,7 @@ export default async function Expertise({ lang }: { lang: Locale }) {
 function ExpertisePoint({ text }: { text: string }) {
 	return (
 		<div className="flex items-center gap-3">
-			<CheckCircle className="text-primary h-6 w-6 flex-shrink-0" />
+			<CheckCircle className="text-primary h-6 w-6 shrink-0" />
 			<span className="text-gray-700">{text}</span>
 		</div>
 	);
